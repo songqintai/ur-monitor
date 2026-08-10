@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T06:14:44.663Z",
+  "lastUpdated": "2026-08-10T08:44:06.129Z",
   "total": 22,
   "rooms": [
     {
@@ -115,6 +115,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000100417"
     },
     {
+      "key": "20_600_000020807",
+      "area": "北区",
+      "danchiNm": "フレーシェル王子神谷",
+      "place": "北区豊島8-27",
+      "traffic": "<li>東京メトロ南北線「王子神谷」駅 徒歩6～7分</li><li>JR京浜東北・根岸線「東十条」駅 徒歩16～17分</li>",
+      "building": "2号棟",
+      "roomNo": "807号室",
+      "rent": "208,200円",
+      "commonfee": "4,200円",
+      "type": "3LDK",
+      "floor": "8階",
+      "floorspace": "80㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0002_Nx_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000020807"
+    },
+    {
       "key": "20_459_33404404A",
       "area": "板橋区",
       "danchiNm": "アーバンライフゆりの木通り東",
@@ -211,36 +227,20 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000040902"
     },
     {
-      "key": "20_455_309021413",
-      "area": "練馬区",
-      "danchiNm": "光が丘パークタウン 大通り中央",
-      "place": "練馬区光が丘3-9-1ほか",
-      "traffic": "<li>都営大江戸線「光が丘」駅 徒歩2～3分</li><li>東京メトロ有楽町線「地下鉄成増」駅バス9～10分 徒歩3～4分</li><li>東武東上線「成増」駅バス10～11分 徒歩3～4分</li>",
-      "building": "3-9-2号棟",
-      "roomNo": "1413号室",
-      "rent": "156,300円",
-      "commonfee": "6,700円",
-      "type": "1LDK",
-      "floor": "14階",
-      "floorspace": "54㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20455/3090002/C/RA/Image/20_455_3-09-0002_C_RA_01_00004.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4550_room.html?JKSS=309021413"
-    },
-    {
-      "key": "20_130_000024103",
+      "key": "20_137_000050605",
       "area": "足立区",
-      "danchiNm": "竹の塚第一",
-      "place": "足立区竹の塚3-11ほか",
-      "traffic": "<li>東武伊勢崎線「竹ノ塚」駅 徒歩11～16分</li><li>東武伊勢崎線「竹ノ塚」駅バス2～3分 徒歩2～7分</li><li>JR常磐線「北千住」駅バス16～18分 徒歩1～5分</li>",
-      "building": "24号棟",
-      "roomNo": "103号室",
-      "rent": "77,800円",
-      "commonfee": "3,500円",
-      "type": "2DK",
-      "floor": "1階",
+      "danchiNm": "竹の塚第三",
+      "place": "足立区竹の塚6-4ほか",
+      "traffic": "<li>東武伊勢崎線「竹ノ塚」駅 徒歩2～5分</li>",
+      "building": "5号棟",
+      "roomNo": "605号室",
+      "rent": "83,800円",
+      "commonfee": "3,700円",
+      "type": "1DK",
+      "floor": "6階",
       "floorspace": "40㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20130/0000024/C1c/RA/Image/20_130_0-00-0024_C1c_RA_01_00007.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1300_room.html?JKSS=000024103"
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20137/0000005/104f/RA/Image/20_137_0-00-0005_104f_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1370_room.html?JKSS=000050605"
     },
     {
       "key": "20_130_000018506",
