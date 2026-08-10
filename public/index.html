@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>UR賃貸住宅 空室一覧</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: #f5f6f8;
+    margin: 0;
+    padding: 24px;
+    color: #222;
+  }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .meta { color: #777; font-size: 13px; margin-bottom: 20px; }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .controls input, .controls select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .controls input[type="text"] { width: 220px; }
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  button:hover { background: #1d4ed8; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .count { font-size: 13px; color: #555; margin-bottom: 12px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+  }
+  th {
+    background: #fafafa;
+    font-weight: 600;
+    color: #444;
+  }
+  tr:hover { background: #f9fafb; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { padding: 40px; text-align: center; color: #999; }
+  .loading {
+    padding: 60px 20px;
+    text-align: center;
+    color: #555;
+  }
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid #e0e0e0;
+    border-top-color: #2563eb;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading .progress-text { font-size: 13px; color: #888; margin-top: 6px; }
+  .loading .progress-bar-wrap {
+    width: 240px;
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    margin: 12px auto 0;
+    overflow: hidden;
+  }
+  .loading .progress-bar {
+    height: 100%;
+    background: #2563eb;
+    transition: width 0.3s ease;
+  }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<h1>UR賃貸住宅 空室一覧</h1>
+<div class="meta" id="meta">読み込み中...</div>
+
+<div class="controls">
+  <select id="areaFilter">
+    <option value="">すべてのエリア</option>
+  </select>
+  <input type="text" id="keywordFilter" placeholder="団地名で検索（例：北砂）" />
+  <button id="searchBtn">検索</button>
+</div>
+
+<div class="count" id="count"></div>
+
+<div id="tableWrap"></div>
+
+<script>
+const areaFilter = document.getElementById('areaFilter');
+const keywordFilter = document.getElementById('keywordFilter');
+const searchBtn = document.getElementById('searchBtn');
+const tableWrap = document.getElementById('tableWrap');
+const countEl = document.getElementById('count');
+const metaEl = document.getElementById('meta');
+
+async function loadAreas() {
+  const res = await fetch('/api/areas');
+  const areas = await res.json();
+  for (const a of areas) {
+    const opt = document.createElement('option');
+    opt.value = a;
+    opt.textContent = a;
+    areaFilter.appendChild(opt);
+  }
+}
+
+function renderLoading(progress) {
+  const label = progress?.label || 'データを取得中';
+  const done = progress?.done || 0;
+  const total = progress?.total || 0;
+  const pct = total > 0 ? Math.min(100, Math.round((done / total) * 100)) : 0;
+  const progressLine = total > 0
+    ? `<div class="progress-text">${label}：${done} / ${total} 団地</div>
+       <div class="progress-bar-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>`
+    : `<div class="progress-text">${label}</div>`;
+
+  tableWrap.innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>初回読み込み中です。東京都23区の物件データを取得しています。しばらくお待ちください...</div>
+      ${progressLine}
+    </div>
+  `;
+}
+
+function renderTable(rooms) {
+  if (rooms.length === 0) {
+    tableWrap.innerHTML = '<div class="empty">条件に一致する物件がありません</div>';
+    return;
+  }
+  const rows = rooms.map(r => `
+    <tr>
+      <td><span class="badge">${r.area}</span></td>
+      <td>${r.danchiNm}</td>
+      <td>${r.place || ''}</td>
+      <td>${r.type || ''}</td>
+      <td>${r.rent || ''}</td>
+      <td>${r.commonfee || ''}</td>
+      <td>${r.floorspace || ''}</td>
+      <td>${r.floor || ''}</td>
+      <td>${r.building || ''}${r.roomNo || ''}</td>
+      <td>${r.url ? `<a href="${r.url}" target="_blank">詳細</a>` : ''}</td>
+    </tr>
+  `).join('');
+
+  tableWrap.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>エリア</th><th>団地名</th><th>住所</th><th>間取り</th>
+          <th>家賃</th><th>共益費</th><th>専有面積</th><th>階</th><th>号室</th><th>詳細</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+async function loadRooms() {
+  const params = new URLSearchParams();
+  if (areaFilter.value) params.set('area', areaFilter.value);
+  if (keywordFilter.value.trim()) params.set('keyword', keywordFilter.value.trim());
+
+  const res = await fetch('/api/rooms?' + params.toString());
+  const data = await res.json();
+
+  const isFirstLoad = !data.lastUpdated && data.isRefreshing;
+
+  if (isFirstLoad) {
+    metaEl.textContent = 'データがまだありません。初回取得を実行中...';
+    countEl.textContent = '';
+    renderLoading(data.progress);
+  } else {
+    countEl.textContent = `空室 ${data.total} 件`;
+    metaEl.textContent = data.lastUpdated
+      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}${data.isRefreshing ? '（バックグラウンドで更新中...）' : ''}`
+      : 'データがまだありません';
+    renderTable(data.rooms);
+  }
+
+  // 检索按钮不受后台刷新状态影响：检索只读缓存，永远可用
+}
+
+areaFilter.addEventListener('change', loadRooms);
+searchBtn.addEventListener('click', loadRooms);
+keywordFilter.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') loadRooms();
+});
+
+// 页面打开时自动轮询数据；后台抓取进行中时轮询快一点(2秒)，平时慢一点(15秒)
+// 这里的轮询只是让页面能反映"后台自动刷新"的最新结果，不会主动触发抓取
+let pollTimer = null;
+async function pollLoop() {
+  const res = await fetch('/api/rooms');
+  const data = await res.json();
+  await loadRooms();
+  clearTimeout(pollTimer);
+  pollTimer = setTimeout(pollLoop, data.isRefreshing ? 2000 : 15000);
+}
+
+loadAreas();
+pollLoop();
+</script>
+
+</body>
+</html>

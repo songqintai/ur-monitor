@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>UR賃貸住宅 空室一覧</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: #f5f6f8;
+    margin: 0;
+    padding: 24px;
+    color: #222;
+  }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .meta { color: #777; font-size: 13px; margin-bottom: 20px; }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .controls input, .controls select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .controls input[type="text"] { width: 220px; }
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  button:hover { background: #1d4ed8; }
+  .count { font-size: 13px; color: #555; margin-bottom: 12px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+  }
+  th {
+    background: #fafafa;
+    font-weight: 600;
+    color: #444;
+  }
+  tr:hover { background: #f9fafb; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { padding: 40px; text-align: center; color: #999; }
+  .loading { padding: 60px 20px; text-align: center; color: #555; }
+  .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid #e0e0e0;
+    border-top-color: #2563eb;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<h1>UR賃貸住宅 空室一覧</h1>
+<div class="meta" id="meta">読み込み中...</div>
+
+<div class="controls">
+  <select id="areaFilter">
+    <option value="">すべてのエリア</option>
+  </select>
+  <input type="text" id="keywordFilter" placeholder="団地名で検索（例：北砂）" />
+  <button id="searchBtn">検索</button>
+</div>
+
+<div class="count" id="count"></div>
+
+<div id="tableWrap"><div class="loading"><div class="spinner"></div><div>読み込み中...</div></div></div>
+
+<script>
+// このページは GitHub Pages 用の静的バージョンです。
+// サーバーは存在せず、GitHub Actions が1日1回生成する data/rooms.json を
+// ブラウザが直接読み込み、検索・フィルタもすべてブラウザ側(クライアントサイド)で行います。
+
+const DATA_URL = './data/rooms.json';
+
+const areaFilter = document.getElementById('areaFilter');
+const keywordFilter = document.getElementById('keywordFilter');
+const searchBtn = document.getElementById('searchBtn');
+const tableWrap = document.getElementById('tableWrap');
+const countEl = document.getElementById('count');
+const metaEl = document.getElementById('meta');
+
+let allRooms = [];
+
+function populateAreaOptions(rooms) {
+  const areas = [...new Set(rooms.map(r => r.area))].sort();
+  for (const a of areas) {
+    const opt = document.createElement('option');
+    opt.value = a;
+    opt.textContent = a;
+    areaFilter.appendChild(opt);
+  }
+}
+
+function renderTable(rooms) {
+  if (rooms.length === 0) {
+    tableWrap.innerHTML = '<div class="empty">条件に一致する物件がありません</div>';
+    return;
+  }
+  const rows = rooms.map(r => `
+    <tr>
+      <td><span class="badge">${r.area}</span></td>
+      <td>${r.danchiNm}</td>
+      <td>${r.place || ''}</td>
+      <td>${r.type || ''}</td>
+      <td>${r.rent || ''}</td>
+      <td>${r.commonfee || ''}</td>
+      <td>${r.floorspace || ''}</td>
+      <td>${r.floor || ''}</td>
+      <td>${r.building || ''}${r.roomNo || ''}</td>
+      <td>${r.url ? `<a href="${r.url}" target="_blank">詳細</a>` : ''}</td>
+    </tr>
+  `).join('');
+
+  tableWrap.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>エリア</th><th>団地名</th><th>住所</th><th>間取り</th>
+          <th>家賃</th><th>共益費</th><th>専有面積</th><th>階</th><th>号室</th><th>詳細</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+// 检索：纯前端过滤，不发任何网络请求，只是对已加载的 allRooms 做筛选
+function applyFilter() {
+  const area = areaFilter.value;
+  const keyword = keywordFilter.value.trim();
+
+  let filtered = allRooms;
+  if (area) filtered = filtered.filter(r => r.area === area);
+  if (keyword) filtered = filtered.filter(r => r.danchiNm && r.danchiNm.includes(keyword));
+
+  countEl.textContent = `空室 ${filtered.length} 件`;
+  renderTable(filtered);
+}
+
+async function init() {
+  try {
+    const res = await fetch(DATA_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    allRooms = data.rooms || [];
+    metaEl.textContent = data.lastUpdated
+      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1日1回、日本時間0時に自動更新）`
+      : 'データがまだありません';
+
+    populateAreaOptions(allRooms);
+    applyFilter();
+  } catch (err) {
+    metaEl.textContent = 'データの読み込みに失敗しました';
+    tableWrap.innerHTML = `<div class="empty">データを取得できませんでした（${err.message}）</div>`;
+  }
+}
+
+areaFilter.addEventListener('change', applyFilter);
+searchBtn.addEventListener('click', applyFilter);
+keywordFilter.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') applyFilter();
+});
+
+init();
+</script>
+
+</body>
+</html>
