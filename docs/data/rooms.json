@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-10T10:23:05.573Z",
-  "total": 21,
+  "lastUpdated": "2026-08-10T11:52:47.516Z",
+  "total": 24,
   "rooms": [
     {
       "key": "20_631_000000413",
@@ -35,6 +35,38 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5960_room.html?JKSS=000211202"
     },
     {
+      "key": "20_183_000010703",
+      "area": "品川区",
+      "danchiNm": "大井六丁目",
+      "place": "品川区大井6-9-32",
+      "traffic": "<li>JR京浜東北線ほか｢大井町｣駅 徒歩14分 またはバス3分徒歩2分</li><li>京急本線｢立会川｣駅 徒歩12分</li>",
+      "building": "",
+      "roomNo": "703号室",
+      "rent": "111,400円",
+      "commonfee": "9,000円",
+      "type": "2DK",
+      "floor": "7階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_183/20_183_0-00-0000_2B_RA_01_00009_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1830_room.html?JKSS=000010703"
+    },
+    {
+      "key": "20_355_003130204",
+      "area": "品川区",
+      "danchiNm": "品川八潮パークタウン 潮路北第二ハイツ",
+      "place": "品川区八潮5-3",
+      "traffic": "<li>りんかい線「品川シーサイド」駅 徒歩11～13分</li><li>東京モノレール「大井競馬場前」駅 徒歩13～16分</li><li>JR京浜東北・根岸線「大井町」駅バス14～15分 徒歩2～5分</li>",
+      "building": "3-13号棟",
+      "roomNo": "204号室",
+      "rent": "172,400円",
+      "commonfee": "2,800円",
+      "type": "3LDK",
+      "floor": "2階",
+      "floorspace": "84㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20355/0030013/Et/RA/Image/20_355_0-03-0013_Et_RA_01_00012.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003130204"
+    },
+    {
       "key": "20_518_000001510",
       "area": "目黒区",
       "danchiNm": "恵比寿ビュータワー",
@@ -49,6 +81,22 @@
       "floorspace": "58㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_518/20_518_0-00-0000_L1_RA_01_00016_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000001510"
+    },
+    {
+      "key": "20_196_000100317",
+      "area": "大田区",
+      "danchiNm": "南六郷二丁目",
+      "place": "大田区南六郷2-35",
+      "traffic": "<li>京急本線「雑色」駅 徒歩13～14分</li>",
+      "building": "1号棟",
+      "roomNo": "317号室",
+      "rent": "111,100円",
+      "commonfee": "3,800円",
+      "type": "1LDK",
+      "floor": "3階",
+      "floorspace": "51㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_196/20_196_0-00-0001_BA_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1960_room.html?JKSS=000100317"
     },
     {
       "key": "20_234_701011305",
