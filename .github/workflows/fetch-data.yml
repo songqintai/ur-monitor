@@ -1,10 +1,9 @@
-name: 每日抓取UR房源数据
+name: 每小时抓取UR房源数据
 
 on:
   schedule:
-    # cron 用的是 UTC 时间。日本时间(JST)是 UTC+9，
-    # 所以 JST 凌晨 0:00 对应 UTC 前一天的 15:00
-    - cron: '0 15 * * *'
+    # cron 用的是 UTC 时间，'0 * * * *' 表示每小时的第0分钟触发一次
+    - cron: '0 * * * *'
   workflow_dispatch: {} # 允许在 GitHub 网页上手动点一下触发，方便测试
 
 # 需要写权限才能把抓到的数据提交回仓库
@@ -32,5 +31,5 @@ jobs:
       - name: 提交更新后的数据文件
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: '自动更新房源数据 (定时任务)'
+          commit_message: '自动更新房源数据 (每小时定时任务)'
           file_pattern: 'docs/data/rooms.json'
