@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-10T08:44:06.129Z",
-  "total": 22,
+  "lastUpdated": "2026-08-10T10:23:05.573Z",
+  "total": 21,
   "rooms": [
     {
       "key": "20_631_000000413",
@@ -65,22 +65,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_234/20_234_7-01-0001_102r_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=701011305"
-    },
-    {
-      "key": "20_544_000110603",
-      "area": "世田谷区",
-      "danchiNm": "フレール西経堂",
-      "place": "世田谷区船橋5-17",
-      "traffic": "<li>小田急小田原線「千歳船橋」駅 徒歩11～15分</li><li>小田急小田原線「経堂」駅 徒歩11～19分</li><li>京王線「八幡山」駅バス4～5分 徒歩5～9分</li>",
-      "building": "11号棟",
-      "roomNo": "603号室",
-      "rent": "145,700円",
-      "commonfee": "5,470円",
-      "type": "2DK",
-      "floor": "6階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20544/0000011/Bf/RA/Image/20_544_0-00-0011_Bf_RA_01_00006.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000110603"
     },
     {
       "key": "20_544_000140402",
@@ -275,6 +259,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000050402"
     },
     {
+      "key": "20_674_000021401",
+      "area": "足立区",
+      "danchiNm": "ハートアイランド新田一番街",
+      "place": "足立区新田3―36",
+      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス13分 徒歩1～2分</li><li>東京メトロ南北線「王子神谷」駅 徒歩19～20分</li>",
+      "building": "2号棟",
+      "roomNo": "1401号室",
+      "rent": "173,000円",
+      "commonfee": "7,600円",
+      "type": "2LDK",
+      "floor": "14階",
+      "floorspace": "75㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_674/20_674_0-00-0002_Tr_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000021401"
+    },
+    {
       "key": "20_165_000020302",
       "area": "葛飾区",
       "danchiNm": "金町駅前",
@@ -289,38 +289,6 @@
       "floorspace": "43㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20165/0000002/BAf/RA/Image/20_165_0-00-0002_BAf_RA_01_00004.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000020302"
-    },
-    {
-      "key": "20_502_000050908",
-      "area": "葛飾区",
-      "danchiNm": "アーバンライフ東新小岩",
-      "place": "葛飾区東新小岩3-8",
-      "traffic": "<li>JR総武線快速「新小岩」駅 徒歩9～11分</li><li>JR総武線「新小岩」駅 徒歩9～11分</li>",
-      "building": "5号棟",
-      "roomNo": "908号室",
-      "rent": "110,400円",
-      "commonfee": "4,300円",
-      "type": "1DK",
-      "floor": "9階",
-      "floorspace": "39㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0005_Bf_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000050908"
-    },
-    {
-      "key": "20_502_000030609",
-      "area": "葛飾区",
-      "danchiNm": "アーバンライフ東新小岩",
-      "place": "葛飾区東新小岩3-8",
-      "traffic": "<li>JR総武線快速「新小岩」駅 徒歩9～11分</li><li>JR総武線「新小岩」駅 徒歩9～11分</li>",
-      "building": "3号棟",
-      "roomNo": "609号室",
-      "rent": "137,200円",
-      "commonfee": "4,300円",
-      "type": "1DK",
-      "floor": "6階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0003_C_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000030609"
     },
     {
       "key": "20_491_000100413",
@@ -353,6 +321,22 @@
       "floorspace": "63㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20295/0000001/D0m/RA/Image/20_295_0-00-0001_D0m_RA_01_00013.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000011031"
+    },
+    {
+      "key": "20_502_000030609",
+      "area": "葛飾区",
+      "danchiNm": "アーバンライフ東新小岩",
+      "place": "葛飾区東新小岩3-8",
+      "traffic": "<li>JR総武線快速「新小岩」駅 徒歩9～11分</li><li>JR総武線「新小岩」駅 徒歩9～11分</li>",
+      "building": "3号棟",
+      "roomNo": "609号室",
+      "rent": "137,200円",
+      "commonfee": "4,300円",
+      "type": "1DK",
+      "floor": "6階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0003_C_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000030609"
     }
   ]
 }
