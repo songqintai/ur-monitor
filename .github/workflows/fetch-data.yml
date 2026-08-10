@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# 防止两次运行撞车：同名 group 的运行会排队等待上一个跑完，不会并发执行
+concurrency:
+  group: fetch-data
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -20,10 +25,13 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: 安装依赖
         run: npm install
+
+      - name: 推送前先同步一次远程最新代码（防止push冲突）
+        run: git pull --ff-only origin main
 
       - name: 抓取数据
         run: node scripts/fetchData.js
