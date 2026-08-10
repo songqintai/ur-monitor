@@ -57,7 +57,13 @@
     background: #fafafa;
     font-weight: 600;
     color: #444;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
   }
+  th:hover { background: #f0f1f3; }
+  th .arrow { color: #2563eb; font-size: 11px; margin-left: 4px; }
+  th .arrow.inactive { color: #ccc; }
   tr:hover { background: #f9fafb; }
   a { color: #2563eb; text-decoration: none; }
   a:hover { text-decoration: underline; }
@@ -101,7 +107,7 @@
 
 <script>
 // このページは GitHub Pages 用の静的バージョンです。
-// サーバーは存在せず、GitHub Actions が1日1回生成する data/rooms.json を
+// サーバーは存在せず、GitHub Actions が1時間に1回生成する data/rooms.json を
 // ブラウザが直接読み込み、検索・フィルタもすべてブラウザ側(クライアントサイド)で行います。
 
 const DATA_URL = './data/rooms.json';
@@ -114,6 +120,44 @@ const countEl = document.getElementById('count');
 const metaEl = document.getElementById('meta');
 
 let allRooms = [];
+let sortState = { key: null, dir: 'asc' }; // key: 排序字段, dir: 'asc' | 'desc'
+
+// 只有这4列允许排序：字段名 -> 表头文字
+const SORTABLE_COLUMNS = {
+  type: '間取り',
+  rent: '家賃',
+  commonfee: '共益費',
+  floorspace: '専有面積',
+};
+
+// 从"109,000円" "48㎡" "1LDK" 这类字符串里提取数字，方便按大小比较
+// 提取不到数字的（比如共益費有时是空的）统一当作 -1，排序时垫底
+function parseNumeric(str) {
+  if (!str) return -1;
+  const match = String(str).replace(/,/g, '').match(/[\d.]+/);
+  return match ? parseFloat(match[0]) : -1;
+}
+
+function sortRooms(rooms) {
+  if (!sortState.key) return rooms;
+  const key = sortState.key;
+  const dir = sortState.dir === 'asc' ? 1 : -1;
+  return [...rooms].sort((a, b) => {
+    const av = parseNumeric(a[key]);
+    const bv = parseNumeric(b[key]);
+    return (av - bv) * dir;
+  });
+}
+
+function handleSortClick(key) {
+  if (sortState.key === key) {
+    sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortState.key = key;
+    sortState.dir = 'asc';
+  }
+  applyFilter();
+}
 
 function populateAreaOptions(rooms) {
   const areas = [...new Set(rooms.map(r => r.area))].sort();
@@ -123,6 +167,14 @@ function populateAreaOptions(rooms) {
     opt.textContent = a;
     areaFilter.appendChild(opt);
   }
+}
+
+function renderHeaderCell(label, sortKey) {
+  if (!sortKey) return `<th>${label}</th>`;
+  const isActive = sortState.key === sortKey;
+  const arrow = isActive ? (sortState.dir === 'asc' ? '▲' : '▼') : '▲▼';
+  const arrowClass = isActive ? 'arrow' : 'arrow inactive';
+  return `<th data-sort-key="${sortKey}">${label}<span class="${arrowClass}">${arrow}</span></th>`;
 }
 
 function renderTable(rooms) {
@@ -149,13 +201,21 @@ function renderTable(rooms) {
     <table>
       <thead>
         <tr>
-          <th>エリア</th><th>団地名</th><th>住所</th><th>間取り</th>
-          <th>家賃</th><th>共益費</th><th>専有面積</th><th>階</th><th>号室</th><th>詳細</th>
+          <th>エリア</th><th>団地名</th><th>住所</th>
+          ${renderHeaderCell('間取り', 'type')}
+          ${renderHeaderCell('家賃', 'rent')}
+          ${renderHeaderCell('共益費', 'commonfee')}
+          ${renderHeaderCell('専有面積', 'floorspace')}
+          <th>階</th><th>号室</th><th>詳細</th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>
     </table>
   `;
+
+  tableWrap.querySelectorAll('th[data-sort-key]').forEach((th) => {
+    th.addEventListener('click', () => handleSortClick(th.dataset.sortKey));
+  });
 }
 
 // 检索：纯前端过滤，不发任何网络请求，只是对已加载的 allRooms 做筛选
@@ -166,6 +226,8 @@ function applyFilter() {
   let filtered = allRooms;
   if (area) filtered = filtered.filter(r => r.area === area);
   if (keyword) filtered = filtered.filter(r => r.danchiNm && r.danchiNm.includes(keyword));
+
+  filtered = sortRooms(filtered);
 
   countEl.textContent = `空室 ${filtered.length} 件`;
   renderTable(filtered);
@@ -179,7 +241,7 @@ async function init() {
 
     allRooms = data.rooms || [];
     metaEl.textContent = data.lastUpdated
-      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1日1回、日本時間0時に自動更新）`
+      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1時間ごとに自動更新）`
       : 'データがまだありません';
 
     populateAreaOptions(allRooms);

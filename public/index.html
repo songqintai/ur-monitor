@@ -38,6 +38,7 @@
     cursor: pointer;
   }
   button:hover { background: #1d4ed8; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
   .count { font-size: 13px; color: #555; margin-bottom: 12px; }
   table {
     width: 100%;
@@ -58,13 +59,22 @@
     font-weight: 600;
     color: #444;
   }
+  th[data-sort-key] { cursor: pointer; user-select: none; white-space: nowrap; }
+  th[data-sort-key]:hover { background: #f0f1f3; }
+  th .arrow { color: #2563eb; font-size: 11px; margin-left: 4px; }
+  th .arrow.inactive { color: #ccc; }
   tr:hover { background: #f9fafb; }
   a { color: #2563eb; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .empty { padding: 40px; text-align: center; color: #999; }
-  .loading { padding: 60px 20px; text-align: center; color: #555; }
+  .loading {
+    padding: 60px 20px;
+    text-align: center;
+    color: #555;
+  }
   .spinner {
-    width: 32px; height: 32px;
+    width: 32px;
+    height: 32px;
     border: 3px solid #e0e0e0;
     border-top-color: #2563eb;
     border-radius: 50%;
@@ -72,6 +82,20 @@
     animation: spin 0.8s linear infinite;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
+  .loading .progress-text { font-size: 13px; color: #888; margin-top: 6px; }
+  .loading .progress-bar-wrap {
+    width: 240px;
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    margin: 12px auto 0;
+    overflow: hidden;
+  }
+  .loading .progress-bar {
+    height: 100%;
+    background: #2563eb;
+    transition: width 0.3s ease;
+  }
   .badge {
     display: inline-block;
     padding: 2px 8px;
@@ -97,15 +121,9 @@
 
 <div class="count" id="count"></div>
 
-<div id="tableWrap"><div class="loading"><div class="spinner"></div><div>読み込み中...</div></div></div>
+<div id="tableWrap"></div>
 
 <script>
-// このページは GitHub Pages 用の静的バージョンです。
-// サーバーは存在せず、GitHub Actions が1時間に1回生成する data/rooms.json を
-// ブラウザが直接読み込み、検索・フィルタもすべてブラウザ側(クライアントサイド)で行います。
-
-const DATA_URL = './data/rooms.json';
-
 const areaFilter = document.getElementById('areaFilter');
 const keywordFilter = document.getElementById('keywordFilter');
 const searchBtn = document.getElementById('searchBtn');
@@ -113,16 +131,72 @@ const tableWrap = document.getElementById('tableWrap');
 const countEl = document.getElementById('count');
 const metaEl = document.getElementById('meta');
 
-let allRooms = [];
+let sortState = { key: null, dir: 'asc' }; // key: 排序字段, dir: 'asc' | 'desc'
 
-function populateAreaOptions(rooms) {
-  const areas = [...new Set(rooms.map(r => r.area))].sort();
+// 只有这4列允许排序：字段名 -> 表头文字（跟 renderTable 里的 renderHeaderCell 对应）
+// 间取り/家賃/共益費/専有面積 之外的列不加排序功能
+
+// 从"109,000円" "48㎡" "1LDK" 这类字符串里提取数字，方便按大小比较
+// 提取不到数字的（比如共益費有时是空的）统一当作 -1，排序时垫底
+function parseNumeric(str) {
+  if (!str) return -1;
+  const match = String(str).replace(/,/g, '').match(/[\d.]+/);
+  return match ? parseFloat(match[0]) : -1;
+}
+
+function sortRooms(rooms) {
+  if (!sortState.key) return rooms;
+  const key = sortState.key;
+  const dir = sortState.dir === 'asc' ? 1 : -1;
+  return [...rooms].sort((a, b) => (parseNumeric(a[key]) - parseNumeric(b[key])) * dir);
+}
+
+function handleSortClick(key) {
+  if (sortState.key === key) {
+    sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortState.key = key;
+    sortState.dir = 'asc';
+  }
+  loadRooms();
+}
+
+async function loadAreas() {
+  const res = await fetch('/api/areas');
+  const areas = await res.json();
   for (const a of areas) {
     const opt = document.createElement('option');
     opt.value = a;
     opt.textContent = a;
     areaFilter.appendChild(opt);
   }
+}
+
+function renderLoading(progress) {
+  const label = progress?.label || 'データを取得中';
+  const done = progress?.done || 0;
+  const total = progress?.total || 0;
+  const pct = total > 0 ? Math.min(100, Math.round((done / total) * 100)) : 0;
+  const progressLine = total > 0
+    ? `<div class="progress-text">${label}：${done} / ${total} 団地</div>
+       <div class="progress-bar-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>`
+    : `<div class="progress-text">${label}</div>`;
+
+  tableWrap.innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>初回読み込み中です。東京都23区の物件データを取得しています。しばらくお待ちください...</div>
+      ${progressLine}
+    </div>
+  `;
+}
+
+function renderHeaderCell(label, sortKey) {
+  if (!sortKey) return `<th>${label}</th>`;
+  const isActive = sortState.key === sortKey;
+  const arrow = isActive ? (sortState.dir === 'asc' ? '▲' : '▼') : '▲▼';
+  const arrowClass = isActive ? 'arrow' : 'arrow inactive';
+  return `<th data-sort-key="${sortKey}">${label}<span class="${arrowClass}">${arrow}</span></th>`;
 }
 
 function renderTable(rooms) {
@@ -149,54 +223,68 @@ function renderTable(rooms) {
     <table>
       <thead>
         <tr>
-          <th>エリア</th><th>団地名</th><th>住所</th><th>間取り</th>
-          <th>家賃</th><th>共益費</th><th>専有面積</th><th>階</th><th>号室</th><th>詳細</th>
+          <th>エリア</th><th>団地名</th><th>住所</th>
+          ${renderHeaderCell('間取り', 'type')}
+          ${renderHeaderCell('家賃', 'rent')}
+          ${renderHeaderCell('共益費', 'commonfee')}
+          ${renderHeaderCell('専有面積', 'floorspace')}
+          <th>階</th><th>号室</th><th>詳細</th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>
     </table>
   `;
+
+  tableWrap.querySelectorAll('th[data-sort-key]').forEach((th) => {
+    th.addEventListener('click', () => handleSortClick(th.dataset.sortKey));
+  });
 }
 
-// 检索：纯前端过滤，不发任何网络请求，只是对已加载的 allRooms 做筛选
-function applyFilter() {
-  const area = areaFilter.value;
-  const keyword = keywordFilter.value.trim();
+async function loadRooms() {
+  const params = new URLSearchParams();
+  if (areaFilter.value) params.set('area', areaFilter.value);
+  if (keywordFilter.value.trim()) params.set('keyword', keywordFilter.value.trim());
 
-  let filtered = allRooms;
-  if (area) filtered = filtered.filter(r => r.area === area);
-  if (keyword) filtered = filtered.filter(r => r.danchiNm && r.danchiNm.includes(keyword));
+  const res = await fetch('/api/rooms?' + params.toString());
+  const data = await res.json();
 
-  countEl.textContent = `空室 ${filtered.length} 件`;
-  renderTable(filtered);
-}
+  const isFirstLoad = !data.lastUpdated && data.isRefreshing;
 
-async function init() {
-  try {
-    const res = await fetch(DATA_URL, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-
-    allRooms = data.rooms || [];
+  if (isFirstLoad) {
+    metaEl.textContent = 'データがまだありません。初回取得を実行中...';
+    countEl.textContent = '';
+    renderLoading(data.progress);
+  } else {
+    const sorted = sortRooms(data.rooms);
+    countEl.textContent = `空室 ${data.total} 件`;
     metaEl.textContent = data.lastUpdated
-      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1時間ごとに自動更新）`
+      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}${data.isRefreshing ? '（バックグラウンドで更新中...）' : ''}`
       : 'データがまだありません';
-
-    populateAreaOptions(allRooms);
-    applyFilter();
-  } catch (err) {
-    metaEl.textContent = 'データの読み込みに失敗しました';
-    tableWrap.innerHTML = `<div class="empty">データを取得できませんでした（${err.message}）</div>`;
+    renderTable(sorted);
   }
+
+  // 检索按钮不受后台刷新状态影响：检索只读缓存，永远可用
 }
 
-areaFilter.addEventListener('change', applyFilter);
-searchBtn.addEventListener('click', applyFilter);
+areaFilter.addEventListener('change', loadRooms);
+searchBtn.addEventListener('click', loadRooms);
 keywordFilter.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') applyFilter();
+  if (e.key === 'Enter') loadRooms();
 });
 
-init();
+// 页面打开时自动轮询数据；后台抓取进行中时轮询快一点(2秒)，平时慢一点(15秒)
+// 这里的轮询只是让页面能反映"后台自动刷新"的最新结果，不会主动触发抓取
+let pollTimer = null;
+async function pollLoop() {
+  const res = await fetch('/api/rooms');
+  const data = await res.json();
+  await loadRooms();
+  clearTimeout(pollTimer);
+  pollTimer = setTimeout(pollLoop, data.isRefreshing ? 2000 : 15000);
+}
+
+loadAreas();
+pollLoop();
 </script>
 
 </body>
