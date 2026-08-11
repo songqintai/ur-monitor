@@ -1,23 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T09:05:28.569Z",
-  "total": 26,
+  "lastUpdated": "2026-08-11T10:55:41.964Z",
+  "total": 24,
   "rooms": [
-    {
-      "key": "20_183_000010703",
-      "area": "品川区",
-      "danchiNm": "大井六丁目",
-      "place": "品川区大井6-9-32",
-      "traffic": "<li>JR京浜東北線ほか｢大井町｣駅 徒歩14分 またはバス3分徒歩2分</li><li>京急本線｢立会川｣駅 徒歩12分</li>",
-      "building": "",
-      "roomNo": "703号室",
-      "rent": "111,400円",
-      "commonfee": "9,000円",
-      "type": "2DK",
-      "floor": "7階",
-      "floorspace": "47㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_183/20_183_0-00-0000_2B_RA_01_00009_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1830_room.html?JKSS=000010703"
-    },
     {
       "key": "20_518_000001510",
       "area": "目黒区",
@@ -275,6 +259,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1300_room.html?JKSS=000018506"
     },
     {
+      "key": "20_137_000050605",
+      "area": "足立区",
+      "danchiNm": "竹の塚第三",
+      "place": "足立区竹の塚6-4ほか",
+      "traffic": "<li>東武伊勢崎線「竹ノ塚」駅 徒歩2～5分</li>",
+      "building": "5号棟",
+      "roomNo": "605号室",
+      "rent": "83,800円",
+      "commonfee": "3,700円",
+      "type": "1DK",
+      "floor": "6階",
+      "floorspace": "40㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20137/0000005/104f/RA/Image/20_137_0-00-0005_104f_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1370_room.html?JKSS=000050605"
+    },
+    {
       "key": "20_642_000050402",
       "area": "足立区",
       "danchiNm": "フレール西新井第二",
@@ -321,22 +321,6 @@
       "floorspace": "75㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_674/20_674_0-00-0002_Tr_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000021401"
-    },
-    {
-      "key": "20_584_027010507",
-      "area": "葛飾区",
-      "danchiNm": "アクシス東四つ木",
-      "place": "葛飾区東四つ木2-27-1ほか",
-      "traffic": "<li>京成押上線「四ツ木」駅 徒歩11～12分</li><li>京成押上線「京成立石」駅 徒歩12～13分</li><li>JR総武線快速「新小岩」駅バス10分 徒歩2～4分</li>",
-      "building": "27-1号棟",
-      "roomNo": "507号室",
-      "rent": "83,500円",
-      "commonfee": "4,300円",
-      "type": "1DK",
-      "floor": "5階",
-      "floorspace": "36㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_584/20_584_0-27-0001_Br_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5840_room.html?JKSS=027010507"
     },
     {
       "key": "20_165_000020302",
@@ -401,22 +385,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0003_C_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000030609"
-    },
-    {
-      "key": "20_277_000030303",
-      "area": "江戸川区",
-      "danchiNm": "エステート篠崎（下篠崎町）",
-      "place": "江戸川区下篠崎町18",
-      "traffic": "<li>都営新宿線「篠崎」駅 徒歩17～19分</li><li>都営新宿線「篠崎」駅バス5分 徒歩2～3分</li><li>JR総武線「小岩」駅バス24分 徒歩2～3分</li>",
-      "building": "3号棟",
-      "roomNo": "303号室",
-      "rent": "85,300円",
-      "commonfee": "4,900円",
-      "type": "2DK",
-      "floor": "3階",
-      "floorspace": "48㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_277/20_277_0-00-0003_A_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2770_room.html?JKSS=000030303"
     }
   ]
 }
