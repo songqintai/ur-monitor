@@ -1,23 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T04:24:47.625Z",
-  "total": 33,
+  "lastUpdated": "2026-08-11T05:56:36.604Z",
+  "total": 30,
   "rooms": [
-    {
-      "key": "20_631_000000413",
-      "area": "文京区",
-      "danchiNm": "エルアージュ小石川",
-      "place": "文京区小石川1-17-1",
-      "traffic": "<li>都営三田線ほか｢春日｣駅 徒歩5分</li><li>東京メトロ丸ノ内線ほか｢後楽園｣駅 徒歩7分</li>",
-      "building": "",
-      "roomNo": "413号室",
-      "rent": "200,800円",
-      "commonfee": "5,300円",
-      "type": "1DK",
-      "floor": "4階",
-      "floorspace": "44㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_631/20_631_0-00-0000_C_RA_01_00009_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000000413"
-    },
     {
       "key": "20_596_000211202",
       "area": "江東区",
@@ -99,22 +83,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6470_room.html?JKSS=000050402"
     },
     {
-      "key": "20_647_000120502",
-      "area": "世田谷区",
-      "danchiNm": "アクティ三軒茶屋",
-      "place": "世田谷区野沢1-35",
-      "traffic": "<li>東急田園都市線「三軒茶屋」駅 徒歩10～12分</li><li>東急世田谷線「三軒茶屋」駅 徒歩10～13分</li>",
-      "building": "12号棟",
-      "roomNo": "502号室",
-      "rent": "203,200円",
-      "commonfee": "10,000円",
-      "type": "1LDK",
-      "floor": "5階",
-      "floorspace": "55㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20647/0000012/Fs/RA/Image/20_647_0-00-0012_Fs_RA_01_00005.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6470_room.html?JKSS=000120502"
-    },
-    {
       "key": "20_460_000010118",
       "area": "世田谷区",
       "danchiNm": "成城通りパークウエスト",
@@ -193,22 +161,6 @@
       "floorspace": "80㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0002_Nx_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000020507"
-    },
-    {
-      "key": "20_600_000020807",
-      "area": "北区",
-      "danchiNm": "フレーシェル王子神谷",
-      "place": "北区豊島8-27",
-      "traffic": "<li>東京メトロ南北線「王子神谷」駅 徒歩6～7分</li><li>JR京浜東北・根岸線「東十条」駅 徒歩16～17分</li>",
-      "building": "2号棟",
-      "roomNo": "807号室",
-      "rent": "208,200円",
-      "commonfee": "4,200円",
-      "type": "3LDK",
-      "floor": "8階",
-      "floorspace": "80㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0002_Nx_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000020807"
     },
     {
       "key": "20_225_226010814",
@@ -435,36 +387,20 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000020302"
     },
     {
-      "key": "20_295_000011110",
+      "key": "20_491_000150206",
       "area": "葛飾区",
-      "danchiNm": "金町第二",
-      "place": "葛飾区南水元3-6ほか",
-      "traffic": "<li>JR常磐線「金町」駅 徒歩10～12分</li><li>京成金町線「京成金町」駅 徒歩12～14分</li><li>JR常磐線「金町」駅バス3分 徒歩1分</li>",
-      "building": "1号棟",
-      "roomNo": "1110号室",
-      "rent": "119,700円",
-      "commonfee": "4,400円",
-      "type": "2LDK",
-      "floor": "11階",
-      "floorspace": "63㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20295/0000001/102f/RA/Image/20_295_0-00-0001_102f_RA_01_00010.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000011110"
-    },
-    {
-      "key": "20_295_000011031",
-      "area": "葛飾区",
-      "danchiNm": "金町第二",
-      "place": "葛飾区南水元3-6ほか",
-      "traffic": "<li>JR常磐線「金町」駅 徒歩10～12分</li><li>京成金町線「京成金町」駅 徒歩12～14分</li><li>JR常磐線「金町」駅バス3分 徒歩1分</li>",
-      "building": "1号棟",
-      "roomNo": "1031号室",
-      "rent": "131,800円",
-      "commonfee": "4,400円",
-      "type": "2LDK",
-      "floor": "10階",
-      "floorspace": "63㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20295/0000001/D0m/RA/Image/20_295_0-00-0001_D0m_RA_01_00013.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000011031"
+      "danchiNm": "青戸第一",
+      "place": "葛飾区青戸3-19ほか",
+      "traffic": "<li>京成本線「青砥」駅 徒歩4～9分</li><li>京成押上線「青砥」駅 徒歩4～9分</li>",
+      "building": "15号棟",
+      "roomNo": "206号室",
+      "rent": "119,200円",
+      "commonfee": "5,600円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "44㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_491/20_491_0-00-0015_D_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4911_room.html?JKSS=000150206"
     },
     {
       "key": "20_491_000100413",
@@ -497,6 +433,22 @@
       "floorspace": "57㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20491/0000003/Ew/RA/Image/20_491_0-00-0003_Ew_RA_01_00012.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4911_room.html?JKSS=000030304"
+    },
+    {
+      "key": "20_295_000011031",
+      "area": "葛飾区",
+      "danchiNm": "金町第二",
+      "place": "葛飾区南水元3-6ほか",
+      "traffic": "<li>JR常磐線「金町」駅 徒歩10～12分</li><li>京成金町線「京成金町」駅 徒歩12～14分</li><li>JR常磐線「金町」駅バス3分 徒歩1分</li>",
+      "building": "1号棟",
+      "roomNo": "1031号室",
+      "rent": "131,800円",
+      "commonfee": "4,400円",
+      "type": "2LDK",
+      "floor": "10階",
+      "floorspace": "63㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20295/0000001/D0m/RA/Image/20_295_0-00-0001_D0m_RA_01_00013.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2950_room.html?JKSS=000011031"
     },
     {
       "key": "20_502_000030609",
