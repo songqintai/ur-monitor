@@ -1,23 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T07:20:14.772Z",
-  "total": 30,
+  "lastUpdated": "2026-08-11T09:05:28.569Z",
+  "total": 26,
   "rooms": [
-    {
-      "key": "20_596_000211202",
-      "area": "江東区",
-      "danchiNm": "アーバンライフ亀戸",
-      "place": "江東区亀戸2-1",
-      "traffic": "<li>JR総武線・東武亀戸線「亀戸」駅 徒歩6～7分</li><li>都営新宿線「西大島」駅 徒歩17分</li><li>JR総武線・東京メトロ半蔵門線「錦糸町」駅 徒歩9～10分</li>",
-      "building": "21号棟",
-      "roomNo": "1202号室",
-      "rent": "138,900円",
-      "commonfee": "5,400円",
-      "type": "1K",
-      "floor": "12階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_596/20_596_0-00-0021_B_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5960_room.html?JKSS=000211202"
-    },
     {
       "key": "20_183_000010703",
       "area": "品川区",
@@ -161,22 +145,6 @@
       "floorspace": "80㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0002_Nx_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000020507"
-    },
-    {
-      "key": "20_225_226010814",
-      "area": "板橋区",
-      "danchiNm": "高島平",
-      "place": "板橋区高島平2ほか",
-      "traffic": "<li>都営三田線「高島平」駅 徒歩2～11分</li><li>都営三田線「新高島平」駅 徒歩4～22分</li>",
-      "building": "2-26-1号棟",
-      "roomNo": "814号室",
-      "rent": "102,600円",
-      "commonfee": "4,200円",
-      "type": "2DK",
-      "floor": "8階",
-      "floorspace": "46㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20225/2260001/110r/RA/Image/20_225_2-26-0001_110r_RA_01_00009.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=226010814"
     },
     {
       "key": "20_459_33404404A",
@@ -387,22 +355,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000020302"
     },
     {
-      "key": "20_491_000150206",
-      "area": "葛飾区",
-      "danchiNm": "青戸第一",
-      "place": "葛飾区青戸3-19ほか",
-      "traffic": "<li>京成本線「青砥」駅 徒歩4～9分</li><li>京成押上線「青砥」駅 徒歩4～9分</li>",
-      "building": "15号棟",
-      "roomNo": "206号室",
-      "rent": "119,200円",
-      "commonfee": "5,600円",
-      "type": "2DK",
-      "floor": "2階",
-      "floorspace": "44㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_491/20_491_0-00-0015_D_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4911_room.html?JKSS=000150206"
-    },
-    {
       "key": "20_491_000100413",
       "area": "葛飾区",
       "danchiNm": "青戸第一",
@@ -417,22 +369,6 @@
       "floorspace": "44㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_491/20_491_0-00-0010_O_RA_01_00007_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4911_room.html?JKSS=000100413"
-    },
-    {
-      "key": "20_491_000030304",
-      "area": "葛飾区",
-      "danchiNm": "青戸第一",
-      "place": "葛飾区青戸3-19ほか",
-      "traffic": "<li>京成本線「青砥」駅 徒歩4～9分</li><li>京成押上線「青砥」駅 徒歩4～9分</li>",
-      "building": "3号棟",
-      "roomNo": "304号室",
-      "rent": "152,200円",
-      "commonfee": "5,600円",
-      "type": "3DK",
-      "floor": "3階",
-      "floorspace": "57㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20491/0000003/Ew/RA/Image/20_491_0-00-0003_Ew_RA_01_00012.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4911_room.html?JKSS=000030304"
     },
     {
       "key": "20_295_000011031",
