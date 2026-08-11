@@ -75,6 +75,30 @@ schedule:
 
 比如想改成每天 JST 早上7点：`UTC 22:00` → `cron: '0 22 * * *'`
 
+## 新房源邮件提醒
+
+每次 Actions 抓取数据时，会和上一次的 `docs/data/rooms.json` 做对比，如果发现房租
+**超过 150,000 円** 的新房源，就用 [Resend](https://resend.com) 发一封提醒邮件到
+`songqintai169@gmail.com`（改收件地址见下方"自定义"）。逻辑在 `scripts/fetchData.js`，
+实际发信封装在 `lib/mailer.js`。
+
+### 配置步骤
+
+1. 去 [resend.com](https://resend.com) 用 `songqintai169@gmail.com` 注册一个免费账号
+2. 进入 Dashboard → API Keys，创建一个 API Key（复制好，只显示一次）
+3. 回到 GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret
+   - Name: `RESEND_API_KEY`
+   - Value: 刚才复制的 key
+4. 不验证自己的域名的话，Resend 只允许发件人是 `onboarding@resend.dev`，
+   且只能发给注册账号本人的邮箱——这正好符合"发给自己"的场景，不用额外配置域名
+
+### 自定义
+
+- 改收件邮箱：在仓库 Secrets 里加一个 `ALERT_MAIL_TO`（workflow 里还需要在
+  `env:` 下加一行 `ALERT_MAIL_TO: ${{ secrets.ALERT_MAIL_TO }}`），或者直接改
+  `scripts/fetchData.js` 里的 `ALERT_MAIL_TO` 默认值
+- 改价格阈值：改 `scripts/fetchData.js` 里的 `RENT_ALERT_THRESHOLD`
+
 ## 常见问题
 
 - **Actions 没有按时触发**：GitHub Actions 的定时任务在系统繁忙时可能延迟几分钟到十几分钟，

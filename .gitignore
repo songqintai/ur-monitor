@@ -2,4 +2,6 @@ node_modules/
 snapshot.json
 debug_area.html
 bukken_result_debug.json
+package-lock.json
 .DS_Store
+.env

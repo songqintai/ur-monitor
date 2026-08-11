@@ -35,6 +35,8 @@ jobs:
 
       - name: 抓取数据
         run: node scripts/fetchData.js
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
 
       - name: 提交更新后的数据文件
         uses: stefanzweifel/git-auto-commit-action@v5
