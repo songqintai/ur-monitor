@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-11T23:49:19.867Z",
-  "total": 24,
+  "lastUpdated": "2026-08-12T02:25:14.521Z",
+  "total": 26,
   "rooms": [
     {
       "key": "20_518_000001510",
@@ -113,6 +113,22 @@
       "floorspace": "48㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0001_103r_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000010402"
+    },
+    {
+      "key": "20_600_000031202",
+      "area": "北区",
+      "danchiNm": "フレーシェル王子神谷",
+      "place": "北区豊島8-27",
+      "traffic": "<li>東京メトロ南北線「王子神谷」駅 徒歩6～7分</li><li>JR京浜東北・根岸線「東十条」駅 徒歩16～17分</li>",
+      "building": "3号棟",
+      "roomNo": "1202号室",
+      "rent": "163,200円",
+      "commonfee": "4,200円",
+      "type": "2LDK",
+      "floor": "12階",
+      "floorspace": "58㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0003_Gr_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000031202"
     },
     {
       "key": "20_600_000020507",
@@ -321,6 +337,22 @@
       "floorspace": "75㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_674/20_674_0-00-0002_Tr_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000021401"
+    },
+    {
+      "key": "20_712_000321307",
+      "area": "足立区",
+      "danchiNm": "ハートアイランド新田四番街",
+      "place": "足立区新田3-35",
+      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス12分 徒歩2分</li><li>東京メトロ南北線「王子神谷」駅 徒歩22～23分</li>",
+      "building": "32号棟",
+      "roomNo": "1307号室",
+      "rent": "153,300円",
+      "commonfee": "6,900円",
+      "type": "2LDK",
+      "floor": "13階",
+      "floorspace": "69㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_712/20_712_0-00-0032_02_RA_01_00001_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7120_room.html?JKSS=000321307"
     },
     {
       "key": "20_165_000020302",
