@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2026-08-12T08:23:19.952Z",
-  "total": 26,
+  "lastUpdated": "2026-08-12T10:13:14.901Z",
+  "total": 27,
   "rooms": [
+    {
+      "key": "20_653_000001703",
+      "area": "中央区",
+      "danchiNm": "ムーンアイランドタワー",
+      "place": "中央区月島2-10-1",
+      "traffic": "<li>東京メトロ有楽町線・都営大江戸線「月島」駅 徒歩1分</li>",
+      "building": "",
+      "roomNo": "1703号室",
+      "rent": "293,400円",
+      "commonfee": "6,000円",
+      "type": "2LDK",
+      "floor": "17階",
+      "floorspace": "62㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20653/0000000/U/RA/Image/20_653_0-00-0000_U_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6530_room.html?JKSS=000001703"
+    },
     {
       "key": "20_518_000001510",
       "area": "目黒区",
