@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T06:22:40.418Z",
+  "lastUpdated": "2026-08-13T08:25:53.955Z",
   "total": 17,
   "rooms": [
     {
@@ -17,22 +17,6 @@
       "floorspace": "44㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_631/20_631_0-00-0000_C_RA_01_00009_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6310_room.html?JKSS=000000413"
-    },
-    {
-      "key": "20_282_000100412",
-      "area": "江東区",
-      "danchiNm": "北砂五丁目",
-      "place": "江東区北砂5-20",
-      "traffic": "<li>都営新宿線「大島」駅 徒歩10～17分</li><li>JR総武線・東武亀戸線「亀戸」駅バス7～11分 徒歩1～7分</li><li>東京メトロ東西線「東陽町」駅バス9～11分 徒歩6～12分</li>",
-      "building": "10号棟",
-      "roomNo": "412号室",
-      "rent": "98,300円",
-      "commonfee": "4,200円",
-      "type": "2DK",
-      "floor": "4階",
-      "floorspace": "46㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_282/20_282_0-00-0010_2Af_RA_01_00008_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2820_room.html?JKSS=000100412"
     },
     {
       "key": "20_596_000210806",
@@ -113,6 +97,38 @@
       "floorspace": "86㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20460/0000001/P/RA/Image/20_460_0-00-0001_P_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4600_room.html?JKSS=000010118"
+    },
+    {
+      "key": "20_232_000091207",
+      "area": "北区",
+      "danchiNm": "豊島五丁目",
+      "place": "北区豊島5-4ほか",
+      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分</li><li>東京メトロ南北線「王子」駅バス7分 徒歩2～6分</li>",
+      "building": "9号棟",
+      "roomNo": "1207号室",
+      "rent": "71,200円",
+      "commonfee": "3,300円",
+      "type": "1DK",
+      "floor": "12階",
+      "floorspace": "33㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0009_A2af_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000091207"
+    },
+    {
+      "key": "20_232_000100417",
+      "area": "北区",
+      "danchiNm": "豊島五丁目",
+      "place": "北区豊島5-4ほか",
+      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分</li><li>東京メトロ南北線「王子」駅バス7分 徒歩2～6分</li>",
+      "building": "10号棟",
+      "roomNo": "417号室",
+      "rent": "86,800円",
+      "commonfee": "3,300円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "49㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0010_C4cx_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000100417"
     },
     {
       "key": "20_600_000020507",
@@ -209,22 +225,6 @@
       "floorspace": "53㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_642/20_642_0-00-0005_A_RA_01_00003_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6420_room.html?JKSS=000050402"
-    },
-    {
-      "key": "20_674_000020807",
-      "area": "足立区",
-      "danchiNm": "ハートアイランド新田一番街",
-      "place": "足立区新田3―36",
-      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス13分 徒歩1～2分</li><li>東京メトロ南北線「王子神谷」駅 徒歩19～20分</li>",
-      "building": "2号棟",
-      "roomNo": "807号室",
-      "rent": "123,800円",
-      "commonfee": "7,600円",
-      "type": "1LDK",
-      "floor": "8階",
-      "floorspace": "55㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_674/20_674_0-00-0002_Dr_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000020807"
     },
     {
       "key": "20_674_000021401",
