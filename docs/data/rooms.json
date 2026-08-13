@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-13T10:14:18.500Z",
-  "total": 20,
+  "lastUpdated": "2026-08-13T11:53:14.581Z",
+  "total": 21,
   "rooms": [
     {
       "key": "20_631_000000413",
@@ -33,6 +33,22 @@
       "floorspace": "39㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_596/20_596_0-00-0021_A_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5960_room.html?JKSS=000210806"
+    },
+    {
+      "key": "20_355_003110311",
+      "area": "品川区",
+      "danchiNm": "品川八潮パークタウン 潮路北第二ハイツ",
+      "place": "品川区八潮5-3",
+      "traffic": "<li>りんかい線「品川シーサイド」駅 徒歩11～13分</li><li>東京モノレール「大井競馬場前」駅 徒歩13～16分</li><li>JR京浜東北・根岸線「大井町」駅バス14～15分 徒歩2～5分</li>",
+      "building": "3-11号棟",
+      "roomNo": "311号室",
+      "rent": "157,600円",
+      "commonfee": "5,400円",
+      "type": "2LDK",
+      "floor": "3階",
+      "floorspace": "69㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20355/0030011/C5am/RA/Image/20_355_0-03-0011_C5am_RA_01_00018.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003110311"
     },
     {
       "key": "20_709_000002410",
