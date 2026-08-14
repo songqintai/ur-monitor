@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2026-08-14T06:19:07.662Z",
+  "lastUpdated": "2026-08-14T08:21:09.661Z",
   "total": 27,
   "rooms": [
+    {
+      "key": "20_569_000020509",
+      "area": "中央区",
+      "danchiNm": "晴海アイランド トリトンスクエアガーデンプラザ",
+      "place": "中央区晴海1-7-2",
+      "traffic": "<li>都営大江戸線｢勝どき｣駅 徒歩9分</li><li>都営大江戸線ほか｢月島｣駅 徒歩10分</li><li>JR山手線｢有楽町｣駅バス15分 徒歩5分</li>",
+      "building": "2号棟",
+      "roomNo": "509号室",
+      "rent": "171,300円",
+      "commonfee": "8,000円",
+      "type": "1LDK",
+      "floor": "5階",
+      "floorspace": "44㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20569/0000002/E2c/RA/Image/20_569_0-00-0002_E2c_RA_01_00014.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5690_room.html?JKSS=000020509"
+    },
     {
       "key": "20_569_000021416",
       "area": "中央区",
@@ -49,22 +65,6 @@
       "floorspace": "46㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_282/20_282_0-00-0010_2Af_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2820_room.html?JKSS=000100304"
-    },
-    {
-      "key": "20_648_000000507",
-      "area": "目黒区",
-      "danchiNm": "中目黒ゲートタウンハイツ",
-      "place": "目黒区上目黒2-1-2",
-      "traffic": "<li>東急東横線・東京メトロ日比谷線 「中目黒」駅 徒歩1分</li>",
-      "building": "",
-      "roomNo": "507号室",
-      "rent": "229,400円",
-      "commonfee": "9,800円",
-      "type": "1LDK",
-      "floor": "5階",
-      "floorspace": "48㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20648/0000000/D/RA/Image/20_648_0-00-0000_D_RA_01_00006.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6480_room.html?JKSS=000000507"
     },
     {
       "key": "20_709_000002410",
@@ -147,20 +147,36 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000100417"
     },
     {
-      "key": "20_539_000001405",
+      "key": "20_232_000110502",
       "area": "北区",
-      "danchiNm": "赤羽アボードⅡ",
-      "place": "北区赤羽西1-6-1",
-      "traffic": "<li>JR埼京線ほか｢赤羽｣駅 徒歩1分</li>",
-      "building": "",
-      "roomNo": "1405号室",
-      "rent": "141,200円",
-      "commonfee": "4,700円",
-      "type": "1DK",
-      "floor": "14階",
-      "floorspace": "40㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20539/0000000/Av/RA/Image/20_539_0-00-0000_Av_RA_01_00013.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5390_room.html?JKSS=000001405"
+      "danchiNm": "豊島五丁目",
+      "place": "北区豊島5-4ほか",
+      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分</li><li>東京メトロ南北線「王子」駅バス7分 徒歩2～6分</li>",
+      "building": "11号棟",
+      "roomNo": "502号室",
+      "rent": "86,800円",
+      "commonfee": "3,300円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "49㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0011_C4cf_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000110502"
+    },
+    {
+      "key": "20_600_000020507",
+      "area": "北区",
+      "danchiNm": "フレーシェル王子神谷",
+      "place": "北区豊島8-27",
+      "traffic": "<li>東京メトロ南北線「王子神谷」駅 徒歩6～7分</li><li>JR京浜東北・根岸線「東十条」駅 徒歩16～17分</li>",
+      "building": "2号棟",
+      "roomNo": "507号室",
+      "rent": "203,900円",
+      "commonfee": "4,200円",
+      "type": "3LDK",
+      "floor": "5階",
+      "floorspace": "80㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_600/20_600_0-00-0002_Nx_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6000_room.html?JKSS=000020507"
     },
     {
       "key": "20_225_233050203",
@@ -289,22 +305,6 @@
       "floorspace": "51㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20525/0000008/Gf/RA/Image/20_525_0-00-0008_Gf_RA_01_00007.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000080306"
-    },
-    {
-      "key": "20_465_000000104",
-      "area": "練馬区",
-      "danchiNm": "グリーンプラザ高松＜光が丘＞",
-      "place": "練馬区高松4-27-3",
-      "traffic": "<li>都営大江戸線｢光が丘｣駅 徒歩15分 またはバス3分 徒歩6分</li><li>東京メトロ有楽町線ほか「地下鉄成増」駅バス21分 徒歩5分</li><li>東武東上線｢成増｣駅バス20分 徒歩5分</li>",
-      "building": "",
-      "roomNo": "104号室",
-      "rent": "125,200円",
-      "commonfee": "4,800円",
-      "type": "2LDK",
-      "floor": "1階",
-      "floorspace": "62㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20465/0000000/B/RA/Image/20_465_0-00-0000_B_RA_01_00006.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4650_room.html?JKSS=000000104"
     },
     {
       "key": "20_130_000022201",
