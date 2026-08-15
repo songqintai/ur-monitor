@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T04:37:27.242Z",
+  "lastUpdated": "2026-08-15T05:30:50.925Z",
   "total": 31,
   "rooms": [
     {
@@ -143,7 +143,7 @@
       "type": "2LDK",
       "floor": "1階",
       "floorspace": "86㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20460/0000001/P/RA/Image/20_460_0-00-0001_P_RA_01_00008.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4600_room.html?JKSS=000010118"
     },
     {
@@ -191,7 +191,7 @@
       "type": "1DK",
       "floor": "14階",
       "floorspace": "40㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20539/0000000/Av/RA/Image/20_539_0-00-0000_Av_RA_01_00013.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5390_room.html?JKSS=000001405"
     },
     {
@@ -351,7 +351,7 @@
       "type": "3DK",
       "floor": "1階",
       "floorspace": "51㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20160/0000001/EAf/RA/Image/20_160_0-00-0001_EAf_RA_01_00005.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000001106"
     },
     {
