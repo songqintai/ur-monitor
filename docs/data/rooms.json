@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T23:26:59.270Z",
-  "total": 28,
+  "lastUpdated": "2026-08-15T02:56:58.461Z",
+  "total": 32,
   "rooms": [
     {
       "key": "20_569_000020509",
@@ -33,6 +33,22 @@
       "floorspace": "63㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20569/0000002/K1df/RA/Image/20_569_0-00-0002_K1df_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5690_room.html?JKSS=000021416"
+    },
+    {
+      "key": "20_641_000050407",
+      "area": "中央区",
+      "danchiNm": "晴海アイランド トリトンスクエアアーバンタワー",
+      "place": "中央区晴海1-8-5",
+      "traffic": "<li>都営大江戸線｢勝どき｣駅 徒歩10分</li><li>東京メトロ有楽町線｢月島｣駅 徒歩10分</li><li>都営大江戸線「月島」駅 徒歩10分</li>",
+      "building": "5号棟",
+      "roomNo": "407号室",
+      "rent": "242,800円",
+      "commonfee": "6,500円",
+      "type": "2LDK",
+      "floor": "4階",
+      "floorspace": "74㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20641/0000005/Np/RA/Image/20_641_0-00-0005_Np_RA_01_00006.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6410_room.html?JKSS=000050407"
     },
     {
       "key": "20_402_000000406",
@@ -83,20 +99,20 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000001510"
     },
     {
-      "key": "20_234_708010629",
-      "area": "世田谷区",
-      "danchiNm": "希望ヶ丘",
-      "place": "世田谷区船橋6ほか",
-      "traffic": "<li>小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分</li><li>京王線「八幡山」駅バス5～8分 徒歩1～3分</li><li>小田急小田原線「千歳船橋」駅 徒歩16～20分</li>",
-      "building": "7-8-1号棟",
-      "roomNo": "629号室",
-      "rent": "84,600円",
-      "commonfee": "3,600円",
-      "type": "1DK",
-      "floor": "6階",
-      "floorspace": "31㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_234/20_234_7-08-0001_114k_RA_01_00012_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=708010629"
+      "key": "20_518_000002216",
+      "area": "目黒区",
+      "danchiNm": "恵比寿ビュータワー",
+      "place": "目黒区三田1-4-4",
+      "traffic": "<li>JR山手線ほか｢恵比寿｣駅 徒歩9分</li>",
+      "building": "",
+      "roomNo": "2216号室",
+      "rent": "434,100円",
+      "commonfee": "4,500円",
+      "type": "3LDK",
+      "floor": "22階",
+      "floorspace": "73㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_518/20_518_0-00-0000_T2b_RA_01_00015_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000002216"
     },
     {
       "key": "20_234_701011305",
@@ -113,6 +129,22 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_234/20_234_7-01-0001_102r_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=701011305"
+    },
+    {
+      "key": "20_500_000030503",
+      "area": "世田谷区",
+      "danchiNm": "経堂赤堤通り",
+      "place": "世田谷区桜上水1-1",
+      "traffic": "<li>小田急小田原線「経堂」駅 徒歩10～14分</li><li>東急世田谷線「松原」駅 徒歩11～12分</li><li>京王線「桜上水」駅 徒歩15～18分</li>",
+      "building": "3号棟",
+      "roomNo": "503号室",
+      "rent": "147,100円",
+      "commonfee": "5,150円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "44㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20500/0000003/Ev/RA/Image/20_500_0-00-0003_Ev_RA_01_00008.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5000_room.html?JKSS=000030503"
     },
     {
       "key": "20_460_000010118",
@@ -449,6 +481,38 @@
       "floorspace": "46㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20165/0000002/2D/RA/Image/20_165_0-00-0002_2D_RA_01_00013.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000021213"
+    },
+    {
+      "key": "20_165_000020313",
+      "area": "葛飾区",
+      "danchiNm": "金町駅前",
+      "place": "葛飾区東金町1-36",
+      "traffic": "<li>JR常磐線「金町」駅 徒歩3～5分</li><li>京成金町線「京成金町」駅 徒歩4～7分</li>",
+      "building": "2号棟",
+      "roomNo": "313号室",
+      "rent": "79,200円～104,200円",
+      "commonfee": "3,500円",
+      "type": "1LDK",
+      "floor": "3階",
+      "floorspace": "46㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20165/0000002/BB/RA/Image/20_165_0-00-0002_BB_RA_01_00007.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000020313"
+    },
+    {
+      "key": "20_442_000070304",
+      "area": "江戸川区",
+      "danchiNm": "小松川グリーンタウン セーラ小松川",
+      "place": "江戸川区小松川1-5",
+      "traffic": "<li>都営新宿線「東大島」駅 徒歩3～5分</li><li>都営新宿線「船堀」駅 徒歩20～22分</li><li>JR総武線・東武亀戸線「亀戸」駅バス14分 徒歩10～11分</li>",
+      "building": "7号棟",
+      "roomNo": "304号室",
+      "rent": "151,000円",
+      "commonfee": "5,000円",
+      "type": "3DK",
+      "floor": "3階",
+      "floorspace": "65㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_442/20_442_0-00-0007_3C_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4420_room.html?JKSS=000070304"
     }
   ]
 }
