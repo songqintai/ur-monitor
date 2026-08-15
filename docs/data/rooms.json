@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-15T05:30:50.925Z",
-  "total": 31,
+  "lastUpdated": "2026-08-15T06:47:48.906Z",
+  "total": 27,
   "rooms": [
     {
       "key": "20_569_000020509",
@@ -99,22 +99,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000002216"
     },
     {
-      "key": "20_234_701011305",
-      "area": "世田谷区",
-      "danchiNm": "希望ヶ丘",
-      "place": "世田谷区船橋6ほか",
-      "traffic": "<li>小田急小田原線「千歳船橋」駅バス4～10分 徒歩1～3分</li><li>京王線「八幡山」駅バス5～8分 徒歩1～3分</li><li>小田急小田原線「千歳船橋」駅 徒歩16～20分</li>",
-      "building": "7-1-1号棟",
-      "roomNo": "1305号室",
-      "rent": "118,300円",
-      "commonfee": "3,600円",
-      "type": "1K",
-      "floor": "13階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_234/20_234_7-01-0001_102r_RA_01_00008_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=701011305"
-    },
-    {
       "key": "20_500_000030503",
       "area": "世田谷区",
       "danchiNm": "経堂赤堤通り",
@@ -131,38 +115,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5000_room.html?JKSS=000030503"
     },
     {
-      "key": "20_460_000010118",
-      "area": "世田谷区",
-      "danchiNm": "成城通りパークウエスト",
-      "place": "世田谷区上祖師谷4-2",
-      "traffic": "<li>小田急小田原線「成城学園前」駅バス7分 徒歩2～3分 または「成城学園前」駅 徒歩21分</li><li>京王線「千歳烏山」駅バス12分 徒歩2～3分</li>",
-      "building": "1号棟",
-      "roomNo": "118号室",
-      "rent": "224,500円",
-      "commonfee": "3,800円",
-      "type": "2LDK",
-      "floor": "1階",
-      "floorspace": "86㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4600_room.html?JKSS=000010118"
-    },
-    {
-      "key": "20_232_000110510",
-      "area": "北区",
-      "danchiNm": "豊島五丁目",
-      "place": "北区豊島5-4ほか",
-      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス7分 徒歩2～6分</li><li>東京メトロ南北線「王子」駅バス7分 徒歩2～6分</li>",
-      "building": "11号棟",
-      "roomNo": "510号室",
-      "rent": "85,500円",
-      "commonfee": "3,300円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "49㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0011_C4cf_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000110510"
-    },
-    {
       "key": "20_232_000100417",
       "area": "北区",
       "danchiNm": "豊島五丁目",
@@ -177,22 +129,6 @@
       "floorspace": "49㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0010_C4cx_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000100417"
-    },
-    {
-      "key": "20_539_000001405",
-      "area": "北区",
-      "danchiNm": "赤羽アボードⅡ",
-      "place": "北区赤羽西1-6-1",
-      "traffic": "<li>JR埼京線ほか｢赤羽｣駅 徒歩1分</li>",
-      "building": "",
-      "roomNo": "1405号室",
-      "rent": "141,200円",
-      "commonfee": "4,700円",
-      "type": "1DK",
-      "floor": "14階",
-      "floorspace": "40㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5390_room.html?JKSS=000001405"
     },
     {
       "key": "20_225_233050203",
@@ -323,6 +259,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000080306"
     },
     {
+      "key": "20_130_000031502",
+      "area": "足立区",
+      "danchiNm": "竹の塚第一",
+      "place": "足立区竹の塚3-11ほか",
+      "traffic": "<li>東武伊勢崎線「竹ノ塚」駅 徒歩11～16分</li><li>東武伊勢崎線「竹ノ塚」駅バス2～3分 徒歩2～7分</li><li>JR常磐線「北千住」駅バス16～18分 徒歩1～5分</li>",
+      "building": "31号棟",
+      "roomNo": "502号室",
+      "rent": "73,100円",
+      "commonfee": "3,500円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "40㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20130/0000031/C1c/RA/Image/20_130_0-00-0031_C1c_RA_01_00007.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1300_room.html?JKSS=000031502"
+    },
+    {
       "key": "20_131_000025507",
       "area": "足立区",
       "danchiNm": "竹の塚第二",
@@ -337,22 +289,6 @@
       "floorspace": "39㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20131/0000025/C2cr/RA/Image/20_131_0-00-0025_C2cr_RA_01_00003.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000025507"
-    },
-    {
-      "key": "20_160_000001106",
-      "area": "足立区",
-      "danchiNm": "栗原",
-      "place": "足立区栗原2-5ほか",
-      "traffic": "<li>東武伊勢崎線「西新井」駅 徒歩8～13分</li>",
-      "building": "1号棟",
-      "roomNo": "106号室",
-      "rent": "104,700円",
-      "commonfee": "4,270円",
-      "type": "3DK",
-      "floor": "1階",
-      "floorspace": "51㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1600_room.html?JKSS=000001106"
     },
     {
       "key": "20_642_000050402",
@@ -435,22 +371,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1371_room.html?JKSS=000150506"
     },
     {
-      "key": "20_674_000021401",
-      "area": "足立区",
-      "danchiNm": "ハートアイランド新田一番街",
-      "place": "足立区新田3―36",
-      "traffic": "<li>JR京浜東北・根岸線「王子」駅バス13分 徒歩1～2分</li><li>東京メトロ南北線「王子神谷」駅 徒歩19～20分</li>",
-      "building": "2号棟",
-      "roomNo": "1401号室",
-      "rent": "173,000円",
-      "commonfee": "7,600円",
-      "type": "2LDK",
-      "floor": "14階",
-      "floorspace": "75㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_674/20_674_0-00-0002_Tr_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6740_room.html?JKSS=000021401"
-    },
-    {
       "key": "20_448_000130603",
       "area": "葛飾区",
       "danchiNm": "すまいる亀有",
@@ -481,6 +401,22 @@
       "floorspace": "46㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20165/0000002/BB/RA/Image/20_165_0-00-0002_BB_RA_01_00007.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000020313"
+    },
+    {
+      "key": "20_502_000030609",
+      "area": "葛飾区",
+      "danchiNm": "アーバンライフ東新小岩",
+      "place": "葛飾区東新小岩3-8",
+      "traffic": "<li>JR総武線快速「新小岩」駅 徒歩9～11分</li><li>JR総武線「新小岩」駅 徒歩9～11分</li>",
+      "building": "3号棟",
+      "roomNo": "609号室",
+      "rent": "137,200円",
+      "commonfee": "4,300円",
+      "type": "1DK",
+      "floor": "6階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0003_C_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000030609"
     },
     {
       "key": "20_442_000070304",
