@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-08-17T08:50:08.938Z",
-  "total": 19,
+  "lastUpdated": "2026-08-17T09:48:42.345Z",
+  "total": 16,
   "rooms": [
     {
-      "key": "20_255_000020525",
-      "area": "墨田区",
-      "danchiNm": "立花一丁目",
-      "place": "墨田区立花1-26ほか",
-      "traffic": "<li>東武亀戸線「東あずま」駅 徒歩3～7分</li><li>JR総武線・東武亀戸線「亀戸」駅 徒歩17～19分</li><li>JR総武線・東武亀戸線「亀戸」駅バス3分 徒歩5～10分</li>",
-      "building": "2号棟",
-      "roomNo": "525号室",
-      "rent": "117,300円",
-      "commonfee": "3,100円",
-      "type": "1LDK",
-      "floor": "5階",
+      "key": "20_563_000060905",
+      "area": "中央区",
+      "danchiNm": "晴海アイランド トリトンスクエアビュープラザ",
+      "place": "中央区晴海1-6",
+      "traffic": "<li>都営大江戸線「勝どき」駅 徒歩9分</li><li>東京メトロ有楽町線「月島」駅 徒歩8～9分</li><li>都営大江戸線「月島」駅 徒歩8～9分</li>",
+      "building": "6号棟",
+      "roomNo": "905号室",
+      "rent": "210,700円",
+      "commonfee": "12,000円",
+      "type": "2DK",
+      "floor": "9階",
       "floorspace": "48㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20255/0000002/118f/RA/Image/20_255_0-00-0002_118f_RA_01_00010.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2550_room.html?JKSS=000020525"
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20563/0000006/G1c/RA/Image/20_563_0-00-0006_G1c_RA_01_00011.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5630_room.html?JKSS=000060905"
     },
     {
       "key": "20_709_000002410",
@@ -113,22 +113,6 @@
       "floorspace": "49㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_232/20_232_0-00-0010_C4cx_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2320_room.html?JKSS=000100417"
-    },
-    {
-      "key": "20_225_233070438",
-      "area": "板橋区",
-      "danchiNm": "高島平",
-      "place": "板橋区高島平2ほか",
-      "traffic": "<li>都営三田線「高島平」駅 徒歩2～11分</li><li>都営三田線「新高島平」駅 徒歩4～22分</li>",
-      "building": "2-33-7号棟",
-      "roomNo": "438号室",
-      "rent": "88,700円",
-      "commonfee": "4,200円",
-      "type": "2DK",
-      "floor": "4階",
-      "floorspace": "47㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_225/20_225_2-33-0007_C2cf_RA_01_00008_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2250_room.html?JKSS=233070438"
     },
     {
       "key": "20_225_233050203",
@@ -273,38 +257,6 @@
       "floorspace": "51㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_698/20_698_0-00-0021_D_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6980_room.html?JKSS=000210303"
-    },
-    {
-      "key": "20_640_000040301",
-      "area": "葛飾区",
-      "danchiNm": "金町第一",
-      "place": "葛飾区東金町2-23-1ほか",
-      "traffic": "<li>JR常磐線「金町」駅 徒歩9～11分</li><li>京成金町線「京成金町」駅 徒歩11～13分</li>",
-      "building": "4号棟",
-      "roomNo": "301号室",
-      "rent": "142,900円",
-      "commonfee": "5,690円",
-      "type": "2LDK",
-      "floor": "3階",
-      "floorspace": "63㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_640/20_640_0-00-0004_J_RA_01_00003_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6400_room.html?JKSS=000040301"
-    },
-    {
-      "key": "20_254_000050309",
-      "area": "江戸川区",
-      "danchiNm": "小島町二丁目",
-      "place": "江戸川区西葛西5-8ほか",
-      "traffic": "<li>東京メトロ東西線「西葛西」駅 徒歩3～9分</li><li>東京メトロ東西線「葛西」駅 徒歩14～17分</li><li>都営新宿線「船堀」駅バス13分 徒歩1～5分</li>",
-      "building": "5号棟",
-      "roomNo": "309号室",
-      "rent": "113,000円",
-      "commonfee": "3,000円",
-      "type": "2DK",
-      "floor": "3階",
-      "floorspace": "47㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_254/20_254_0-00-0005_CAf_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2540_room.html?JKSS=000050309"
     }
   ]
 }
