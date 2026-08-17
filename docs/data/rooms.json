@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T11:31:05.700Z",
-  "total": 16,
+  "lastUpdated": "2026-08-17T12:53:34.926Z",
+  "total": 17,
   "rooms": [
     {
       "key": "20_563_000060905",
@@ -49,6 +49,22 @@
       "floorspace": "58㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_518/20_518_0-00-0000_L1_RA_01_00016_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000001510"
+    },
+    {
+      "key": "20_291_000030203",
+      "area": "大田区",
+      "danchiNm": "南六郷一丁目",
+      "place": "大田区南六郷1-29ほか",
+      "traffic": "<li>京急本線「雑色」駅 徒歩15～16分</li><li>京急空港線「糀谷」駅 徒歩15～17分</li>",
+      "building": "3号棟",
+      "roomNo": "203号室",
+      "rent": "120,600円",
+      "commonfee": "6,500円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "51㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_291/20_291_0-00-0003_C4ia_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2910_room.html?JKSS=000030203"
     },
     {
       "key": "20_500_000030503",
