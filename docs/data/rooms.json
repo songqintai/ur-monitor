@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-17T05:16:00.282Z",
-  "total": 28,
+  "lastUpdated": "2026-08-17T07:05:03.791Z",
+  "total": 24,
   "rooms": [
     {
       "key": "20_641_000050407",
@@ -19,20 +19,20 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6410_room.html?JKSS=000050407"
     },
     {
-      "key": "20_404_000000610",
+      "key": "20_255_000020525",
       "area": "墨田区",
-      "danchiNm": "曳舟駅前プラザ",
-      "place": "墨田区京島1-38-1",
-      "traffic": "<li>京成押上線「京成曳舟」駅 徒歩2分</li><li>東武伊勢崎線・東武亀戸線「曳舟」駅 徒歩3分</li>",
-      "building": "",
-      "roomNo": "610号室",
-      "rent": "105,400円",
-      "commonfee": "3,500円",
-      "type": "1DK",
-      "floor": "6階",
-      "floorspace": "35㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_404/20_404_0-00-0000_A_RA_01_00008_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4040_room.html?JKSS=000000610"
+      "danchiNm": "立花一丁目",
+      "place": "墨田区立花1-26ほか",
+      "traffic": "<li>東武亀戸線「東あずま」駅 徒歩3～7分</li><li>JR総武線・東武亀戸線「亀戸」駅 徒歩17～19分</li><li>JR総武線・東武亀戸線「亀戸」駅バス3分 徒歩5～10分</li>",
+      "building": "2号棟",
+      "roomNo": "525号室",
+      "rent": "117,300円",
+      "commonfee": "3,100円",
+      "type": "1LDK",
+      "floor": "5階",
+      "floorspace": "48㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20255/0000002/118f/RA/Image/20_255_0-00-0002_118f_RA_01_00010.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2550_room.html?JKSS=000020525"
     },
     {
       "key": "20_320_000020711",
@@ -83,6 +83,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180_room.html?JKSS=000001510"
     },
     {
+      "key": "20_500_000030503",
+      "area": "世田谷区",
+      "danchiNm": "経堂赤堤通り",
+      "place": "世田谷区桜上水1-1",
+      "traffic": "<li>小田急小田原線「経堂」駅 徒歩10～14分</li><li>東急世田谷線「松原」駅 徒歩11～12分</li><li>京王線「桜上水」駅 徒歩15～18分</li>",
+      "building": "3号棟",
+      "roomNo": "503号室",
+      "rent": "147,100円",
+      "commonfee": "5,150円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "44㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20500/0000003/Ev/RA/Image/20_500_0-00-0003_Ev_RA_01_00008.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5000_room.html?JKSS=000030503"
+    },
+    {
       "key": "20_671_000170310",
       "area": "世田谷区",
       "danchiNm": "芦花公園",
@@ -113,22 +129,6 @@
       "floorspace": "50㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_671/20_671_0-00-0012_Dd_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6710_room.html?JKSS=000121306"
-    },
-    {
-      "key": "20_671_000130806",
-      "area": "世田谷区",
-      "danchiNm": "芦花公園",
-      "place": "世田谷区南烏山2-30",
-      "traffic": "<li>京王線「芦花公園」駅 徒歩5～8分</li><li>京王線「千歳烏山」駅 徒歩6～9分</li>",
-      "building": "13号棟",
-      "roomNo": "806号室",
-      "rent": "199,600円",
-      "commonfee": "6,300円",
-      "type": "1LDK",
-      "floor": "8階",
-      "floorspace": "58㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_671/20_671_0-00-0013_C_RA_01_00002_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6710_room.html?JKSS=000130806"
     },
     {
       "key": "20_232_000100417",
@@ -291,22 +291,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000080306"
     },
     {
-      "key": "20_369_070101307",
-      "area": "練馬区",
-      "danchiNm": "光が丘パークタウン 大通り南",
-      "place": "練馬区光が丘7-3ほか",
-      "traffic": "<li>都営大江戸線「光が丘」駅 徒歩5～9分</li><li>東京メトロ有楽町線「地下鉄成増」駅バス9分 徒歩3～7分</li><li>東武東上線「成増」駅バス10分 徒歩3～7分</li>",
-      "building": "7-1号棟",
-      "roomNo": "1307号室",
-      "rent": "134,200円",
-      "commonfee": "4,700円",
-      "type": "2DK",
-      "floor": "13階",
-      "floorspace": "58㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20378/0070001/G/RA/Image/20_378_0-07-0001_G_RA_01_00005.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3690_room.html?JKSS=070101307"
-    },
-    {
       "key": "20_350_000010905",
       "area": "練馬区",
       "danchiNm": "光が丘パークタウン 公園南",
@@ -323,38 +307,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3500_room.html?JKSS=000010905"
     },
     {
-      "key": "20_435_210050609",
-      "area": "練馬区",
-      "danchiNm": "光が丘パークタウン プロムナード十番街",
-      "place": "練馬区光が丘2-10-1ほか",
-      "traffic": "<li>都営大江戸線「光が丘」駅 徒歩3～4分</li><li>東京メトロ有楽町線「地下鉄成増」駅バス10分 徒歩5～6分</li><li>東武東上線「成増」駅バス11分 徒歩5～6分</li>",
-      "building": "2-10-5号棟",
-      "roomNo": "609号室",
-      "rent": "163,000円",
-      "commonfee": "6,800円",
-      "type": "2DK",
-      "floor": "6階",
-      "floorspace": "63㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20435/2100005/B/RA/Image/20_435_2-10-0005_B_RA_01_00006.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4350_room.html?JKSS=210050609"
-    },
-    {
-      "key": "20_131_000025507",
-      "area": "足立区",
-      "danchiNm": "竹の塚第二",
-      "place": "足立区竹の塚1-5ほか",
-      "traffic": "<li>東武伊勢崎線「竹ノ塚」駅 徒歩6～12分</li>",
-      "building": "25号棟",
-      "roomNo": "507号室",
-      "rent": "75,000円",
-      "commonfee": "4,800円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "39㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20131/0000025/C2cr/RA/Image/20_131_0-00-0025_C2cr_RA_01_00003.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1310_room.html?JKSS=000025507"
-    },
-    {
       "key": "20_698_000210303",
       "area": "足立区",
       "danchiNm": "ハートアイランド新田三番街",
@@ -369,22 +321,6 @@
       "floorspace": "51㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_698/20_698_0-00-0021_D_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6980_room.html?JKSS=000210303"
-    },
-    {
-      "key": "20_705_000020602",
-      "area": "足立区",
-      "danchiNm": "フレール西新井中央公園",
-      "place": "足立区西新井3-16ほか",
-      "traffic": "<li>日暮里舎人ライナー「谷在家」駅 徒歩12～14分</li><li>東武大師線「大師前」駅 徒歩16～18分</li>",
-      "building": "2号棟",
-      "roomNo": "602号室",
-      "rent": "130,400円",
-      "commonfee": "5,100円",
-      "type": "1LDK",
-      "floor": "6階",
-      "floorspace": "58㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20705/0000002/H/RA/Image/20_705_0-00-0002_H_RA_01_00002.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7050_room.html?JKSS=000020602"
     },
     {
       "key": "20_137_000150506",
