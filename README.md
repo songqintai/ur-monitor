@@ -35,11 +35,15 @@ node server.js
 ```
 ur-monitor/
 ├── lib/
-│   └── urClient.js      # 抓取UR API的核心逻辑（两种用法共用）
-├── public/
-│   └── index.html         # 网页前端（纯HTML+原生JS，无需构建工具）
+│   └── urClient.js      # 抓取UR API的核心逻辑（各用法共用）
+├── docs/
+│   ├── index.html         # 网页前端（纯HTML+原生JS，无需构建工具）
+│   │                          # server.js 和 GitHub Pages 共用同一份文件：
+│   │                          # 启动时先探测 /api/areas，有响应就走 server.js 的动态接口，
+│   │                          # 没有（纯静态托管）就退回直接读 data/rooms.json
+│   └── data/rooms.json     # GitHub Pages 用的静态数据快照（Actions 定时更新）
 ├── monitor.js              # 命令行diff监控脚本
-├── server.js                 # 网页服务器
+├── server.js                 # 网页服务器（静态资源目录指向 docs/）
 └── snapshot.json           # monitor.js生成的历史快照（首次运行后出现）
 ```
 

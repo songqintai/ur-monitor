@@ -19,7 +19,7 @@ const REFRESH_INTERVAL_MS = 60 * 60 * 1000; // 自动刷新间隔：1小时（�
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 let cache = {
   rooms: [],

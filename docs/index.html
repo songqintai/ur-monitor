@@ -38,6 +38,7 @@
     cursor: pointer;
   }
   button:hover { background: #1d4ed8; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
   .count { font-size: 13px; color: #555; margin-bottom: 12px; }
   table {
     width: 100%;
@@ -57,20 +58,23 @@
     background: #fafafa;
     font-weight: 600;
     color: #444;
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
   }
-  th:hover { background: #f0f1f3; }
+  th[data-sort-key] { cursor: pointer; user-select: none; white-space: nowrap; }
+  th[data-sort-key]:hover { background: #f0f1f3; }
   th .arrow { color: #2563eb; font-size: 11px; margin-left: 4px; }
   th .arrow.inactive { color: #ccc; }
   tr:hover { background: #f9fafb; }
   a { color: #2563eb; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .empty { padding: 40px; text-align: center; color: #999; }
-  .loading { padding: 60px 20px; text-align: center; color: #555; }
+  .loading {
+    padding: 60px 20px;
+    text-align: center;
+    color: #555;
+  }
   .spinner {
-    width: 32px; height: 32px;
+    width: 32px;
+    height: 32px;
     border: 3px solid #e0e0e0;
     border-top-color: #2563eb;
     border-radius: 50%;
@@ -78,6 +82,20 @@
     animation: spin 0.8s linear infinite;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
+  .loading .progress-text { font-size: 13px; color: #888; margin-top: 6px; }
+  .loading .progress-bar-wrap {
+    width: 240px;
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    margin: 12px auto 0;
+    overflow: hidden;
+  }
+  .loading .progress-bar {
+    height: 100%;
+    background: #2563eb;
+    transition: width 0.3s ease;
+  }
   .badge {
     display: inline-block;
     padding: 2px 8px;
@@ -127,6 +145,7 @@
 <div class="tabs" id="prefTabs">
   <button class="tab-btn active" data-pref="東京都">東京都</button>
   <button class="tab-btn" data-pref="神奈川県">神奈川</button>
+  <button class="tab-btn" data-pref="千葉県">千葉</button>
 </div>
 
 <div class="count" id="count"></div>
@@ -134,9 +153,9 @@
 <div id="tableWrap"><div class="loading"><div class="spinner"></div><div>読み込み中...</div></div></div>
 
 <script>
-// このページは GitHub Pages 用の静的バージョンです。
-// サーバーは存在せず、GitHub Actions が1時間に1回生成する data/rooms.json を
-// ブラウザが直接読み込み、検索・フィルタもすべてブラウザ側(クライアントサイド)で行います。
+// このページは server.js（動的API）と GitHub Pages（静的ホスティング）の両方で使う共通ファイル。
+// 起動時に /api/areas を叩いてみて、応答があれば server.js 経由（DYNAMIC）、
+// 無ければ（GitHub Pages 環境）./data/rooms.json を直接読む静的モードにフォールバックする。
 
 const DATA_URL = './data/rooms.json';
 
@@ -148,17 +167,12 @@ const countEl = document.getElementById('count');
 const metaEl = document.getElementById('meta');
 const prefTabs = document.getElementById('prefTabs');
 
-let allRooms = [];
+let DYNAMIC = false; // true: server.js の /api 経由、false: 静的 JSON をブラウザ側でフィルタ
+let allAreas = []; // [{label, pref}, ...]
+let allRooms = []; // 静的モードでのみ使用（取得した全件をキャッシュしてブラウザ側でフィルタ）
 let sortState = { key: null, dir: 'asc' }; // key: 排序字段, dir: 'asc' | 'desc'
 let activePref = '東京都'; // Tab 当前选中的都道府県
-
-// 只有这4列允许排序：字段名 -> 表头文字
-const SORTABLE_COLUMNS = {
-  type: '間取り',
-  rent: '家賃',
-  commonfee: '共益費',
-  floorspace: '専有面積',
-};
+let pollTimer = null; // 動的モードでのみ使用
 
 // 从"109,000円" "48㎡" "1LDK" 这类字符串里提取数字，方便按大小比较
 // 提取不到数字的（比如共益費有时是空的）统一当作 -1，排序时垫底
@@ -172,11 +186,7 @@ function sortRooms(rooms) {
   if (!sortState.key) return rooms;
   const key = sortState.key;
   const dir = sortState.dir === 'asc' ? 1 : -1;
-  return [...rooms].sort((a, b) => {
-    const av = parseNumeric(a[key]);
-    const bv = parseNumeric(b[key]);
-    return (av - bv) * dir;
-  });
+  return [...rooms].sort((a, b) => (parseNumeric(a[key]) - parseNumeric(b[key])) * dir);
 }
 
 function handleSortClick(key) {
@@ -186,17 +196,16 @@ function handleSortClick(key) {
     sortState.key = key;
     sortState.dir = 'asc';
   }
-  applyFilter();
+  refreshView();
 }
 
 // 根据当前选中的 Tab（activePref）重新生成区域下拉框选项
 function populateAreaOptions() {
   areaFilter.innerHTML = '<option value="">すべてのエリア</option>';
-  const areas = [...new Set(allRooms.filter(r => r.pref === activePref).map(r => r.area))].sort();
-  for (const a of areas) {
+  for (const a of allAreas.filter((a) => a.pref === activePref)) {
     const opt = document.createElement('option');
-    opt.value = a;
-    opt.textContent = a;
+    opt.value = a.label;
+    opt.textContent = a.label;
     areaFilter.appendChild(opt);
   }
 }
@@ -209,7 +218,26 @@ function switchPref(pref) {
   prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.pref === pref);
   });
-  applyFilter();
+  refreshView();
+}
+
+function renderLoading(progress) {
+  const label = progress?.label || 'データを取得中';
+  const done = progress?.done || 0;
+  const total = progress?.total || 0;
+  const pct = total > 0 ? Math.min(100, Math.round((done / total) * 100)) : 0;
+  const progressLine = total > 0
+    ? `<div class="progress-text">${label}：${done} / ${total} 団地</div>
+       <div class="progress-bar-wrap"><div class="progress-bar" style="width:${pct}%"></div></div>`
+    : `<div class="progress-text">${label}</div>`;
+
+  tableWrap.innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div>初回読み込み中です。物件データを取得しています。しばらくお待ちください...</div>
+      ${progressLine}
+    </div>
+  `;
 }
 
 function renderHeaderCell(label, sortKey) {
@@ -263,8 +291,35 @@ function renderTable(rooms) {
   });
 }
 
-// 检索：纯前端过滤，不发任何网络请求，只是对已加载的 allRooms 做筛选
-function applyFilter() {
+// 動的モード：server.js の /api/rooms を叩く（都度サーバー側でフィルタ済みの結果が返る）
+async function loadRoomsDynamic() {
+  const params = new URLSearchParams();
+  params.set('pref', activePref);
+  if (areaFilter.value) params.set('area', areaFilter.value);
+  if (keywordFilter.value.trim()) params.set('keyword', keywordFilter.value.trim());
+
+  const res = await fetch('/api/rooms?' + params.toString());
+  const data = await res.json();
+
+  const isFirstLoad = !data.lastUpdated && data.isRefreshing;
+
+  if (isFirstLoad) {
+    metaEl.textContent = 'データがまだありません。初回取得を実行中...';
+    countEl.textContent = '';
+    renderLoading(data.progress);
+  } else {
+    const sorted = sortRooms(data.rooms);
+    countEl.textContent = `空室 ${data.total} 件`;
+    metaEl.textContent = data.lastUpdated
+      ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}${data.isRefreshing ? '（バックグラウンドで更新中...）' : ''}`
+      : 'データがまだありません';
+    renderTable(sorted);
+  }
+  // 检索按钮不受后台刷新状态影响：检索只读缓存，永远可用
+}
+
+// 静的モード：起動時に丸ごと取得済みの allRooms を、ブラウザ側でフィルタ・ソートするだけ
+function renderStaticView() {
   const area = areaFilter.value;
   const keyword = keywordFilter.value.trim();
 
@@ -278,29 +333,67 @@ function applyFilter() {
   renderTable(filtered);
 }
 
-async function init() {
+function refreshView() {
+  if (DYNAMIC) {
+    loadRoomsDynamic();
+  } else {
+    renderStaticView();
+  }
+}
+
+// 動的モードのみ：後台刷新状態に合わせてポーリング間隔を変える(進行中2秒、平時15秒)
+async function pollLoop() {
+  const res = await fetch('/api/rooms');
+  const data = await res.json();
+  await loadRoomsDynamic();
+  clearTimeout(pollTimer);
+  pollTimer = setTimeout(pollLoop, data.isRefreshing ? 2000 : 15000);
+}
+
+async function loadStaticData() {
   try {
     const res = await fetch(DATA_URL, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     allRooms = data.rooms || [];
+    allAreas = [...new Map(allRooms.map(r => [r.area, { label: r.area, pref: r.pref }])).values()];
     metaEl.textContent = data.lastUpdated
       ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1時間ごとに自動更新）`
       : 'データがまだありません';
 
     populateAreaOptions();
-    applyFilter();
+    renderStaticView();
   } catch (err) {
     metaEl.textContent = 'データの読み込みに失敗しました';
     tableWrap.innerHTML = `<div class="empty">データを取得できませんでした（${err.message}）</div>`;
   }
 }
 
-areaFilter.addEventListener('change', applyFilter);
-searchBtn.addEventListener('click', applyFilter);
+async function init() {
+  // /api/areas が応答すれば server.js 経由（動的モード）、404等なら静的モードにフォールバック
+  try {
+    const res = await fetch('/api/areas', { cache: 'no-store' });
+    if (res.ok) {
+      allAreas = await res.json();
+      DYNAMIC = true;
+    }
+  } catch (err) {
+    // ネットワークエラー等も静的モード扱いにする
+  }
+
+  if (DYNAMIC) {
+    populateAreaOptions();
+    pollLoop();
+  } else {
+    await loadStaticData();
+  }
+}
+
+areaFilter.addEventListener('change', refreshView);
+searchBtn.addEventListener('click', refreshView);
 keywordFilter.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') applyFilter();
+  if (e.key === 'Enter') refreshView();
 });
 prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
   btn.addEventListener('click', () => switchPref(btn.dataset.pref));
