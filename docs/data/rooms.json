@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T11:31:23.244Z",
+  "lastUpdated": "2026-08-18T12:56:23.628Z",
   "total": 175,
   "rooms": [
     {
@@ -35,23 +35,6 @@
       "floorspace": "35㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_404/20_404_0-00-0000_A_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4040_room.html?JKSS=000000610"
-    },
-    {
-      "key": "20_355_003130303",
-      "area": "品川区",
-      "pref": "東京都",
-      "danchiNm": "品川八潮パークタウン 潮路北第二ハイツ",
-      "place": "品川区八潮5-3",
-      "traffic": "<li>りんかい線「品川シーサイド」駅 徒歩11～13分</li><li>東京モノレール「大井競馬場前」駅 徒歩13～16分</li><li>JR京浜東北・根岸線「大井町」駅バス14～15分 徒歩2～5分</li>",
-      "building": "3-13号棟",
-      "roomNo": "303号室",
-      "rent": "165,100円",
-      "commonfee": "2,800円",
-      "type": "3LDK",
-      "floor": "3階",
-      "floorspace": "83㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20355/0030013/Em/RA/Image/20_355_0-03-0013_Em_RA_01_00011.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003130303"
     },
     {
       "key": "20_709_000002410",
@@ -307,6 +290,23 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_502/20_502_0-00-0003_C_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5020_room.html?JKSS=000030609"
+    },
+    {
+      "key": "40_161_000000507",
+      "area": "横浜市中区",
+      "pref": "神奈川県",
+      "danchiNm": "本郷町",
+      "place": "横浜市中区本郷町2-50",
+      "traffic": "<li>JR根岸線ほか「桜木町」駅 バス18分 徒歩1分</li><li>JR根岸線「石川町」駅 バス10分 徒歩1分</li>",
+      "building": "",
+      "roomNo": "507号室",
+      "rent": "89,200円",
+      "commonfee": "3,300円",
+      "type": "1LDK",
+      "floor": "5階",
+      "floorspace": "46㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40161/0000000/B1a/RA/Image/40_161_0-00-0000_B1a_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1610_room.html?JKSS=000000507"
     },
     {
       "key": "40_382_000020608",
