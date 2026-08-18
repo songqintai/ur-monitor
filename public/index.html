@@ -104,6 +104,29 @@
     color: #4338ca;
     font-size: 12px;
   }
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .tab-btn {
+    padding: 8px 20px;
+    border: none;
+    background: transparent;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    border-radius: 0;
+  }
+  .tab-btn:hover { background: #eef1f5; color: #333; }
+  .tab-btn.active {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+    font-weight: 600;
+  }
 </style>
 </head>
 <body>
@@ -119,6 +142,11 @@
   <button id="searchBtn">検索</button>
 </div>
 
+<div class="tabs" id="prefTabs">
+  <button class="tab-btn active" data-pref="東京都">東京都</button>
+  <button class="tab-btn" data-pref="神奈川県">神奈川</button>
+</div>
+
 <div class="count" id="count"></div>
 
 <div id="tableWrap"></div>
@@ -130,8 +158,11 @@ const searchBtn = document.getElementById('searchBtn');
 const tableWrap = document.getElementById('tableWrap');
 const countEl = document.getElementById('count');
 const metaEl = document.getElementById('meta');
+const prefTabs = document.getElementById('prefTabs');
 
 let sortState = { key: null, dir: 'asc' }; // key: 排序字段, dir: 'asc' | 'desc'
+let allAreas = []; // [{label, pref}, ...]，从 /api/areas 拿到，用于按 Tab 重新生成下拉框
+let activePref = '東京都'; // Tab 当前选中的都道府県
 
 // 只有这4列允许排序：字段名 -> 表头文字（跟 renderTable 里的 renderHeaderCell 对应）
 // 间取り/家賃/共益費/専有面積 之外的列不加排序功能
@@ -163,13 +194,30 @@ function handleSortClick(key) {
 
 async function loadAreas() {
   const res = await fetch('/api/areas');
-  const areas = await res.json();
-  for (const a of areas) {
+  allAreas = await res.json();
+  populateAreaOptions();
+}
+
+// 根据当前选中的 Tab（activePref）重新生成区域下拉框选项
+function populateAreaOptions() {
+  areaFilter.innerHTML = '<option value="">すべてのエリア</option>';
+  for (const a of allAreas.filter((a) => a.pref === activePref)) {
     const opt = document.createElement('option');
-    opt.value = a;
-    opt.textContent = a;
+    opt.value = a.label;
+    opt.textContent = a.label;
     areaFilter.appendChild(opt);
   }
+}
+
+function switchPref(pref) {
+  if (pref === activePref) return;
+  activePref = pref;
+  areaFilter.value = '';
+  populateAreaOptions();
+  prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
+    btn.classList.toggle('active', btn.dataset.pref === pref);
+  });
+  loadRooms();
 }
 
 function renderLoading(progress) {
@@ -223,7 +271,9 @@ function renderTable(rooms) {
     <table>
       <thead>
         <tr>
-          <th>エリア</th><th>団地名</th><th>住所</th>
+          <th width="10%">エリア</th>
+          <th width="20%">団地名</th>
+          <th>住所</th>
           ${renderHeaderCell('間取り', 'type')}
           ${renderHeaderCell('家賃', 'rent')}
           ${renderHeaderCell('共益費', 'commonfee')}
@@ -242,6 +292,7 @@ function renderTable(rooms) {
 
 async function loadRooms() {
   const params = new URLSearchParams();
+  params.set('pref', activePref);
   if (areaFilter.value) params.set('area', areaFilter.value);
   if (keywordFilter.value.trim()) params.set('keyword', keywordFilter.value.trim());
 
@@ -270,6 +321,9 @@ areaFilter.addEventListener('change', loadRooms);
 searchBtn.addEventListener('click', loadRooms);
 keywordFilter.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') loadRooms();
+});
+prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
+  btn.addEventListener('click', () => switchPref(btn.dataset.pref));
 });
 
 // 页面打开时自动轮询数据；后台抓取进行中时轮询快一点(2秒)，平时慢一点(15秒)

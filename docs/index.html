@@ -86,6 +86,29 @@
     color: #4338ca;
     font-size: 12px;
   }
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .tab-btn {
+    padding: 8px 20px;
+    border: none;
+    background: transparent;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    border-radius: 0;
+  }
+  .tab-btn:hover { background: #eef1f5; color: #333; }
+  .tab-btn.active {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+    font-weight: 600;
+  }
 </style>
 </head>
 <body>
@@ -99,6 +122,11 @@
   </select>
   <input type="text" id="keywordFilter" placeholder="団地名で検索（例：北砂）" />
   <button id="searchBtn">検索</button>
+</div>
+
+<div class="tabs" id="prefTabs">
+  <button class="tab-btn active" data-pref="東京都">東京都</button>
+  <button class="tab-btn" data-pref="神奈川県">神奈川</button>
 </div>
 
 <div class="count" id="count"></div>
@@ -118,9 +146,11 @@ const searchBtn = document.getElementById('searchBtn');
 const tableWrap = document.getElementById('tableWrap');
 const countEl = document.getElementById('count');
 const metaEl = document.getElementById('meta');
+const prefTabs = document.getElementById('prefTabs');
 
 let allRooms = [];
 let sortState = { key: null, dir: 'asc' }; // key: 排序字段, dir: 'asc' | 'desc'
+let activePref = '東京都'; // Tab 当前选中的都道府県
 
 // 只有这4列允许排序：字段名 -> 表头文字
 const SORTABLE_COLUMNS = {
@@ -159,14 +189,27 @@ function handleSortClick(key) {
   applyFilter();
 }
 
-function populateAreaOptions(rooms) {
-  const areas = [...new Set(rooms.map(r => r.area))].sort();
+// 根据当前选中的 Tab（activePref）重新生成区域下拉框选项
+function populateAreaOptions() {
+  areaFilter.innerHTML = '<option value="">すべてのエリア</option>';
+  const areas = [...new Set(allRooms.filter(r => r.pref === activePref).map(r => r.area))].sort();
   for (const a of areas) {
     const opt = document.createElement('option');
     opt.value = a;
     opt.textContent = a;
     areaFilter.appendChild(opt);
   }
+}
+
+function switchPref(pref) {
+  if (pref === activePref) return;
+  activePref = pref;
+  areaFilter.value = '';
+  populateAreaOptions();
+  prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
+    btn.classList.toggle('active', btn.dataset.pref === pref);
+  });
+  applyFilter();
 }
 
 function renderHeaderCell(label, sortKey) {
@@ -201,7 +244,9 @@ function renderTable(rooms) {
     <table>
       <thead>
         <tr>
-          <th>エリア</th><th>団地名</th><th>住所</th>
+          <th width="10%">エリア</th>
+          <th width="20%">団地名</th>
+          <th>住所</th>
           ${renderHeaderCell('間取り', 'type')}
           ${renderHeaderCell('家賃', 'rent')}
           ${renderHeaderCell('共益費', 'commonfee')}
@@ -223,7 +268,7 @@ function applyFilter() {
   const area = areaFilter.value;
   const keyword = keywordFilter.value.trim();
 
-  let filtered = allRooms;
+  let filtered = allRooms.filter(r => r.pref === activePref);
   if (area) filtered = filtered.filter(r => r.area === area);
   if (keyword) filtered = filtered.filter(r => r.danchiNm && r.danchiNm.includes(keyword));
 
@@ -244,7 +289,7 @@ async function init() {
       ? `最終更新: ${new Date(data.lastUpdated).toLocaleString('ja-JP')}（1時間ごとに自動更新）`
       : 'データがまだありません';
 
-    populateAreaOptions(allRooms);
+    populateAreaOptions();
     applyFilter();
   } catch (err) {
     metaEl.textContent = 'データの読み込みに失敗しました';
@@ -256,6 +301,9 @@ areaFilter.addEventListener('change', applyFilter);
 searchBtn.addEventListener('click', applyFilter);
 keywordFilter.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') applyFilter();
+});
+prefTabs.querySelectorAll('.tab-btn').forEach((btn) => {
+  btn.addEventListener('click', () => switchPref(btn.dataset.pref));
 });
 
 init();

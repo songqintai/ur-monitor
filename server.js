@@ -49,16 +49,19 @@ async function refreshCache() {
   }
 }
 
-// 提供区域列表，给前端做筛选下拉框
+// 提供区域列表，给前端做筛选下拉框（附带 pref 方便按都道府県分组）
 app.get('/api/areas', (req, res) => {
-  res.json(AREAS.map((a) => a.label));
+  res.json(AREAS.map((a) => ({ label: a.label, pref: a.pref })));
 });
 
-// 提供房间列表，支持按区域(area)和团地名关键词(keyword)过滤
+// 提供房间列表，支持按都道府県(pref)、区域(area)和团地名关键词(keyword)过滤
 app.get('/api/rooms', (req, res) => {
-  const { area, keyword } = req.query;
+  const { area, keyword, pref } = req.query;
   let rooms = cache.rooms;
 
+  if (pref) {
+    rooms = rooms.filter((r) => r.pref === pref);
+  }
   if (area) {
     rooms = rooms.filter((r) => r.area === area);
   }
