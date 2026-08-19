@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T08:44:03.200Z",
-  "total": 191,
+  "lastUpdated": "2026-08-19T09:40:01.551Z",
+  "total": 193,
   "rooms": [
     {
       "key": "20_569_000020408",
@@ -530,21 +530,38 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1290_room.html?JKSS=003140102"
     },
     {
-      "key": "40_148_000010818",
+      "key": "40_129_001240205",
+      "area": "横浜市磯子区",
+      "pref": "神奈川県",
+      "danchiNm": "洋光台北",
+      "place": "横浜市磯子区洋光台2-1ほか",
+      "traffic": "<li>JR京浜東北・根岸線「洋光台」駅 徒歩8～14分</li><li>横浜市営地下鉄ブルーライン「港南中央」駅バス9～11分 徒歩1～6分</li><li>JR京浜東北・根岸線「港南台」駅 徒歩24～35分</li>",
+      "building": "1-24号棟",
+      "roomNo": "205号室",
+      "rent": "89,400円",
+      "commonfee": "4,300円",
+      "type": "1LDK",
+      "floor": "2階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_129/40_129_0-01-0024_C26x_RA_01_00001_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1290_room.html?JKSS=001240205"
+    },
+    {
+      "key": "40_148_000020708",
       "area": "横浜市磯子区",
       "pref": "神奈川県",
       "danchiNm": "磯子三丁目",
       "place": "横浜市磯子区磯子3-6",
       "traffic": "<li>JR京浜東北・根岸線「磯子」駅 徒歩4～5分</li><li>JR京浜東北・根岸線「根岸」駅バス8分 徒歩2分</li><li>京急本線「屏風浦」駅バス7分 徒歩1分</li>",
-      "building": "1号棟",
-      "roomNo": "818号室",
-      "rent": "87,500円",
+      "building": "2号棟",
+      "roomNo": "708号室",
+      "rent": "93,300円",
       "commonfee": "2,600円",
-      "type": "2DK",
-      "floor": "8階",
+      "type": "1LDK",
+      "floor": "7階",
       "floorspace": "44㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40148/0000001/C3cf/RA/Image/40_148_0-00-0001_C3cf_RA_01_00051.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1480_room.html?JKSS=000010818"
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_148/40_148_0-00-0002_B1a2_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1480_room.html?JKSS=000020708"
     },
     {
       "key": "40_148_000011104",
@@ -2483,6 +2500,23 @@
       "floorspace": "47㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_181/30_181_0-16-0009_3Bt_RA_01_00010_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=016009505"
+    },
+    {
+      "key": "30_239_202050501",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-2-5号棟",
+      "roomNo": "501号室",
+      "rent": "57,100円",
+      "commonfee": "2,900円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2020005/2Es/RA/Image/30_239_2-02-0005_2Es_RA_01_00009.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=202050501"
     },
     {
       "key": "30_239_208090407",
