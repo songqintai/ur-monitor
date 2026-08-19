@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T04:42:58.757Z",
-  "total": 194,
+  "lastUpdated": "2026-08-19T06:53:34.722Z",
+  "total": 192,
   "rooms": [
     {
       "key": "20_569_000020408",
@@ -477,23 +477,6 @@
       "floorspace": "62㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40331/0000003/G/RA/Image/40_331_0-00-0003_G_RA_01_00015.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3310_room.html?JKSS=000031101"
-    },
-    {
-      "key": "40_163_002010518",
-      "area": "横浜市南区",
-      "pref": "神奈川県",
-      "danchiNm": "南永田",
-      "place": "横浜市南区永田みなみ台2",
-      "traffic": "<li>京急本線「弘明寺」駅バス8～10分 徒歩1～4分</li><li>京急本線「井土ヶ谷」駅 徒歩19～25分</li><li>JR横須賀線「保土ケ谷」駅バス3分 徒歩14～18分</li>",
-      "building": "2-1号棟",
-      "roomNo": "518号室",
-      "rent": "48,000円",
-      "commonfee": "3,700円",
-      "type": "1DK",
-      "floor": "5階",
-      "floorspace": "32㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_163/40_163_0-02-0001_A1bf_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1630_room.html?JKSS=002010518"
     },
     {
       "key": "40_142_000102101",
@@ -2704,23 +2687,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30060/00E0055/3Ax/RA/Image/30_060_0-0E-0055_3Ax_RA_01_00010.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_0600_room.html?JKSS=000E55403"
-    },
-    {
-      "key": "30_359_000020202",
-      "area": "松戸市",
-      "pref": "千葉県",
-      "danchiNm": "常盤平セントラルハイツ",
-      "place": "松戸市常盤平3-27-2",
-      "traffic": "<li>京成松戸線「常盤平」駅 徒歩10～11分</li><li>京成松戸線「五香」駅 徒歩16分</li><li>JR武蔵野線「新八柱」駅 徒歩26～27分</li>",
-      "building": "2号棟",
-      "roomNo": "202号室",
-      "rent": "93,700円",
-      "commonfee": "4,200円",
-      "type": "3DK",
-      "floor": "2階",
-      "floorspace": "64㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30359/0000002/B9f/RA/Image/30_359_0-00-0002_B9f_RA_01_00021.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3590_room.html?JKSS=000020202"
     },
     {
       "key": "30_498_000010601",
