@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T06:53:34.722Z",
-  "total": 192,
+  "lastUpdated": "2026-08-19T07:44:08.622Z",
+  "total": 191,
   "rooms": [
     {
       "key": "20_569_000020408",
@@ -2568,23 +2568,6 @@
       "floorspace": "76㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_560/30_560_0-00-0005_R9y_RA_01_00009_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5600_room.html?JKSS=000051001"
-    },
-    {
-      "key": "30_336_000020102",
-      "area": "市川市",
-      "pref": "千葉県",
-      "danchiNm": "ハイタウン塩浜",
-      "place": "市川市塩浜4-2ほか",
-      "traffic": "<li>東京メトロ東西線「南行徳」駅バス5分 徒歩1～6分</li><li>東京メトロ東西線「浦安」駅 徒歩28～33分</li><li>JR京葉線「新浦安」駅バス8分 徒歩1～6分</li>",
-      "building": "2号棟",
-      "roomNo": "102号室",
-      "rent": "72,100円",
-      "commonfee": "3,200円",
-      "type": "1K",
-      "floor": "1階",
-      "floorspace": "33㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30336/0000002/Ar/RA/Image/30_336_0-00-0002_Ar_RA_01_00010.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3360_room.html?JKSS=000020102"
     },
     {
       "key": "30_211_103007103",
