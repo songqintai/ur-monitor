@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-20T14:41:56.645Z",
-  "total": 169,
+  "lastUpdated": "2026-08-20T16:41:16.697Z",
+  "total": 168,
   "rooms": [
     {
       "key": "20_714_000002301",
@@ -2296,23 +2296,6 @@
       "floorspace": "49㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_588/30_588_0-00-0003_Fm_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5880_room.html?JKSS=000030309"
-    },
-    {
-      "key": "30_259_000100507",
-      "area": "松戸市",
-      "pref": "千葉県",
-      "danchiNm": "梨香台",
-      "place": "松戸市高塚新田512-10ほか",
-      "traffic": "<li>北総線「秋山」駅 徒歩14～19分 又はバス3分 徒歩1～3分</li><li>JR武蔵野線「市川大野」駅 徒歩30～34分</li><li>JR常磐線「松戸」駅バス23分 徒歩1～3分</li>",
-      "building": "10号棟",
-      "roomNo": "507号室",
-      "rent": "57,400円",
-      "commonfee": "6,700円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_259/30_259_0-00-0010_2Cp_RA_01_00011_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2590_room.html?JKSS=000100507"
     },
     {
       "key": "30_527_000040206",
