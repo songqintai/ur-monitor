@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T10:36:11.010Z",
+  "lastUpdated": "2026-08-21T12:58:26.302Z",
   "total": 169,
   "rooms": [
     {
@@ -1669,6 +1669,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3660_room.html?JKSS=000021405"
     },
     {
+      "key": "40_398_000010407",
+      "area": "鎌倉市",
+      "pref": "神奈川県",
+      "danchiNm": "レーベンスガルテン山崎",
+      "place": "鎌倉市山崎1390",
+      "traffic": "<li>湘南モノレ－ル「富士見町」駅 徒歩6～9分</li><li>JR東海道本線「大船」駅 徒歩18～20分</li><li>湘南モノレ－ル「湘南町屋」駅 徒歩14～16分</li>",
+      "building": "1号棟",
+      "roomNo": "407号室",
+      "rent": "164,500円",
+      "commonfee": "4,400円",
+      "type": "4LDK",
+      "floor": "4階",
+      "floorspace": "91㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40398/0000001/P/RA/Image/40_398_0-00-0001_P_RA_01_00007.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3980_room.html?JKSS=000010407"
+    },
+    {
       "key": "40_104_000211506",
       "area": "藤沢市",
       "pref": "神奈川県",
@@ -2806,23 +2823,6 @@
       "floorspace": "74㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_437/30_437_2-02-0004_Ok_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4370_room.html?JKSS=202040305"
-    },
-    {
-      "key": "30_358_206070502",
-      "area": "印西市",
-      "pref": "千葉県",
-      "danchiNm": "千葉ニュータウン内野",
-      "place": "印西市内野2-5ほか",
-      "traffic": "<li>北総鉄道「千葉ニュータウン中央」駅バス3分 徒歩2～6分</li><li>北総鉄道「印西牧の原」駅 徒歩55～60分</li><li>北総鉄道「小室」駅 徒歩94～98分</li>",
-      "building": "2-6-7号棟",
-      "roomNo": "502号室",
-      "rent": "81,800円",
-      "commonfee": "6,500円",
-      "type": "4LDK",
-      "floor": "5階",
-      "floorspace": "107㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_358/30_358_2-06-0007_V_RA_01_00012_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3580_room.html?JKSS=206070502"
     },
     {
       "key": "30_358_206070504",
