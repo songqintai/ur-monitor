@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-22T11:26:13.193Z",
-  "total": 175,
+  "lastUpdated": "2026-08-22T12:49:40.915Z",
+  "total": 178,
   "rooms": [
     {
       "key": "20_569_000021416",
@@ -921,6 +921,40 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1410_room.html?JKSS=000080406"
     },
     {
+      "key": "40_141_000030212",
+      "area": "横浜市青葉区",
+      "pref": "神奈川県",
+      "danchiNm": "奈良北",
+      "place": "横浜市青葉区奈良町2913",
+      "traffic": "<li>小田急小田原線「鶴川」駅バス13分 徒歩2～7分</li><li>小田急小田原線「玉川学園前」駅 徒歩15～21分</li><li>東急田園都市線「青葉台」駅バス16～17分 徒歩1～7分</li>",
+      "building": "3号棟",
+      "roomNo": "212号室",
+      "rent": "84,200円",
+      "commonfee": "2,900円",
+      "type": "3DK",
+      "floor": "2階",
+      "floorspace": "54㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_141/40_141_0-00-0003_E1cx_RA_01_00017_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1410_room.html?JKSS=000030212"
+    },
+    {
+      "key": "40_141_000070824",
+      "area": "横浜市青葉区",
+      "pref": "神奈川県",
+      "danchiNm": "奈良北",
+      "place": "横浜市青葉区奈良町2913",
+      "traffic": "<li>小田急小田原線「鶴川」駅バス13分 徒歩2～7分</li><li>小田急小田原線「玉川学園前」駅 徒歩15～21分</li><li>東急田園都市線「青葉台」駅バス16～17分 徒歩1～7分</li>",
+      "building": "7号棟",
+      "roomNo": "824号室",
+      "rent": "86,100円",
+      "commonfee": "2,900円",
+      "type": "2LDK",
+      "floor": "8階",
+      "floorspace": "54㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_141/40_141_0-00-0007_D1cx_RA_01_00011_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1410_room.html?JKSS=000070824"
+    },
+    {
       "key": "40_141_000070812",
       "area": "横浜市青葉区",
       "pref": "神奈川県",
@@ -1106,6 +1140,23 @@
       "floorspace": "61㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_322/40_322_0-00-0000_Df_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3220_room.html?JKSS=000000401"
+    },
+    {
+      "key": "40_322_000000306",
+      "area": "川崎市宮前区",
+      "pref": "神奈川県",
+      "danchiNm": "アーバンハイツ菅生ヶ丘",
+      "place": "川崎市宮前区菅生ケ丘34-1ほか",
+      "traffic": "<li>小田急小田原線「生田」駅バス11分 徒歩4分</li><li>東急田園都市線「溝の口」駅バス21分 徒歩4分</li>",
+      "building": "",
+      "roomNo": "306号室",
+      "rent": "115,300円",
+      "commonfee": "7,400円",
+      "type": "3DK",
+      "floor": "3階",
+      "floorspace": "76㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_322/40_322_0-00-0000_Jf_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3220_room.html?JKSS=000000306"
     },
     {
       "key": "40_370_000030201",
