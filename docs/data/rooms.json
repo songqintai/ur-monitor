@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-22T12:49:40.915Z",
-  "total": 178,
+  "lastUpdated": "2026-08-22T13:36:54.241Z",
+  "total": 179,
   "rooms": [
     {
       "key": "20_569_000021416",
@@ -2347,6 +2347,23 @@
       "floorspace": "40㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30181/0110025/2Ap/RA/Image/30_181_0-11-0025_2Ap_RA_01_00006.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=011025107"
+    },
+    {
+      "key": "30_239_202050501",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-2-5号棟",
+      "roomNo": "501号室",
+      "rent": "57,100円",
+      "commonfee": "2,900円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2020005/2Es/RA/Image/30_239_2-02-0005_2Es_RA_01_00009.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=202050501"
     },
     {
       "key": "30_239_201020406",
