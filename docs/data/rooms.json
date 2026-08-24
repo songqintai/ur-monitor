@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T13:00:50.643Z",
-  "total": 145,
+  "lastUpdated": "2026-08-24T13:58:49.034Z",
+  "total": 144,
   "rooms": [
     {
       "key": "20_186_000011208",
@@ -1905,23 +1905,6 @@
       "floorspace": "56㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2030005/3Es/RA/Image/30_239_2-03-0005_3Es_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=203050403"
-    },
-    {
-      "key": "30_265_004020714",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第二",
-      "place": "千葉市美浜区高洲4ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩3～7分</li><li>JR総武線「稲毛」駅バス20分 徒歩5～11分</li><li>京成千葉線「京成稲毛」駅 徒歩14～19分</li><li>JR京葉線「検見川浜」駅 徒歩18～21分</li>",
-      "building": "4-2号棟",
-      "roomNo": "714号室",
-      "rent": "74,200円",
-      "commonfee": "2,220円",
-      "type": "2DK",
-      "floor": "7階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_265/30_265_0-04-0002_2B1_RA_01_00012_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2650_room.html?JKSS=004020714"
     },
     {
       "key": "30_542_000020309",
