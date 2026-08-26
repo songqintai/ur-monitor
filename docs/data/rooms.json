@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T03:11:38.075Z",
-  "total": 159,
+  "lastUpdated": "2026-08-26T04:46:23.327Z",
+  "total": 158,
   "rooms": [
     {
       "key": "20_582_000070910",
@@ -477,6 +477,23 @@
       "floorspace": "47㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_129/40_129_0-03-0007_C3cx_RA_01_00007_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1290_room.html?JKSS=003070406"
+    },
+    {
+      "key": "40_129_001240205",
+      "area": "横浜市磯子区",
+      "pref": "神奈川県",
+      "danchiNm": "洋光台北",
+      "place": "横浜市磯子区洋光台2-1ほか",
+      "traffic": "<li>JR京浜東北・根岸線「洋光台」駅 徒歩8～14分</li><li>横浜市営地下鉄ブルーライン「港南中央」駅バス9～11分 徒歩1～6分</li><li>JR京浜東北・根岸線「港南台」駅 徒歩24～35分</li>",
+      "building": "1-24号棟",
+      "roomNo": "205号室",
+      "rent": "89,400円",
+      "commonfee": "4,300円",
+      "type": "1LDK",
+      "floor": "2階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_129/40_129_0-01-0024_C26x_RA_01_00001_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1290_room.html?JKSS=001240205"
     },
     {
       "key": "40_129_001250301",
@@ -2177,40 +2194,6 @@
       "floorspace": "32㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/3010001/102u/RA/Image/30_239_3-01-0001_102u_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=301010805"
-    },
-    {
-      "key": "30_239_202050501",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-2-5号棟",
-      "roomNo": "501号室",
-      "rent": "57,100円",
-      "commonfee": "2,900円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "47㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2020005/2Es/RA/Image/30_239_2-02-0005_2Es_RA_01_00009.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=202050501"
-    },
-    {
-      "key": "30_263_000050603",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第二",
-      "place": "千葉市美浜区真砂3-13",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩8～9分</li><li>JR総武線「新検見川」駅バス7分 徒歩7～11分</li><li>JR京葉線「稲毛海岸」駅 徒歩16～20分</li>",
-      "building": "5号棟",
-      "roomNo": "603号室",
-      "rent": "70,800円",
-      "commonfee": "3,800円",
-      "type": "1LDK",
-      "floor": "6階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_263/30_263_0-00-0005_B1c_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2630_room.html?JKSS=000050603"
     },
     {
       "key": "30_542_000020309",
