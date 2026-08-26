@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T04:46:23.327Z",
-  "total": 158,
+  "lastUpdated": "2026-08-26T05:39:47.641Z",
+  "total": 159,
   "rooms": [
     {
       "key": "20_582_000070910",
@@ -2179,21 +2179,38 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=016015307"
     },
     {
-      "key": "30_239_301010805",
+      "key": "30_239_208080916",
       "area": "千葉市美浜区",
       "pref": "千葉県",
       "danchiNm": "高洲第一",
       "place": "千葉市美浜区高洲2ほか",
       "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "3-1-1号棟",
-      "roomNo": "805号室",
-      "rent": "56,100円",
+      "building": "2-8-8号棟",
+      "roomNo": "916号室",
+      "rent": "53,900円",
       "commonfee": "3,900円",
       "type": "1K",
-      "floor": "8階",
+      "floor": "9階",
       "floorspace": "32㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/3010001/102u/RA/Image/30_239_3-01-0001_102u_RA_01_00009.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=301010805"
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2080008/101m/RA/Image/30_239_2-08-0008_101m_RA_01_00034.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=208080916"
+    },
+    {
+      "key": "30_239_201020406",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-1-2号棟",
+      "roomNo": "406号室",
+      "rent": "63,200円",
+      "commonfee": "2,900円",
+      "type": "3K",
+      "floor": "4階",
+      "floorspace": "50㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2010002/3Cf/RA/Image/30_239_2-01-0002_3Cf_RA_01_00011.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=201020406"
     },
     {
       "key": "30_542_000020309",
