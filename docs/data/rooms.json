@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T14:19:32.538Z",
+  "lastUpdated": "2026-08-29T18:16:59.572Z",
   "total": 351,
   "rooms": [
     {
@@ -1873,21 +1873,21 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2900_room.html?JKSS=304040303"
     },
     {
-      "key": "30_181_016009505",
+      "key": "30_181_011019403",
       "area": "千葉市美浜区",
       "pref": "千葉県",
       "danchiNm": "千葉幸町",
       "place": "千葉市美浜区幸町2",
       "traffic": "<li>京成千葉線「みどり台」駅 徒歩11～20分</li><li>JR京葉線「稲毛海岸」駅 徒歩19～23分</li><li>JR総武線「稲毛」駅 徒歩22～26分</li><li>京成千葉線「京成稲毛」駅 徒歩21～28分</li><li>JR総武線「西千葉」駅 徒歩14～26分</li><li>京成千葉線「西登戸」駅 徒歩10～24分</li>",
-      "building": "16-9号棟",
-      "roomNo": "505号室",
-      "rent": "50,200円",
+      "building": "11-19号棟",
+      "roomNo": "403号室",
+      "rent": "46,600円",
       "commonfee": "3,100円",
-      "type": "3K",
-      "floor": "5階",
-      "floorspace": "47㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_181/30_181_0-16-0009_3Bt_RA_01_00010_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=016009505"
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "40㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_181/30_181_0-11-0019_2Ap_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=011019403"
     },
     {
       "key": "30_181_011014406",
