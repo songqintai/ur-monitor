@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-02T03:54:33.651Z",
-  "total": 373,
+  "lastUpdated": "2026-09-02T08:41:15.099Z",
+  "total": 371,
   "rooms": [
     {
       "key": "20_402_000000406",
@@ -273,23 +273,6 @@
       "floorspace": "52㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20448/0000014/Cf/RA/Image/20_448_0-00-0014_Cf_RA_01_00006.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4481_room.html?JKSS=000140405"
-    },
-    {
-      "key": "20_165_000021213",
-      "area": "葛飾区",
-      "pref": "東京都",
-      "danchiNm": "金町駅前",
-      "place": "葛飾区東金町1-36",
-      "traffic": "<li>JR常磐線「金町」駅 徒歩3～5分</li><li>京成金町線「京成金町」駅 徒歩4～7分</li>",
-      "building": "2号棟",
-      "roomNo": "1213号室",
-      "rent": "95,800円",
-      "commonfee": "3,500円",
-      "type": "2DK",
-      "floor": "12階",
-      "floorspace": "46㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20165/0000002/2D/RA/Image/20_165_0-00-0002_2D_RA_01_00013.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1650_room.html?JKSS=000021213"
     },
     {
       "key": "20_295_000010329",
@@ -664,57 +647,6 @@
       "floorspace": "50㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40361/0000003/B/RA/Image/40_361_0-00-0003_B_RA_01_00012.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3610_room.html?JKSS=000030603"
-    },
-    {
-      "key": "40_166_000031105",
-      "area": "横浜市港南区",
-      "pref": "神奈川県",
-      "danchiNm": "港南台ちどり",
-      "place": "横浜市港南区港南台2-2",
-      "traffic": "<li>JR京浜東北・根岸線「港南台」駅 徒歩11～15分</li><li>横浜市営地下鉄ブルーライン「上永谷」駅バス16分 徒歩4～8分</li><li>横浜市営地下鉄ブルーライン「港南中央」駅バス20分 徒歩9～12分</li>",
-      "building": "3号棟",
-      "roomNo": "1105号室",
-      "rent": "84,100円",
-      "commonfee": "3,600円",
-      "type": "1LDK",
-      "floor": "11階",
-      "floorspace": "49㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40166/0000003/B1c3/RA/Image/40_166_0-00-0003_B1c3_RA_01_00011.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1660_room.html?JKSS=000031105"
-    },
-    {
-      "key": "40_172_000140207",
-      "area": "横浜市港南区",
-      "pref": "神奈川県",
-      "danchiNm": "港南台かもめ",
-      "place": "横浜市港南区港南台2-1",
-      "traffic": "<li>JR京浜東北・根岸線「港南台」駅 徒歩11～15分</li><li>横浜市営地下鉄ブルーライン「上永谷」駅バス18分 徒歩3～8分</li><li>JR京浜東北・根岸線「洋光台」駅バス3分 徒歩6～11分</li>",
-      "building": "14号棟",
-      "roomNo": "207号室",
-      "rent": "89,800円",
-      "commonfee": "4,700円",
-      "type": "2DK",
-      "floor": "2階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_172/40_172_0-00-0014_C3c_RA_01_00003_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1720_room.html?JKSS=000140207"
-    },
-    {
-      "key": "40_172_000100604",
-      "area": "横浜市港南区",
-      "pref": "神奈川県",
-      "danchiNm": "港南台かもめ",
-      "place": "横浜市港南区港南台2-1",
-      "traffic": "<li>JR京浜東北・根岸線「港南台」駅 徒歩11～15分</li><li>横浜市営地下鉄ブルーライン「上永谷」駅バス18分 徒歩3～8分</li><li>JR京浜東北・根岸線「洋光台」駅バス3分 徒歩6～11分</li>",
-      "building": "10号棟",
-      "roomNo": "604号室",
-      "rent": "95,400円",
-      "commonfee": "4,700円",
-      "type": "1LDK",
-      "floor": "6階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_172/40_172_0-00-0010_B3a_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1720_room.html?JKSS=000100604"
     },
     {
       "key": "40_118_000122404",
@@ -2211,6 +2143,23 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040015/2As/RA/Image/30_239_2-04-0015_2As_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204150503"
+    },
+    {
+      "key": "30_239_202050501",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-2-5号棟",
+      "roomNo": "501号室",
+      "rent": "57,100円",
+      "commonfee": "2,900円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2020005/2Es/RA/Image/30_239_2-02-0005_2Es_RA_01_00009.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=202050501"
     },
     {
       "key": "30_239_203090503",
@@ -3792,6 +3741,23 @@
       "floorspace": "52㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20651/0030003/Cm/RA/Image/20_651_0-03-0003_Cm_RA_01_00004.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6510_room.html?JKSS=003030803"
+    },
+    {
+      "key": "20_651_002050401",
+      "area": "日野市",
+      "pref": "市部",
+      "danchiNm": "多摩平の森",
+      "place": "日野市多摩平4-6ほか",
+      "traffic": "<li>JR中央線「豊田」駅 徒歩7～15分</li><li>JR中央線「日野」駅 徒歩24～33分</li><li>京王線「南平」駅 徒歩25～32分</li>",
+      "building": "2-5号棟",
+      "roomNo": "401号室",
+      "rent": "150,500円",
+      "commonfee": "4,000円",
+      "type": "3LDK",
+      "floor": "4階",
+      "floorspace": "72㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20651/0020005/3Dv/RA/Image/20_651_0-02-0005_3Dv_RA_01_00005.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6510_room.html?JKSS=002050401"
     },
     {
       "key": "20_651_002100104",
