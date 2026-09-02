@@ -1,24 +1,7 @@
 {
-  "lastUpdated": "2026-09-02T08:41:15.099Z",
+  "lastUpdated": "2026-09-02T13:30:03.167Z",
   "total": 371,
   "rooms": [
-    {
-      "key": "20_402_000000406",
-      "area": "新宿区",
-      "pref": "東京都",
-      "danchiNm": "エステート北新宿",
-      "place": "新宿区北新宿3-27-3",
-      "traffic": "<li>JR総武線ほか｢東中野｣駅 徒歩7分</li>",
-      "building": "",
-      "roomNo": "406号室",
-      "rent": "191,900円",
-      "commonfee": "7,000円",
-      "type": "3DK",
-      "floor": "4階",
-      "floorspace": "63㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_402/20_402_0-00-0000_L_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4020_room.html?JKSS=000000406"
-    },
     {
       "key": "20_631_000001311",
       "area": "文京区",
@@ -69,6 +52,23 @@
       "floorspace": "49㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20255/0000001/B1Ri/RA/Image/20_255_0-00-0001_B1Ri_RA_01_00011.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2550_room.html?JKSS=000010712"
+    },
+    {
+      "key": "20_178_000060618",
+      "area": "江東区",
+      "pref": "東京都",
+      "danchiNm": "大島四丁目",
+      "place": "江東区大島4-1",
+      "traffic": "<li>都営新宿線「西大島」駅 徒歩5～10分</li><li>JR総武線・東武亀戸線「亀戸」駅バス4～6分 徒歩2～6分</li><li>都営新宿線「大島」駅 徒歩7～12分</li>",
+      "building": "6号棟",
+      "roomNo": "618号室",
+      "rent": "76,500円",
+      "commonfee": "3,900円",
+      "type": "2DK",
+      "floor": "6階",
+      "floorspace": "43㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_178/20_178_0-00-0006_C4cm_RA_01_00008_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1780_room.html?JKSS=000060618"
     },
     {
       "key": "20_645_000000509",
@@ -4644,6 +4644,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1820_room.html?JKSS=000040258"
     },
     {
+      "key": "50_182_000120201",
+      "area": "川口市",
+      "pref": "埼玉県",
+      "danchiNm": "川口芝園",
+      "place": "川口市芝園町3",
+      "traffic": "<li>JR京浜東北・根岸線「蕨」駅 徒歩10～15分</li><li>JR埼京線「戸田」駅 徒歩27～32分</li><li>JR武蔵野線「南浦和」駅 徒歩28～34分</li>",
+      "building": "12号棟",
+      "roomNo": "201号室",
+      "rent": "131,800円",
+      "commonfee": "4,100円",
+      "type": "2LDK",
+      "floor": "2階",
+      "floorspace": "71㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_182/50_182_0-00-0012_3D1y_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1820_room.html?JKSS=000120201"
+    },
+    {
       "key": "50_222_000000409",
       "area": "川口市",
       "pref": "埼玉県",
@@ -6240,23 +6257,6 @@
       "floorspace": "49㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50377/0000026/Gtc/RA/Image/50_377_0-00-0026_Gtc_RA_01_00011.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_3770_room.html?JKSS=000260205"
-    },
-    {
-      "key": "50_377_000121201",
-      "area": "ふじみ野市",
-      "pref": "埼玉県",
-      "danchiNm": "コンフォール霞ヶ丘",
-      "place": "ふじみ野市霞ヶ丘1-4ほか",
-      "traffic": "<li>東武東上線「上福岡」駅 徒歩2～8分</li><li>東武東上線「ふじみ野」駅 徒歩28～34分</li><li>東武東上線「新河岸」駅 徒歩27～32分</li>",
-      "building": "12号棟",
-      "roomNo": "1201号室",
-      "rent": "136,200円",
-      "commonfee": "4,800円",
-      "type": "4DK",
-      "floor": "12階",
-      "floorspace": "76㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_377/50_377_0-00-0012_Wm_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_3770_room.html?JKSS=000121201"
     },
     {
       "key": "50_403_000070403",
