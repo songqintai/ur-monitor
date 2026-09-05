@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-05T10:20:57.813Z",
-  "total": 351,
+  "lastUpdated": "2026-09-05T13:49:41.484Z",
+  "total": 356,
   "rooms": [
     {
       "key": "20_282_000100612",
@@ -18,6 +18,23 @@
       "floorspace": "46㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_282/20_282_0-00-0010_2Af_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2820_room.html?JKSS=000100612"
+    },
+    {
+      "key": "20_196_000300504",
+      "area": "大田区",
+      "pref": "東京都",
+      "danchiNm": "南六郷二丁目",
+      "place": "大田区南六郷2-35",
+      "traffic": "<li>京急本線「雑色」駅 徒歩13～14分</li>",
+      "building": "3号棟",
+      "roomNo": "504号室",
+      "rent": "112,900円",
+      "commonfee": "3,800円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "51㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20196/0000003/102f/RA/Image/20_196_0-00-0003_102f_RA_01_00012.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1960_room.html?JKSS=000300504"
     },
     {
       "key": "20_234_626030606",
@@ -69,6 +86,23 @@
       "floorspace": "62㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20465/0000000/C/RA/Image/20_465_0-00-0000_C_RA_01_00007.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4650_room.html?JKSS=000000306"
+    },
+    {
+      "key": "20_525_000020404",
+      "area": "練馬区",
+      "pref": "東京都",
+      "danchiNm": "パークサイド石神井",
+      "place": "練馬区石神井台3-26 ほか",
+      "traffic": "<li>西武池袋線「大泉学園」駅 徒歩15～19分</li><li>西武池袋線「大泉学園」駅バス4分 徒歩6～9分</li><li>西武池袋線「石神井公園」駅 徒歩18～21分</li>",
+      "building": "2号棟",
+      "roomNo": "404号室",
+      "rent": "155,500円",
+      "commonfee": "9,900円",
+      "type": "3LDK",
+      "floor": "4階",
+      "floorspace": "66㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20525/0000002/R/RA/Image/20_525_0-00-0002_R_RA_01_00008.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000020404"
     },
     {
       "key": "20_137_000130502",
@@ -989,6 +1023,40 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2410_room.html?JKSS=000040505"
     },
     {
+      "key": "40_265_000030102",
+      "area": "川崎市多摩区",
+      "pref": "神奈川県",
+      "danchiNm": "星が丘パークランド　ほおじろ台",
+      "place": "川崎市多摩区菅北浦4-15",
+      "traffic": "<li>京王相模原線「京王稲田堤」駅 徒歩12～13分</li><li>JR南武線「稲田堤」駅 徒歩14～15分</li><li>小田急小田原線「読売ランド前」駅バス10分 徒歩3分</li>",
+      "building": "3号棟",
+      "roomNo": "102号室",
+      "rent": "119,700円",
+      "commonfee": "4,200円",
+      "type": "3DK",
+      "floor": "1階",
+      "floorspace": "65㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_265/40_265_0-00-0003_Cf_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2650_room.html?JKSS=000030102"
+    },
+    {
+      "key": "40_322_000000103",
+      "area": "川崎市宮前区",
+      "pref": "神奈川県",
+      "danchiNm": "アーバンハイツ菅生ヶ丘",
+      "place": "川崎市宮前区菅生ケ丘34-1ほか",
+      "traffic": "<li>小田急小田原線「生田」駅バス11分 徒歩4分</li><li>東急田園都市線「溝の口」駅バス21分 徒歩4分</li>",
+      "building": "",
+      "roomNo": "103号室",
+      "rent": "95,900円",
+      "commonfee": "7,400円",
+      "type": "2LDK",
+      "floor": "1階",
+      "floorspace": "68㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_322/40_322_0-00-0000_Ff_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3220_room.html?JKSS=000000103"
+    },
+    {
       "key": "40_322_000000401",
       "area": "川崎市宮前区",
       "pref": "神奈川県",
@@ -1089,6 +1157,40 @@
       "floorspace": "56㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40171/0030017/C8ib/RA/Image/40_171_0-03-0017_C8ib_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1710_room.html?JKSS=003170901"
+    },
+    {
+      "key": "40_350_000170306",
+      "area": "川崎市麻生区",
+      "pref": "神奈川県",
+      "danchiNm": "サンラフレ百合ヶ丘",
+      "place": "川崎市麻生区百合丘1-16ほか",
+      "traffic": "<li>小田急小田原線「百合ヶ丘」駅 徒歩3～10分</li><li>小田急小田原線「新百合ヶ丘」駅 徒歩10～17分</li><li>東急田園都市線「あざみ野」駅バス41分 徒歩2～5分</li>",
+      "building": "17号棟",
+      "roomNo": "306号室",
+      "rent": "141,800円",
+      "commonfee": "4,400円",
+      "type": "2DK",
+      "floor": "3階",
+      "floorspace": "52㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_350/40_350_0-00-0017_K_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3500_room.html?JKSS=000170306"
+    },
+    {
+      "key": "40_350_000110303",
+      "area": "川崎市麻生区",
+      "pref": "神奈川県",
+      "danchiNm": "サンラフレ百合ヶ丘",
+      "place": "川崎市麻生区百合丘1-16ほか",
+      "traffic": "<li>小田急小田原線「百合ヶ丘」駅 徒歩3～10分</li><li>小田急小田原線「新百合ヶ丘」駅 徒歩10～17分</li><li>東急田園都市線「あざみ野」駅バス41分 徒歩2～5分</li>",
+      "building": "11号棟",
+      "roomNo": "303号室",
+      "rent": "184,900円",
+      "commonfee": "4,400円",
+      "type": "3LDK",
+      "floor": "3階",
+      "floorspace": "74㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_350/40_350_0-00-0011_Bf_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3500_room.html?JKSS=000110303"
     },
     {
       "key": "40_184_000110108",
@@ -1973,23 +2075,6 @@
       "floorspace": "56㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2030004/3Es/RA/Image/30_239_2-03-0004_3Es_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=203040405"
-    },
-    {
-      "key": "30_258_404111002",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第一",
-      "place": "千葉市美浜区真砂4ほか",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩5～12分</li><li>JR総武線「新検見川」駅バス6分 徒歩2～7分</li><li>京成千葉線「検見川」駅 徒歩20～28分</li>",
-      "building": "4-4-11号棟",
-      "roomNo": "1002号室",
-      "rent": "61,400円",
-      "commonfee": "2,850円",
-      "type": "1DK",
-      "floor": "10階",
-      "floorspace": "33㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30258/4040011/A2cm/RA/Image/30_258_4-04-0011_A2cm_RA_01_00011.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2580_room.html?JKSS=404111002"
     },
     {
       "key": "30_560_000050704",
