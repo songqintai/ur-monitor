@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T04:04:37.483Z",
+  "lastUpdated": "2026-09-09T09:31:32.588Z",
   "total": 324,
   "rooms": [
     {
@@ -3403,6 +3403,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1630_room.html?JKSS=000410505"
     },
     {
+      "key": "20_163_000114105",
+      "area": "町田市",
+      "pref": "市部",
+      "danchiNm": "鶴川",
+      "place": "町田市鶴川5ほか",
+      "traffic": "<li>小田急小田原線「鶴川」駅バス5分 徒歩1～11分</li><li>小田急多摩線「黒川」駅バス13分 徒歩1～11分</li><li>京王相模原線「京王多摩センター」駅バス24分 徒歩7～14分</li>",
+      "building": "1-14号棟",
+      "roomNo": "105号室",
+      "rent": "60,600円",
+      "commonfee": "3,700円",
+      "type": "2DK",
+      "floor": "1階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20163/0010014/C3cf/RA/Image/20_163_0-01-0014_C3cf_RA_01_00007.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1630_room.html?JKSS=000114105"
+    },
+    {
       "key": "20_163_000203402",
       "area": "町田市",
       "pref": "市部",
@@ -3418,23 +3435,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_163/20_163_0-02-0003_E1cf_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1630_room.html?JKSS=000203402"
-    },
-    {
-      "key": "20_163_000101507",
-      "area": "町田市",
-      "pref": "市部",
-      "danchiNm": "鶴川",
-      "place": "町田市鶴川5ほか",
-      "traffic": "<li>小田急小田原線「鶴川」駅バス5分 徒歩1～11分</li><li>小田急多摩線「黒川」駅バス13分 徒歩1～11分</li><li>京王相模原線「京王多摩センター」駅バス24分 徒歩7～14分</li>",
-      "building": "1-1号棟",
-      "roomNo": "507号室",
-      "rent": "63,900円",
-      "commonfee": "3,700円",
-      "type": "3DK",
-      "floor": "5階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_163/20_163_0-01-0001_E6cf_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1630_room.html?JKSS=000101507"
     },
     {
       "key": "20_360_000110404",
@@ -3637,7 +3637,7 @@
       "type": "2DK",
       "floor": "3階",
       "floorspace": "50㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20688/0000003/Gw/RA/Image/20_688_0-00-0003_Gw_RA_01_00006.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp/",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6880_room.html?JKSS=000030303"
     },
     {
