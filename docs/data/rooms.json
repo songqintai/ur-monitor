@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:48:18.403Z",
+  "lastUpdated": "2026-09-12T16:09:57.091Z",
   "total": 356,
   "rooms": [
     {
@@ -1210,6 +1210,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3220_room.html?JKSS=000000306"
     },
     {
+      "key": "40_370_000030201",
+      "area": "川崎市宮前区",
+      "pref": "神奈川県",
+      "danchiNm": "コンフォール生田菅生ヶ丘",
+      "place": "川崎市宮前区菅生ケ丘24",
+      "traffic": "<li>小田急小田原線「生田」駅バス11分 徒歩6～7分</li><li>東急田園都市線「溝の口」駅バス21分 徒歩3～4分</li><li>東急田園都市線「たまプラーザ」駅バス9分 徒歩7～8分</li>",
+      "building": "3号棟",
+      "roomNo": "201号室",
+      "rent": "145,300円",
+      "commonfee": "10,800円",
+      "type": "4LDK",
+      "floor": "2階",
+      "floorspace": "92㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_370/40_370_0-00-0003_G_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3700_room.html?JKSS=000030201"
+    },
+    {
       "key": "40_171_002100203",
       "area": "川崎市麻生区",
       "pref": "神奈川県",
@@ -2313,23 +2330,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040015/2Af/RA/Image/30_239_2-04-0015_2Af_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204150504"
-    },
-    {
-      "key": "30_239_204020403",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-4-2号棟",
-      "roomNo": "403号室",
-      "rent": "56,500円",
-      "commonfee": "2,900円",
-      "type": "2DK",
-      "floor": "4階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040002/2As/RA/Image/30_239_2-04-0002_2As_RA_01_00008.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204020403"
     },
     {
       "key": "30_181_014011209",
@@ -5290,6 +5290,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1430_room.html?JKSS=000210506"
     },
     {
+      "key": "50_164_002070506",
+      "area": "久喜市",
+      "pref": "埼玉県",
+      "danchiNm": "久喜青葉",
+      "place": "久喜市青葉1",
+      "traffic": "<li>湘南新宿ライン「久喜」駅バス7～10分 徒歩1～7分</li><li>東武伊勢崎線「久喜」駅バス7～10分 徒歩1～7分</li><li>東武日光線「幸手」駅 徒歩25～35分</li>",
+      "building": "2-7号棟",
+      "roomNo": "506号室",
+      "rent": "41,500円",
+      "commonfee": "3,100円",
+      "type": "3K",
+      "floor": "5階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_164/50_164_0-02-0007_3A_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1640_room.html?JKSS=002070506"
+    },
+    {
       "key": "50_164_002010503",
       "area": "久喜市",
       "pref": "埼玉県",
@@ -5356,23 +5373,6 @@
       "floorspace": "50㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50164/0010009/102x/RA/Image/50_164_0-01-0009_102x_RA_01_00006.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1640_room.html?JKSS=001090402"
-    },
-    {
-      "key": "50_164_001150503",
-      "area": "久喜市",
-      "pref": "埼玉県",
-      "danchiNm": "久喜青葉",
-      "place": "久喜市青葉1",
-      "traffic": "<li>湘南新宿ライン「久喜」駅バス7～10分 徒歩1～7分</li><li>東武伊勢崎線「久喜」駅バス7～10分 徒歩1～7分</li><li>東武日光線「幸手」駅 徒歩25～35分</li>",
-      "building": "1-15号棟",
-      "roomNo": "503号室",
-      "rent": "45,500円",
-      "commonfee": "3,100円",
-      "type": "3DK",
-      "floor": "5階",
-      "floorspace": "53㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_164/50_164_0-01-0015_3Df_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1640_room.html?JKSS=001150503"
     },
     {
       "key": "50_140_000115503",
