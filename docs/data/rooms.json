@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16T07:30:52.355Z",
-  "total": 342,
+  "lastUpdated": "2026-09-16T13:20:01.076Z",
+  "total": 343,
   "rooms": [
     {
       "key": "20_590_000020807",
@@ -3163,6 +3163,23 @@
       "floorspace": "72㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_406/20_406_0-00-0063_A_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4060_room.html?JKSS=000630402"
+    },
+    {
+      "key": "20_644_000010209",
+      "area": "立川市",
+      "pref": "市部",
+      "danchiNm": "アートアベニュー立川",
+      "place": "立川市曙町3-17-30",
+      "traffic": "<li>JR中央線「立川」駅 徒歩15～16分</li><li>多摩都市モノレール「立川北」駅 徒歩15～16分</li><li>JR南武線「西国立」駅 徒歩11～12分</li>",
+      "building": "1号棟",
+      "roomNo": "209号室",
+      "rent": "127,700円",
+      "commonfee": "5,800円",
+      "type": "1LDK",
+      "floor": "2階",
+      "floorspace": "54㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_644/20_644_0-00-0001_Bf_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6440_room.html?JKSS=000010209"
     },
     {
       "key": "20_536_000080801",
