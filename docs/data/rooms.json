@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T10:40:21.840Z",
-  "total": 383,
+  "lastUpdated": "2026-09-19T14:17:05.095Z",
+  "total": 382,
   "rooms": [
     {
       "key": "20_282_000100412",
@@ -35,6 +35,23 @@
       "floorspace": "83㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20590/0000002/Lv/RA/Image/20_590_0-00-0002_Lv_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5900_room.html?JKSS=000021001"
+    },
+    {
+      "key": "20_355_003081204",
+      "area": "品川区",
+      "pref": "東京都",
+      "danchiNm": "品川八潮パークタウン 潮路北第二ハイツ",
+      "place": "品川区八潮5-3",
+      "traffic": "<li>りんかい線「品川シーサイド」駅 徒歩11～13分</li><li>東京モノレール「大井競馬場前」駅 徒歩13～16分</li><li>JR京浜東北・根岸線「大井町」駅バス14～15分 徒歩2～5分</li>",
+      "building": "3-8号棟",
+      "roomNo": "1204号室",
+      "rent": "172,400円",
+      "commonfee": "5,400円",
+      "type": "3LDK",
+      "floor": "12階",
+      "floorspace": "87㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20365/0030008/Ff/RA/Image/20_365_0-03-0008_Ff_RA_01_00013.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550_room.html?JKSS=003081204"
     },
     {
       "key": "20_578_000C00402",
@@ -1499,23 +1516,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1710_room.html?JKSS=003180201"
     },
     {
-      "key": "40_350_000110303",
-      "area": "川崎市麻生区",
-      "pref": "神奈川県",
-      "danchiNm": "サンラフレ百合ヶ丘",
-      "place": "川崎市麻生区百合丘1-16ほか",
-      "traffic": "<li>小田急小田原線「百合ヶ丘」駅 徒歩3～10分</li><li>小田急小田原線「新百合ヶ丘」駅 徒歩10～17分</li><li>東急田園都市線「あざみ野」駅バス41分 徒歩2～5分</li>",
-      "building": "11号棟",
-      "roomNo": "303号室",
-      "rent": "184,900円",
-      "commonfee": "4,400円",
-      "type": "3LDK",
-      "floor": "3階",
-      "floorspace": "74㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_350/40_350_0-00-0011_Bf_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3500_room.html?JKSS=000110303"
-    },
-    {
       "key": "40_184_000040206",
       "area": "相模原市緑区",
       "pref": "神奈川県",
@@ -2653,23 +2653,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30180/3180004/3A/RA/Image/30_180_3-18-0004_3A_RA_01_00011.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1800_room.html?JKSS=318004408"
-    },
-    {
-      "key": "30_259_000031016",
-      "area": "松戸市",
-      "pref": "千葉県",
-      "danchiNm": "梨香台",
-      "place": "松戸市高塚新田512-10ほか",
-      "traffic": "<li>北総線「秋山」駅 徒歩14～19分 又はバス3分 徒歩1～3分</li><li>JR武蔵野線「市川大野」駅 徒歩30～34分</li><li>JR常磐線「松戸」駅バス23分 徒歩1～3分</li>",
-      "building": "3号棟",
-      "roomNo": "1016号室",
-      "rent": "60,000円",
-      "commonfee": "6,700円",
-      "type": "2DK",
-      "floor": "10階",
-      "floorspace": "48㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_259/30_259_0-00-0003_2C_RA_01_00011_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2590_room.html?JKSS=000031016"
     },
     {
       "key": "30_303_101020408",
