@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T14:17:05.095Z",
-  "total": 382,
+  "lastUpdated": "2026-09-19T17:55:04.059Z",
+  "total": 381,
   "rooms": [
     {
       "key": "20_282_000100412",
@@ -6155,23 +6155,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50159/0090006/111r/RA/Image/50_159_0-09-0006_111r_RA_01_00007.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1590_room.html?JKSS=009060505"
-    },
-    {
-      "key": "50_180_001080304",
-      "area": "坂戸市",
-      "pref": "埼玉県",
-      "danchiNm": "東坂戸",
-      "place": "坂戸市東坂戸1ほか",
-      "traffic": "<li>東武東上線「若葉」駅バス7～8分 徒歩1～4分</li><li>東武東上線「川越」駅バス30～32分 徒歩1～4分</li><li>東武東上線「鶴ケ島」駅 徒歩34～46分</li>",
-      "building": "1-8号棟",
-      "roomNo": "304号室",
-      "rent": "45,400円",
-      "commonfee": "6,100円",
-      "type": "2DK",
-      "floor": "3階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_180/50_180_0-01-0008_2Ef_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1800_room.html?JKSS=001080304"
     },
     {
       "key": "50_180_001200203",
