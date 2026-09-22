@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-22T14:34:32.169Z",
-  "total": 317,
+  "lastUpdated": "2026-09-22T18:41:42.565Z",
+  "total": 318,
   "rooms": [
     {
       "key": "20_590_000030907",
@@ -1089,23 +1089,6 @@
       "floorspace": "62㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40266/0000007/205v/RA/Image/40_266_0-00-0007_205v_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2660_room.html?JKSS=000070110"
-    },
-    {
-      "key": "40_241_000040505",
-      "area": "川崎市多摩区",
-      "pref": "神奈川県",
-      "danchiNm": "星が丘パークランド　ひよどり台",
-      "place": "川崎市多摩区菅北浦5-7",
-      "traffic": "<li>京王相模原線「京王稲田堤」駅 徒歩13～15分</li><li>JR南武線「稲田堤」駅 徒歩12～13分</li><li>小田急小田原線「読売ランド前」駅バス5分 徒歩4～7分</li>",
-      "building": "4号棟",
-      "roomNo": "505号室",
-      "rent": "110,900円",
-      "commonfee": "2,500円",
-      "type": "3LDK",
-      "floor": "5階",
-      "floorspace": "67㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_241/40_241_0-00-0004_Ff_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2410_room.html?JKSS=000040505"
     },
     {
       "key": "40_226_000070302",
@@ -2927,6 +2910,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3770_room.html?JKSS=000100902"
     },
     {
+      "key": "20_214_000018205",
+      "area": "立川市",
+      "pref": "市部",
+      "danchiNm": "立川若葉町",
+      "place": "立川市若葉町4-25-1",
+      "traffic": "<li>JR中央線「立川」駅バス19分 徒歩2～9分</li><li>西武拝島線「東大和市」駅 徒歩16～28分</li><li>西武国分寺線「鷹の台」駅 徒歩22～32分</li>",
+      "building": "18号棟",
+      "roomNo": "205号室",
+      "rent": "61,200円",
+      "commonfee": "3,700円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "41㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20214/0000018/CBm/RA/Image/20_214_0-00-0018_CBm_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2140_room.html?JKSS=000018205"
+    },
+    {
       "key": "20_367_000380303",
       "area": "立川市",
       "pref": "市部",
@@ -3641,23 +3641,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2710_room.html?JKSS=602020304"
     },
     {
-      "key": "20_271_602020403",
-      "area": "多摩市",
-      "pref": "市部",
-      "danchiNm": "多摩ニュータウン 豊ヶ丘（グリーンメゾン豊ヶ丘－６）",
-      "place": "多摩市豊ヶ丘2ほか",
-      "traffic": "<li>京王相模原線「京王多摩センター」駅・小田急多摩線「小田急多摩センター」駅 徒歩16～32分 またはバス12分 徒歩2～14分</li><li>多摩都市モノレール「多摩センター」駅 徒歩17～33分 またはバス12分 徒歩2～14分</li>",
-      "building": "6-2-2号棟",
-      "roomNo": "403号室",
-      "rent": "68,200円",
-      "commonfee": "4,800円",
-      "type": "2DK",
-      "floor": "4階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_271/20_271_6-02-0002_2B_RA_01_00006_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2710_room.html?JKSS=602020403"
-    },
-    {
       "key": "20_271_402020502",
       "area": "多摩市",
       "pref": "市部",
@@ -3726,21 +3709,21 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2690_room.html?JKSS=402010306"
     },
     {
-      "key": "20_206_305010304",
+      "key": "20_409_140010401",
       "area": "多摩市",
       "pref": "市部",
-      "danchiNm": "多摩ニュータウン 諏訪（グリーンメゾン諏訪－２）",
-      "place": "多摩市諏訪2ほか",
-      "traffic": "<li>京王相模原線「京王永山」駅・小田急多摩線「小田急永山」駅 徒歩8～18分 またはバス3分 徒歩6～12分</li><li>小田急多摩線「はるひ野」駅 徒歩32～36分</li>",
-      "building": "3-5-1号棟",
-      "roomNo": "304号室",
-      "rent": "101,000円",
-      "commonfee": "5,800円",
+      "danchiNm": "多摩ニュータウン グリーンヒル豊ヶ丘－１・２",
+      "place": "多摩市豊ケ丘1-40ほか",
+      "traffic": "<li>京王相模原線「京王多摩センター」駅・小田急多摩線「小田急多摩センター」駅 徒歩16～18分 またはバス3分 徒歩8～11分</li><li>多摩都市モノレール「多摩センター」駅 徒歩18～20分 またはバス3分 徒歩8～11分</li>",
+      "building": "1-40-1号棟",
+      "roomNo": "401号室",
+      "rent": "94,200円",
+      "commonfee": "5,100円",
       "type": "3DK",
-      "floor": "3階",
-      "floorspace": "68㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20206/3050001/102f/RA/Image/20_206_3-05-0001_102f_RA_01_00005.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2060_room.html?JKSS=305010304"
+      "floor": "4階",
+      "floorspace": "70㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20409/1400001/Gf/RA/Image/20_409_1-40-0001_Gf_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4090_room.html?JKSS=140010401"
     },
     {
       "key": "20_409_209040402",
@@ -3758,6 +3741,23 @@
       "floorspace": "91㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_409/20_409_2-09-0004_Ev_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4090_room.html?JKSS=209040402"
+    },
+    {
+      "key": "20_206_305010304",
+      "area": "多摩市",
+      "pref": "市部",
+      "danchiNm": "多摩ニュータウン 諏訪（グリーンメゾン諏訪－２）",
+      "place": "多摩市諏訪2ほか",
+      "traffic": "<li>京王相模原線「京王永山」駅・小田急多摩線「小田急永山」駅 徒歩8～18分 またはバス3分 徒歩6～12分</li><li>小田急多摩線「はるひ野」駅 徒歩32～36分</li>",
+      "building": "3-5-1号棟",
+      "roomNo": "304号室",
+      "rent": "101,000円",
+      "commonfee": "5,800円",
+      "type": "3DK",
+      "floor": "3階",
+      "floorspace": "68㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20206/3050001/102f/RA/Image/20_206_3-05-0001_102f_RA_01_00005.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2060_room.html?JKSS=305010304"
     },
     {
       "key": "20_484_000010406",
@@ -4047,6 +4047,23 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_182/50_182_0-00-0004_2A2r_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1820_room.html?JKSS=000040545"
+    },
+    {
+      "key": "50_182_000040550",
+      "area": "川口市",
+      "pref": "埼玉県",
+      "danchiNm": "川口芝園",
+      "place": "川口市芝園町3",
+      "traffic": "<li>JR京浜東北・根岸線「蕨」駅 徒歩10～15分</li><li>JR埼京線「戸田」駅 徒歩27～32分</li><li>JR武蔵野線「南浦和」駅 徒歩28～34分</li>",
+      "building": "4号棟",
+      "roomNo": "550号室",
+      "rent": "90,800円",
+      "commonfee": "4,100円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_182/50_182_0-00-0004_2A1r_RA_01_00009_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1820_room.html?JKSS=000040550"
     },
     {
       "key": "50_182_000040258",
