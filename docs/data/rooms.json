@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-23T00:13:38.583Z",
-  "total": 318,
+  "lastUpdated": "2026-09-23T11:12:50.886Z",
+  "total": 319,
   "rooms": [
     {
       "key": "20_590_000030907",
@@ -69,6 +69,23 @@
       "floorspace": "45㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_234/20_234_7-01-0001_102r_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2340_room.html?JKSS=701011214"
+    },
+    {
+      "key": "20_544_000150601",
+      "area": "世田谷区",
+      "pref": "東京都",
+      "danchiNm": "フレール西経堂",
+      "place": "世田谷区船橋5-17",
+      "traffic": "<li>小田急小田原線「千歳船橋」駅 徒歩11～15分</li><li>小田急小田原線「経堂」駅 徒歩11～19分</li><li>京王線「八幡山」駅バス4～5分 徒歩5～9分</li>",
+      "building": "15号棟",
+      "roomNo": "601号室",
+      "rent": "148,100円",
+      "commonfee": "5,470円",
+      "type": "2DK",
+      "floor": "6階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_544/20_544_0-00-0015_B_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5440_room.html?JKSS=000150601"
     },
     {
       "key": "20_559_000000607",
@@ -2264,23 +2281,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5300_room.html?JKSS=000110403"
     },
     {
-      "key": "30_195_003013301",
-      "area": "八千代市",
-      "pref": "千葉県",
-      "danchiNm": "米本",
-      "place": "八千代市米本1359",
-      "traffic": "<li>東葉高速鉄道「八千代中央」駅バス17分 徒歩2～9分</li><li>東葉高速鉄道「東葉勝田台」駅バス20分 徒歩2～9分</li><li>京成本線「勝田台」駅バス20分 徒歩2～9分</li>",
-      "building": "3-13号棟",
-      "roomNo": "301号室",
-      "rent": "41,500円",
-      "commonfee": "3,200円",
-      "type": "3DK",
-      "floor": "3階",
-      "floorspace": "51㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_195/30_195_0-03-0013_3Cs_RA_01_00005_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1950_room.html?JKSS=003013301"
-    },
-    {
       "key": "30_221_003024402",
       "area": "八千代市",
       "pref": "千葉県",
@@ -3029,6 +3029,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3380_room.html?JKSS=000060211"
     },
     {
+      "key": "20_338_000060215",
+      "area": "昭島市",
+      "pref": "市部",
+      "danchiNm": "昭島つつじが丘ハイツ",
+      "place": "昭島市つつじが丘3-4ほか",
+      "traffic": "<li>JR青梅線「昭島」駅 徒歩9～11分</li><li>JR青梅線「中神」駅 徒歩13～15分</li><li>西武拝島線「西武立川」駅 徒歩25～28分</li>",
+      "building": "6号棟",
+      "roomNo": "215号室",
+      "rent": "96,300円",
+      "commonfee": "5,700円",
+      "type": "3DK",
+      "floor": "2階",
+      "floorspace": "65㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20338/0000006/Hr/RA/Image/20_338_0-00-0006_Hr_RA_01_00013.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3380_room.html?JKSS=000060215"
+    },
+    {
       "key": "20_338_000060811",
       "area": "昭島市",
       "pref": "市部",
@@ -3044,6 +3061,23 @@
       "floorspace": "65㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20338/0000006/Hr/RA/Image/20_338_0-00-0006_Hr_RA_01_00013.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3380_room.html?JKSS=000060811"
+    },
+    {
+      "key": "20_338_000060606",
+      "area": "昭島市",
+      "pref": "市部",
+      "danchiNm": "昭島つつじが丘ハイツ",
+      "place": "昭島市つつじが丘3-4ほか",
+      "traffic": "<li>JR青梅線「昭島」駅 徒歩9～11分</li><li>JR青梅線「中神」駅 徒歩13～15分</li><li>西武拝島線「西武立川」駅 徒歩25～28分</li>",
+      "building": "6号棟",
+      "roomNo": "606号室",
+      "rent": "101,600円",
+      "commonfee": "5,700円",
+      "type": "2LDK",
+      "floor": "6階",
+      "floorspace": "65㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_338/20_338_0-00-0006_H1_RA_01_00009_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3380_room.html?JKSS=000060606"
     },
     {
       "key": "20_193_003018501",
@@ -4438,23 +4472,6 @@
       "floorspace": "47㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_167/50_167_0-01-0013_3A_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=001130402"
-    },
-    {
-      "key": "50_167_003010202",
-      "area": "狭山市",
-      "pref": "埼玉県",
-      "danchiNm": "狭山台",
-      "place": "狭山市狭山台1-31ほか",
-      "traffic": "<li>西武新宿線「狭山市」駅バス6～10分 徒歩1～4分</li><li>西武新宿線「新狭山」駅 徒歩22～33分</li><li>西武新宿線「入曽」駅 徒歩41～53分</li>",
-      "building": "3-1号棟",
-      "roomNo": "202号室",
-      "rent": "53,500円",
-      "commonfee": "3,500円",
-      "type": "2DK",
-      "floor": "2階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_167/50_167_0-03-0001_2C_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=003010202"
     },
     {
       "key": "50_167_003190503",
