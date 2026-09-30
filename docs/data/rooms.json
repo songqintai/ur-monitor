@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-30T06:31:13.884Z",
-  "total": 309,
+  "lastUpdated": "2026-09-30T13:31:47.680Z",
+  "total": 304,
   "rooms": [
     {
       "key": "20_178_000011001",
@@ -2247,23 +2247,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1390_room.html?JKSS=000230407"
     },
     {
-      "key": "30_239_201010323",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-1-1号棟",
-      "roomNo": "323号室",
-      "rent": "42,800円",
-      "commonfee": "3,900円",
-      "type": "1DK",
-      "floor": "3階",
-      "floorspace": "32㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2010001/1At/RA/Image/30_239_2-01-0001_1At_RA_01_00007.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=201010323"
-    },
-    {
       "key": "30_265_003020402",
       "area": "千葉市美浜区",
       "pref": "千葉県",
@@ -3658,23 +3641,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6771_room.html?JKSS=005061103"
     },
     {
-      "key": "20_677_005050801",
-      "area": "西東京市",
-      "pref": "市部",
-      "danchiNm": "ひばりが丘パークヒルズ",
-      "place": "西東京市ひばりが丘3-5、東久留米市ひばりが丘団地6ほか",
-      "traffic": "<li>西武池袋線「ひばりヶ丘」駅 徒歩15～22分 またはバス3～4分 徒歩1～4分</li><li>西武新宿線「田無」駅バス11～15分 徒歩1～4分</li><li>JR中央線「武蔵境」駅バス27～33分 徒歩1～4分</li>",
-      "building": "5-5号棟",
-      "roomNo": "801号室",
-      "rent": "161,300円",
-      "commonfee": "7,000円",
-      "type": "2DK",
-      "floor": "8階",
-      "floorspace": "62㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_677/20_677_0-05-0005_Em_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6771_room.html?JKSS=005050801"
-    },
-    {
       "key": "50_386_000091002",
       "area": "さいたま市北区",
       "pref": "埼玉県",
@@ -3981,23 +3947,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1980_room.html?JKSS=000010201"
     },
     {
-      "key": "50_198_000061106",
-      "area": "所沢市",
-      "pref": "埼玉県",
-      "danchiNm": "所沢パークタウン並木通り",
-      "place": "所沢市並木8-1",
-      "traffic": "<li>西武新宿線「航空公園」駅バス8分 徒歩2～4分</li><li>西武新宿線「所沢」駅バス10分 徒歩3～5分</li><li>西武新宿線「新所沢」駅 徒歩36～38分</li>",
-      "building": "6号棟",
-      "roomNo": "1106号室",
-      "rent": "95,300円",
-      "commonfee": "4,500円",
-      "type": "3DK",
-      "floor": "11階",
-      "floorspace": "65㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50198/0000006/Cm/RA/Image/50_198_0-00-0006_Cm_RA_01_00011.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1980_room.html?JKSS=000061106"
-    },
-    {
       "key": "50_191_000120715",
       "area": "所沢市",
       "pref": "埼玉県",
@@ -4115,23 +4064,6 @@
       "floorspace": "82㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_303/50_303_0-00-0006_N_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_3030_room.html?JKSS=000060801"
-    },
-    {
-      "key": "50_303_000040303",
-      "area": "所沢市",
-      "pref": "埼玉県",
-      "danchiNm": "プラザシティ新所沢　けやき通り",
-      "place": "所沢市緑町1-5ほか",
-      "traffic": "<li>西武新宿線「新所沢」駅 徒歩4～8分</li><li>西武新宿線「航空公園」駅 徒歩18～25分</li><li>西武池袋線「西所沢」駅 徒歩21～28分</li>",
-      "building": "4号棟",
-      "roomNo": "303号室",
-      "rent": "159,900円",
-      "commonfee": "3,700円",
-      "type": "3LDK",
-      "floor": "3階",
-      "floorspace": "89㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50303/0000004/H/RA/Image/50_303_0-00-0004_H_RA_01_00007.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_3030_room.html?JKSS=000040303"
     },
     {
       "key": "50_385_000340807",
@@ -4508,23 +4440,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2160_room.html?JKSS=000250402"
     },
     {
-      "key": "50_216_000220502",
-      "area": "桶川市",
-      "pref": "埼玉県",
-      "danchiNm": "パークタウン若宮",
-      "place": "桶川市若宮1-8",
-      "traffic": "<li>JR高崎線「桶川」駅 徒歩5～9分</li><li>JR高崎線「北本」駅 徒歩60～65分</li><li>JR高崎線「北上尾」駅 徒歩28～34分</li>",
-      "building": "22号棟",
-      "roomNo": "502号室",
-      "rent": "93,200円",
-      "commonfee": "3,200円",
-      "type": "3LDK",
-      "floor": "5階",
-      "floorspace": "86㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50216/0000022/Fskw/RA/Image/50_216_0-00-0022_Fskw_RA_01_00006.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2160_room.html?JKSS=000220502"
-    },
-    {
       "key": "50_216_000220501",
       "area": "桶川市",
       "pref": "埼玉県",
@@ -4661,23 +4576,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1640_room.html?JKSS=002130503"
     },
     {
-      "key": "50_140_000117507",
-      "area": "北本市",
-      "pref": "埼玉県",
-      "danchiNm": "北本",
-      "place": "北本市栄7",
-      "traffic": "<li>JR高崎線「北本」駅バス4～12分 徒歩1～5分</li><li>JR高崎線「桶川」駅 徒歩30～57分</li><li>JR高崎線「鴻巣」駅 徒歩45～79分</li>",
-      "building": "1-17号棟",
-      "roomNo": "507号室",
-      "rent": "44,100円",
-      "commonfee": "3,800円",
-      "type": "3K",
-      "floor": "5階",
-      "floorspace": "52㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_140/50_140_0-01-0017_3Cy_RA_01_00003_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000117507"
-    },
-    {
       "key": "50_140_000307501",
       "area": "北本市",
       "pref": "埼玉県",
@@ -4712,38 +4610,55 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000117501"
     },
     {
-      "key": "50_140_000210503",
+      "key": "50_140_000317305",
       "area": "北本市",
       "pref": "埼玉県",
       "danchiNm": "北本",
       "place": "北本市栄7",
       "traffic": "<li>JR高崎線「北本」駅バス4～12分 徒歩1～5分</li><li>JR高崎線「桶川」駅 徒歩30～57分</li><li>JR高崎線「鴻巣」駅 徒歩45～79分</li>",
-      "building": "2-10号棟",
-      "roomNo": "503号室",
+      "building": "3-17号棟",
+      "roomNo": "305号室",
       "rent": "45,900円",
       "commonfee": "3,800円",
-      "type": "3DK",
-      "floor": "5階",
-      "floorspace": "54㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50140/0020010/3Df/RA/Image/50_140_0-02-0010_3Df_RA_01_00005.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000210503"
+      "type": "3K",
+      "floor": "3階",
+      "floorspace": "50㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_140/50_140_0-03-0017_3Bf_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000317305"
     },
     {
-      "key": "50_140_000216501",
+      "key": "50_140_000114403",
       "area": "北本市",
       "pref": "埼玉県",
       "danchiNm": "北本",
       "place": "北本市栄7",
       "traffic": "<li>JR高崎線「北本」駅バス4～12分 徒歩1～5分</li><li>JR高崎線「桶川」駅 徒歩30～57分</li><li>JR高崎線「鴻巣」駅 徒歩45～79分</li>",
-      "building": "2-16号棟",
-      "roomNo": "501号室",
-      "rent": "45,900円",
+      "building": "1-14号棟",
+      "roomNo": "403号室",
+      "rent": "46,000円",
       "commonfee": "3,800円",
-      "type": "3DK",
-      "floor": "5階",
-      "floorspace": "54㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_140/50_140_0-02-0016_3Df_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000216501"
+      "type": "3K",
+      "floor": "4階",
+      "floorspace": "52㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_140/50_140_0-01-0014_3Cy_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000114403"
+    },
+    {
+      "key": "50_140_000117404",
+      "area": "北本市",
+      "pref": "埼玉県",
+      "danchiNm": "北本",
+      "place": "北本市栄7",
+      "traffic": "<li>JR高崎線「北本」駅バス4～12分 徒歩1～5分</li><li>JR高崎線「桶川」駅 徒歩30～57分</li><li>JR高崎線「鴻巣」駅 徒歩45～79分</li>",
+      "building": "1-17号棟",
+      "roomNo": "404号室",
+      "rent": "46,000円",
+      "commonfee": "3,800円",
+      "type": "3K",
+      "floor": "4階",
+      "floorspace": "52㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_140/50_140_0-01-0017_3Cy_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1400_room.html?JKSS=000117404"
     },
     {
       "key": "50_173_000000306",
