@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-01T09:58:25.702Z",
-  "total": 244,
+  "lastUpdated": "2026-10-01T17:00:43.293Z",
+  "total": 243,
   "rooms": [
     {
       "key": "20_282_000100412",
@@ -3214,23 +3214,6 @@
       "floorspace": "49㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_198/50_198_0-00-0001_B_RA_01_00006_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1980_room.html?JKSS=000010201"
-    },
-    {
-      "key": "50_191_000120715",
-      "area": "所沢市",
-      "pref": "埼玉県",
-      "danchiNm": "所沢パークタウン駅前通り",
-      "place": "所沢市並木3-1",
-      "traffic": "<li>西武新宿線「航空公園」駅 徒歩4～9分</li><li>西武新宿線「新所沢」駅 徒歩20～25分</li><li>西武池袋線「所沢」駅 徒歩22～25分</li>",
-      "building": "12号棟",
-      "roomNo": "715号室",
-      "rent": "77,000円",
-      "commonfee": "3,200円",
-      "type": "2DK",
-      "floor": "7階",
-      "floorspace": "51㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_191/50_191_0-00-0012_C1b_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1910_room.html?JKSS=000120715"
     },
     {
       "key": "50_191_000110813",
