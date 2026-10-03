@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-03T12:24:44.534Z",
-  "total": 315,
+  "lastUpdated": "2026-10-03T17:09:44.288Z",
+  "total": 316,
   "rooms": [
     {
       "key": "20_582_000110102",
@@ -2160,6 +2160,23 @@
       "floorspace": "96㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_430/30_430_3-01-0040_H_RA_01_00010_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4302_room.html?JKSS=301400701"
+    },
+    {
+      "key": "30_430_301410701",
+      "area": "習志野市",
+      "pref": "千葉県",
+      "danchiNm": "谷津パークタウン参番街",
+      "place": "習志野市谷津3-1",
+      "traffic": "<li>京成本線「谷津」駅 徒歩8～13分</li><li>JR総武線「津田沼」駅バス5分 徒歩1～6分</li><li>JR京葉線「新習志野」駅 徒歩23～24分</li><li>JR京葉線「南船橋」駅 徒歩21～26分</li>",
+      "building": "3-1-41号棟",
+      "roomNo": "701号室",
+      "rent": "169,500円",
+      "commonfee": "3,900円",
+      "type": "4LDK",
+      "floor": "7階",
+      "floorspace": "99㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_430/30_430_3-01-0041_Qf_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4302_room.html?JKSS=301410701"
     },
     {
       "key": "30_354_012250405",
