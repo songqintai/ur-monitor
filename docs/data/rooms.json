@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-07T08:25:28.950Z",
-  "total": 303,
+  "lastUpdated": "2026-10-07T16:16:22.531Z",
+  "total": 302,
   "rooms": [
     {
       "key": "20_400_220010707",
@@ -2604,23 +2604,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5840_room.html?JKSS=000030303"
     },
     {
-      "key": "30_512_000112608",
-      "area": "浦安市",
-      "pref": "千葉県",
-      "danchiNm": "浦安マリナイースト２１望海の街",
-      "place": "浦安市明海4-2望海の街",
-      "traffic": "<li>JR京葉線「新浦安」駅 徒歩22～26分 又はバス7～10分 徒歩1～4分</li><li>JR京葉線「舞浜」駅 徒歩56～62分</li><li>東京メトロ東西線「浦安」駅 徒歩51～55分</li>",
-      "building": "11号棟",
-      "roomNo": "2608号室",
-      "rent": "164,300円",
-      "commonfee": "7,100円",
-      "type": "1LDK",
-      "floor": "26階",
-      "floorspace": "54㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_512/30_512_0-00-0011_B_RA_01_00008_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5120_room.html?JKSS=000112608"
-    },
-    {
       "key": "30_512_000082305",
       "area": "浦安市",
       "pref": "千葉県",
@@ -4066,23 +4049,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=001070105"
     },
     {
-      "key": "50_167_003060502",
-      "area": "狭山市",
-      "pref": "埼玉県",
-      "danchiNm": "狭山台",
-      "place": "狭山市狭山台1-31ほか",
-      "traffic": "<li>西武新宿線「狭山市」駅バス6～10分 徒歩1～4分</li><li>西武新宿線「新狭山」駅 徒歩22～33分</li><li>西武新宿線「入曽」駅 徒歩41～53分</li>",
-      "building": "3-6号棟",
-      "roomNo": "502号室",
-      "rent": "52,400円",
-      "commonfee": "3,500円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_167/50_167_0-03-0006_2C_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=003060502"
-    },
-    {
       "key": "50_167_003120706",
       "area": "狭山市",
       "pref": "埼玉県",
@@ -4115,6 +4081,23 @@
       "floorspace": "47㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50167/0010012/3Ayy/RA/Image/50_167_0-01-0012_3Ayy_RA_01_00006.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=001120304"
+    },
+    {
+      "key": "50_167_001140206",
+      "area": "狭山市",
+      "pref": "埼玉県",
+      "danchiNm": "狭山台",
+      "place": "狭山市狭山台1-31ほか",
+      "traffic": "<li>西武新宿線「狭山市」駅バス6～10分 徒歩1～4分</li><li>西武新宿線「新狭山」駅 徒歩22～33分</li><li>西武新宿線「入曽」駅 徒歩41～53分</li>",
+      "building": "1-14号棟",
+      "roomNo": "206号室",
+      "rent": "60,700円",
+      "commonfee": "3,500円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "47㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50167/0010014/3Ay/RA/Image/50_167_0-01-0014_3Ay_RA_01_00005.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1670_room.html?JKSS=001140206"
     },
     {
       "key": "50_244_000270406",
