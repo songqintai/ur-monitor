@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11T15:31:43.955Z",
-  "total": 286,
+  "lastUpdated": "2026-10-11T20:07:16.979Z",
+  "total": 287,
   "rooms": [
     {
       "key": "20_400_220010707",
@@ -3520,6 +3520,23 @@
       "floorspace": "66㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/50253/0000001/Iskf/RA/Image/50_253_0-00-0001_Iskf_RA_01_00012.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2530_room.html?JKSS=000010504"
+    },
+    {
+      "key": "50_222_000000206",
+      "area": "川口市",
+      "pref": "埼玉県",
+      "danchiNm": "アーバンハイツ南前川",
+      "place": "川口市南前川2-21-10",
+      "traffic": "<li>JR京浜東北線「蕨」駅 バス7分 徒歩1分</li><li>JR京浜東北線「西川口」駅 バス8分 徒歩1分</li>",
+      "building": "",
+      "roomNo": "206号室",
+      "rent": "104,400円",
+      "commonfee": "3,800円",
+      "type": "3DK",
+      "floor": "2階",
+      "floorspace": "67㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_222/50_222_0-00-0000_Cf_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2220_room.html?JKSS=000000206"
     },
     {
       "key": "50_222_000000409",
