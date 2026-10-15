@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-15T13:15:23.517Z",
-  "total": 250,
+  "lastUpdated": "2026-10-15T18:09:24.611Z",
+  "total": 251,
   "rooms": [
     {
       "key": "20_178_000061330",
@@ -698,6 +698,23 @@
       "floorspace": "67㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_203/40_203_0-22-0010_F_RA_01_00011_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2030_room.html?JKSS=022100203"
+    },
+    {
+      "key": "40_227_000060911",
+      "area": "横浜市緑区",
+      "pref": "神奈川県",
+      "danchiNm": "中山駅前ハイツ",
+      "place": "横浜市緑区中山1-29",
+      "traffic": "<li>JR横浜線「中山」駅 徒歩5～7分</li><li>横浜市営地下鉄グリーンライン「中山」駅 徒歩5～7分</li><li>JR横浜線「十日市場」駅バス8分 徒歩5～6分</li>",
+      "building": "6号棟",
+      "roomNo": "911号室",
+      "rent": "125,000円",
+      "commonfee": "3,400円",
+      "type": "2LDK",
+      "floor": "9階",
+      "floorspace": "62㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40227/0000006/B2f/RA/Image/40_227_0-00-0006_B2f_RA_01_00040.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2270_room.html?JKSS=000060911"
     },
     {
       "key": "40_408_014070701",
