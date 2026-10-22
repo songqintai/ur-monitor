@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-22T09:57:54.143Z",
-  "total": 254,
+  "lastUpdated": "2026-10-22T19:12:23.431Z",
+  "total": 253,
   "rooms": [
     {
       "key": "20_320_000041109",
@@ -1873,23 +1873,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=008023408"
     },
     {
-      "key": "30_239_204060301",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-4-6号棟",
-      "roomNo": "301号室",
-      "rent": "56,500円",
-      "commonfee": "2,900円",
-      "type": "2DK",
-      "floor": "3階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040006/2At/RA/Image/30_239_2-04-0006_2At_RA_01_00008.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204060301"
-    },
-    {
       "key": "30_239_202050304",
       "area": "千葉市美浜区",
       "pref": "千葉県",
@@ -1922,23 +1905,6 @@
       "floorspace": "45㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040001/CAm/RA/Image/30_239_2-04-0001_CAm_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204010102"
-    },
-    {
-      "key": "30_263_000090401",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第二",
-      "place": "千葉市美浜区真砂3-13",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩8～9分</li><li>JR総武線「新検見川」駅バス7分 徒歩7～11分</li><li>JR京葉線「稲毛海岸」駅 徒歩16～20分</li>",
-      "building": "9号棟",
-      "roomNo": "401号室",
-      "rent": "67,100円",
-      "commonfee": "3,800円",
-      "type": "2DK",
-      "floor": "4階",
-      "floorspace": "41㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_263/30_263_0-00-0009_101f_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2630_room.html?JKSS=000090401"
     },
     {
       "key": "30_592_000030504",
@@ -2891,6 +2857,23 @@
       "floorspace": "60㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_505/20_505_0-00-0017_C_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5050_room.html?JKSS=000170904"
+    },
+    {
+      "key": "20_577_000050204",
+      "area": "国立市",
+      "pref": "市部",
+      "danchiNm": "いちょう並木国立",
+      "place": "国立市北3-35-1ほか",
+      "traffic": "<li>JR中央線「立川」駅 徒歩19～21分 またはバス10分 徒歩2～4分</li><li>JR南武線「西国立」駅 徒歩12～16分</li><li>多摩都市モノレール「立川北」駅 徒歩21～22分</li>",
+      "building": "5号棟",
+      "roomNo": "204号室",
+      "rent": "118,200円",
+      "commonfee": "5,600円",
+      "type": "2LDK",
+      "floor": "2階",
+      "floorspace": "57㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_577/20_577_0-00-0005_C_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5770_room.html?JKSS=000050204"
     },
     {
       "key": "20_132_000054407",
