@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T14:50:11.314Z",
-  "total": 310,
+  "lastUpdated": "2026-10-23T19:00:44.645Z",
+  "total": 312,
   "rooms": [
     {
       "key": "20_178_000011001",
@@ -343,6 +343,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1630_room.html?JKSS=002110308"
     },
     {
+      "key": "40_148_000011502",
+      "area": "横浜市磯子区",
+      "pref": "神奈川県",
+      "danchiNm": "磯子三丁目",
+      "place": "横浜市磯子区磯子3-6",
+      "traffic": "<li>JR京浜東北・根岸線「磯子」駅 徒歩4～5分</li><li>JR京浜東北・根岸線「根岸」駅バス8分 徒歩2分</li><li>京急本線「屏風浦」駅バス7分 徒歩1分</li>",
+      "building": "1号棟",
+      "roomNo": "1502号室",
+      "rent": "80,100円",
+      "commonfee": "2,600円",
+      "type": "2DK",
+      "floor": "15階",
+      "floorspace": "44㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40148/0000001/C3cf/RA/Image/40_148_0-00-0001_C3cf_RA_01_00051.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1480_room.html?JKSS=000011502"
+    },
+    {
       "key": "40_206_011040403",
       "area": "横浜市金沢区",
       "pref": "神奈川県",
@@ -562,6 +579,23 @@
       "floorspace": "67㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_385/40_385_0-00-0014_A_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3850_room.html?JKSS=000140403"
+    },
+    {
+      "key": "40_094_000014401",
+      "area": "横浜市栄区",
+      "pref": "神奈川県",
+      "danchiNm": "公田町",
+      "place": "横浜市栄区公田町740",
+      "traffic": "<li>JR東海道本線「大船」駅バス12～15分 徒歩1～4分</li><li>JR京浜東北・根岸線「本郷台」駅 徒歩18～23分</li><li>京急本線「金沢八景」駅バス29分 徒歩11～13分</li>",
+      "building": "14号棟",
+      "roomNo": "401号室",
+      "rent": "48,900円",
+      "commonfee": "4,500円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "39㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_094/40_094_0-00-0014_Cu_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_0940_room.html?JKSS=000014401"
     },
     {
       "key": "40_117_000301604",
