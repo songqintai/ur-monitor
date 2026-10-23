@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T09:52:33.204Z",
-  "total": 307,
+  "lastUpdated": "2026-10-23T14:50:11.314Z",
+  "total": 310,
   "rooms": [
     {
       "key": "20_178_000011001",
@@ -1397,6 +1397,23 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1040_room.html?JKSS=000709503"
     },
     {
+      "key": "40_104_000703403",
+      "area": "藤沢市",
+      "pref": "神奈川県",
+      "danchiNm": "善行",
+      "place": "藤沢市善行団地1-1ほか",
+      "traffic": "<li>小田急江ノ島線「善行」駅 徒歩11～19分 又はバス4～8分 徒歩1～5分</li>",
+      "building": "7-3号棟",
+      "roomNo": "403号室",
+      "rent": "64,200円",
+      "commonfee": "3,300円",
+      "type": "3DK",
+      "floor": "4階",
+      "floorspace": "50㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_104/40_104_0-07-0003_3Er_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1040_room.html?JKSS=000703403"
+    },
+    {
       "key": "40_257_000000301",
       "area": "藤沢市",
       "pref": "神奈川県",
@@ -1599,6 +1616,23 @@
       "floorspace": "41㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_124/40_124_0-02-0001_2Af_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1240_room.html?JKSS=000201304"
+    },
+    {
+      "key": "40_124_000406503",
+      "area": "大和市",
+      "pref": "神奈川県",
+      "danchiNm": "上和田",
+      "place": "大和市上和田2412",
+      "traffic": "<li>相鉄本線「大和」駅バス15～20分 徒歩1～5分</li><li>小田急江ノ島線「高座渋谷」駅 徒歩13～20分</li><li>相鉄いずみ野線「いずみ中央」駅バス13分 徒歩6～14分</li>",
+      "building": "4-6号棟",
+      "roomNo": "503号室",
+      "rent": "60,500円",
+      "commonfee": "3,100円",
+      "type": "3DK",
+      "floor": "5階",
+      "floorspace": "53㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_124/40_124_0-04-0006_3Bm_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1240_room.html?JKSS=000406503"
     },
     {
       "key": "40_124_000406506",
@@ -2619,6 +2653,23 @@
       "floorspace": "126㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20626/0000004/Jm/RA/Image/20_626_0-00-0004_Jm_RA_01_00005.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6260_room.html?JKSS=000040405"
+    },
+    {
+      "key": "20_213_000004403",
+      "area": "立川市",
+      "pref": "市部",
+      "danchiNm": "立川幸町",
+      "place": "立川市幸町4-52-1",
+      "traffic": "<li>多摩都市モノレール「玉川上水」駅 徒歩15～21分</li><li>西武拝島線「東大和市」駅 徒歩16～21分</li><li>JR中央線「立川」駅バス20分 徒歩3～6分</li>",
+      "building": "4号棟",
+      "roomNo": "403号室",
+      "rent": "60,500円",
+      "commonfee": "2,950円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "41㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_213/20_213_0-00-0004_C1bf_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2130_room.html?JKSS=000004403"
     },
     {
       "key": "20_213_000017404",
