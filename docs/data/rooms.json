@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T10:40:56.595Z",
-  "total": 320,
+  "lastUpdated": "2026-10-24T18:01:33.864Z",
+  "total": 319,
   "rooms": [
     {
       "key": "20_178_000011201",
@@ -426,6 +426,23 @@
       "floorspace": "53㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_142/40_142_0-02-0003_D1b_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1420_room.html?JKSS=000203506"
+    },
+    {
+      "key": "40_400_002070104",
+      "area": "横浜市保土ケ谷区",
+      "pref": "神奈川県",
+      "danchiNm": "コンフォール明神台",
+      "place": "横浜市保土ケ谷区明神台1",
+      "traffic": "<li>相鉄本線「星川」駅 徒歩8～12分</li><li>相鉄本線「和田町」駅 徒歩9～16分</li><li>JR横須賀線「保土ケ谷」駅バス12分 徒歩1～6分</li>",
+      "building": "2-7号棟",
+      "roomNo": "104号室",
+      "rent": "104,400円",
+      "commonfee": "5,400円",
+      "type": "2DK",
+      "floor": "1階",
+      "floorspace": "57㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_400/40_400_0-02-0007_Hr_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_4000_room.html?JKSS=002070104"
     },
     {
       "key": "40_400_001020701",
@@ -1055,23 +1072,6 @@
       "floorspace": "57㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_406/40_406_0-00-0001_G_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_4060_room.html?JKSS=000010602"
-    },
-    {
-      "key": "40_226_000070302",
-      "area": "川崎市多摩区",
-      "pref": "神奈川県",
-      "danchiNm": "星が丘パークランド　つぐみ台",
-      "place": "川崎市多摩区菅仙谷3-1",
-      "traffic": "<li>京王相模原線「京王稲田堤」駅 徒歩15～16分</li><li>JR南武線「稲田堤」駅 徒歩14分</li><li>小田急小田原線「読売ランド前」駅バス9分 徒歩2分</li>",
-      "building": "7号棟",
-      "roomNo": "302号室",
-      "rent": "134,200円",
-      "commonfee": "5,600円",
-      "type": "4LDK",
-      "floor": "3階",
-      "floorspace": "91㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40226/0000007/D9/RA/Image/40_226_0-00-0007_D9_RA_01_00012.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2260_room.html?JKSS=000070302"
     },
     {
       "key": "40_322_000000401",
@@ -2075,23 +2075,6 @@
       "floorspace": "51㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30139/0010025/2C3h/RA/Image/30_139_0-01-0025_2C3h_RA_01_00010.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1390_room.html?JKSS=000125503"
-    },
-    {
-      "key": "30_239_208040110",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-8-4号棟",
-      "roomNo": "110号室",
-      "rent": "67,300円",
-      "commonfee": "2,900円",
-      "type": "2LDK",
-      "floor": "1階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2080004/111f/RA/Image/30_239_2-08-0004_111f_RA_01_00022.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=208040110"
     },
     {
       "key": "30_592_000030504",
