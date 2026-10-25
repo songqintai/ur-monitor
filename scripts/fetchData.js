@@ -8,8 +8,8 @@
  *   这个脚本本身不常驻、不开端口，纯粹就是"抓一次、写一个文件、退出"，
  *   专门配合 GitHub Actions 的定时任务使用。
  *
- * 新增：和上一次写入的 rooms.json 做 diff，如果发现地区为 ALERT_AREA_PREF（市部）
- * 且専有面積超过 FLOORSPACE_ALERT_THRESHOLD 的新房源，通过 lib/mailer.js 发一封
+ * 新增：和上一次写入的 rooms.json 做 diff，如果发现团地名称为 ALERT_DANCHI_NAME
+ * 的新房源，通过 lib/mailer.js 发一封
  * 提醒邮件（需要环境变量 RESEND_API_KEY，详见 DEPLOY_GITHUB_PAGES.md）。
  */
 
@@ -21,15 +21,8 @@ const { fetchAllRooms } = require('../lib/urClient');
 const { sendMail } = require('../lib/mailer');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'docs', 'data', 'rooms.json');
-const FLOORSPACE_ALERT_THRESHOLD = 65; // 専有面積超过这个数(㎡)的新房源才提醒
-const ALERT_AREA_PREF = '市部'; // 只提醒这个地区(pref)的新房源
+const ALERT_DANCHI_NAME = '木場三丁目パークハイツ'; // 只提醒这个团地的新房源
 const ALERT_MAIL_TO = process.env.ALERT_MAIL_TO || 'songqintai169@gmail.com';
-
-function parseFloorspace(floorspaceStr) {
-  if (!floorspaceStr) return null;
-  const match = String(floorspaceStr).match(/[\d.]+/);
-  return match ? parseFloat(match[0]) : null;
-}
 
 function loadPreviousRooms() {
   if (!fs.existsSync(OUTPUT_FILE)) return [];
@@ -48,7 +41,7 @@ function buildAlertHtml(rooms) {
         `<li><a href="${r.url}">[${r.area}] ${r.danchiNm} ${r.type} ${r.rent}</a>（${r.floorspace}, ${r.floor}）</li>`
     )
     .join('');
-  return `<p>发现 ${rooms.length} 个新房源，地区为${ALERT_AREA_PREF}，専有面積超过 ${FLOORSPACE_ALERT_THRESHOLD}㎡：</p><ul>${items}</ul>`;
+  return `<p>发现 ${rooms.length} 个新房源，团地为${ALERT_DANCHI_NAME}：</p><ul>${items}</ul>`;
 }
 
 async function main() {
@@ -62,9 +55,7 @@ async function main() {
 
   const alertRooms = rooms.filter((r) => {
     if (prevKeys.has(r.key)) return false;
-    if (r.pref !== ALERT_AREA_PREF) return false;
-    const floorspace = parseFloorspace(r.floorspace);
-    return floorspace !== null && floorspace > FLOORSPACE_ALERT_THRESHOLD;
+    return (r.danchiNm || '').trim() === ALERT_DANCHI_NAME;
   });
 
   if (alertRooms.length > 0) {
@@ -72,7 +63,7 @@ async function main() {
     try {
       await sendMail({
         to: ALERT_MAIL_TO,
-        subject: `UR房源监控：发现 ${alertRooms.length} 个新房源（${ALERT_AREA_PREF}・専有面積 > ${FLOORSPACE_ALERT_THRESHOLD}㎡）`,
+        subject: `UR房源监控：发现 ${alertRooms.length} 个新房源（${ALERT_DANCHI_NAME}）`,
         html: buildAlertHtml(alertRooms),
       });
       console.log('提醒邮件已发送');
