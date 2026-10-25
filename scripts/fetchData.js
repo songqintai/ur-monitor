@@ -11,14 +11,18 @@
  * 新增：和上一次写入的 rooms.json 做 diff，如果发现团地名称为 ALERT_DANCHI_NAME
  * 的新房源，通过 lib/mailer.js 发一封
  * 提醒邮件（需要环境变量 RESEND_API_KEY，详见 DEPLOY_GITHUB_PAGES.md）。
+ *
+ * 新增：设置了 SUPABASE_URL / SUPABASE_SECRET_KEY 时，把团地和空室同步进 Supabase 数据库
+ * （表结构见 supabase/schema.sql）。数据库写入失败只打警告，不影响 rooms.json 和邮件。
  */
 
 require('dotenv').config();
 
 const fs = require('fs');
 const path = require('path');
-const { fetchAllRooms } = require('../lib/urClient');
+const { fetchAllData } = require('../lib/urClient');
 const { sendMail } = require('../lib/mailer');
+const { isDbConfigured, syncToDb } = require('../lib/db');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'docs', 'data', 'rooms.json');
 const ALERT_DANCHI_NAME = '木場三丁目パークハイツ'; // 只提醒这个团地的新房源
@@ -49,9 +53,22 @@ async function main() {
 
   const prevKeys = new Set(loadPreviousRooms().map((r) => r.key));
 
-  const rooms = await fetchAllRooms((done, total, label) => {
+  const runAt = new Date();
+  const { danchi, rooms } = await fetchAllData((done, total, label) => {
     console.log(`   ${label}: ${done}/${total} 个团地`);
   });
+
+  if (isDbConfigured()) {
+    try {
+      await syncToDb({ danchi, rooms }, runAt);
+      console.log(`已同步到数据库: ${danchi.length} 个团地, ${rooms.length} 个空室`);
+    } catch (err) {
+      // ::warning:: 会显示在 GitHub Actions 运行结果的摘要里
+      console.log(`::warning::数据库同步失败: ${err.message}`);
+    }
+  } else {
+    console.log('未设置 SUPABASE_URL / SUPABASE_SECRET_KEY，跳过数据库同步。');
+  }
 
   const alertRooms = rooms.filter((r) => {
     if (prevKeys.has(r.key)) return false;
