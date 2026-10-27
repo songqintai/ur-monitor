@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T14:16:47.384Z",
-  "total": 260,
+  "lastUpdated": "2026-10-27T19:59:37.300Z",
+  "total": 261,
   "rooms": [
     {
       "key": "20_518_000003016",
@@ -235,6 +235,24 @@
       "floorspace": "71㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_382/40_382_0-00-0002_Gf_RA_01_00009_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3820_room.html?JKSS=000020309"
+    },
+    {
+      "key": "40_382_000060301",
+      "danchiId": "40_382_0",
+      "area": "横浜市中区",
+      "pref": "神奈川県",
+      "danchiNm": "ベイシティ本牧南",
+      "place": "横浜市中区本牧原21",
+      "traffic": "<li>JR京浜東北・根岸線「根岸」駅バス13分 徒歩3～6分</li><li>みなとみらい線「元町・中華街」駅バス13分 徒歩3～6分</li><li>JR京浜東北・根岸線「桜木町」駅バス24分 徒歩3～6分</li>",
+      "building": "6号棟",
+      "roomNo": "301号室",
+      "rent": "199,200円",
+      "commonfee": "5,000円",
+      "type": "4LDK",
+      "floor": "3階",
+      "floorspace": "90㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_382/40_382_0-00-0006_Hm_RA_01_00011_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3820_room.html?JKSS=000060301"
     },
     {
       "key": "40_163_002031007",
