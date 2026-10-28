@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:16:39.018Z",
+  "lastUpdated": "2026-10-28T18:13:10.914Z",
   "total": 290,
   "rooms": [
     {
@@ -2073,6 +2073,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1681_room.html?JKSS=000230504"
     },
     {
+      "key": "30_239_204100502",
+      "danchiId": "30_239_0",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-4-10号棟",
+      "roomNo": "502号室",
+      "rent": "58,800円",
+      "commonfee": "2,900円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040010/2Am/RA/Image/30_239_2-04-0010_2Am_RA_01_00009.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204100502"
+    },
+    {
       "key": "30_239_204090103",
       "danchiId": "30_239_0",
       "area": "千葉市美浜区",
@@ -2773,24 +2791,6 @@
       "floorspace": "65㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/20/20_408/20_408_0-00-0001_Er_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4080_room.html?JKSS=002010507"
-    },
-    {
-      "key": "20_272_027020201",
-      "danchiId": "20_272_0",
-      "area": "八王子市",
-      "pref": "市部",
-      "danchiNm": "多摩ニュータウン　松が谷",
-      "place": "八王子市松が谷27ほか",
-      "traffic": "<li>多摩都市モノレール「松が谷」駅 徒歩5～8分</li><li>京王相模原線「京王多摩センター」駅・小田急多摩線「小田急多摩センター」駅・多摩都市モノレール「多摩センター」駅バス5分 徒歩2～4分</li>",
-      "building": "27-2号棟",
-      "roomNo": "201号室",
-      "rent": "89,200円",
-      "commonfee": "5,000円",
-      "type": "3DK",
-      "floor": "2階",
-      "floorspace": "62㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20272/0270002/EA/RA/Image/20_272_0-27-0002_EA_RA_01_00004.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_2720_room.html?JKSS=027020201"
     },
     {
       "key": "20_377_000050502",
