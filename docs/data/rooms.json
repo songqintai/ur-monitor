@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-29T12:40:49.278Z",
-  "total": 239,
+  "lastUpdated": "2026-10-29T18:54:45.932Z",
+  "total": 240,
   "rooms": [
     {
       "key": "20_646_000000102",
@@ -1713,24 +1713,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=303060503"
     },
     {
-      "key": "30_258_516100803",
-      "danchiId": "30_258_0",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第一",
-      "place": "千葉市美浜区真砂4ほか",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩5～12分</li><li>JR総武線「新検見川」駅バス6分 徒歩2～7分</li><li>京成千葉線「検見川」駅 徒歩20～28分</li>",
-      "building": "5-16-10号棟",
-      "roomNo": "803号室",
-      "rent": "68,100円",
-      "commonfee": "2,850円",
-      "type": "2DK",
-      "floor": "8階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_258/30_258_5-16-0010_C2bm_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2580_room.html?JKSS=516100803"
-    },
-    {
       "key": "30_560_000020201",
       "danchiId": "30_560_0",
       "area": "千葉市美浜区",
@@ -1801,6 +1783,24 @@
       "floorspace": "50㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30151/0050013/Ff/RA/Image/30_151_0-05-0013_Ff_RA_01_00005.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1510_room.html?JKSS=000513508"
+    },
+    {
+      "key": "30_162_000002230",
+      "danchiId": "30_162_0",
+      "area": "船橋市",
+      "pref": "千葉県",
+      "danchiNm": "習志野台（市）",
+      "place": "船橋市習志野台3-2",
+      "traffic": "<li>京成松戸線・東葉高速線「北習志野」駅 徒歩1分</li>",
+      "building": "",
+      "roomNo": "230号室",
+      "rent": "59,900円",
+      "commonfee": "5,000円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30162/0000000/D/RA/Image/30_162_0-00-0000_D_RA_01_00004.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1620_room.html?JKSS=000002230"
     },
     {
       "key": "30_595_000070702",
@@ -2231,7 +2231,7 @@
       "type": "3DK",
       "floor": "4階",
       "floorspace": "70㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20337/0000098/G1/RA/Image/20_337_0-00-0098_G1_RA_01_00008.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20337/0000098/G1/RA/Image/20_337_0-00-0098_G1_RA_01_00009.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3370_room.html?JKSS=000980403"
     },
     {
@@ -3637,6 +3637,24 @@
       "floorspace": "63㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_196/50_196_0-00-0002_B1ib_RA_01_00009_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1960_room.html?JKSS=000020103"
+    },
+    {
+      "key": "50_131_000406401",
+      "danchiId": "50_131_0",
+      "area": "新座市",
+      "pref": "埼玉県",
+      "danchiNm": "新座",
+      "place": "新座市新座3",
+      "traffic": "<li>東武東上線「柳瀬川」駅 徒歩15～22分</li><li>東武東上線「志木」駅バス11分 徒歩1～6分</li><li>JR武蔵野線「新座」駅 徒歩28～36分</li>",
+      "building": "4-6号棟",
+      "roomNo": "401号室",
+      "rent": "66,700円",
+      "commonfee": "3,200円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "48㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_131/50_131_0-04-0006_C1cx_RA_01_00003_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1310_room.html?JKSS=000406401"
     },
     {
       "key": "50_216_000280504",
