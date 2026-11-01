@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-01T13:00:05.966Z",
-  "total": 288,
+  "lastUpdated": "2026-11-01T18:24:45.347Z",
+  "total": 286,
   "rooms": [
     {
       "key": "20_582_000070813",
@@ -1981,42 +1981,6 @@
       "floorspace": "50㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2080004/ECs/RA/Image/30_239_2-08-0004_ECs_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=208040109"
-    },
-    {
-      "key": "30_258_404131411",
-      "danchiId": "30_258_0",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第一",
-      "place": "千葉市美浜区真砂4ほか",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩5～12分</li><li>JR総武線「新検見川」駅バス6分 徒歩2～7分</li><li>京成千葉線「検見川」駅 徒歩20～28分</li>",
-      "building": "4-4-13号棟",
-      "roomNo": "1411号室",
-      "rent": "63,100円",
-      "commonfee": "2,850円",
-      "type": "1DK",
-      "floor": "14階",
-      "floorspace": "33㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30258/4040013/A2cf/RA/Image/30_258_4-04-0013_A2cf_RA_01_00012.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2580_room.html?JKSS=404131411"
-    },
-    {
-      "key": "30_258_404090306",
-      "danchiId": "30_258_0",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "真砂第一",
-      "place": "千葉市美浜区真砂4ほか",
-      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩5～12分</li><li>JR総武線「新検見川」駅バス6分 徒歩2～7分</li><li>京成千葉線「検見川」駅 徒歩20～28分</li>",
-      "building": "4-4-9号棟",
-      "roomNo": "306号室",
-      "rent": "68,100円",
-      "commonfee": "2,850円",
-      "type": "2DK",
-      "floor": "3階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_258/30_258_4-04-0009_C2b_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2580_room.html?JKSS=404090306"
     },
     {
       "key": "30_265_005050103",
