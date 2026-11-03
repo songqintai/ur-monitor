@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-03T10:40:51.690Z",
-  "total": 269,
+  "lastUpdated": "2026-11-03T18:21:19.775Z",
+  "total": 273,
   "rooms": [
     {
       "key": "20_653_000001911",
@@ -273,6 +273,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3310_room.html?JKSS=000060906"
     },
     {
+      "key": "40_136_000010923",
+      "danchiId": "40_136_0",
+      "area": "横浜市南区",
+      "pref": "神奈川県",
+      "danchiNm": "井土ヶ谷東",
+      "place": "横浜市南区井土ヶ谷下町215-1",
+      "traffic": "<li>京急本線「井土ヶ谷」駅 徒歩2～4分</li><li>横浜市営地下鉄ブルーライン「蒔田」駅 徒歩15分</li><li>JR横須賀線「保土ケ谷」駅バス5分 徒歩3分</li>",
+      "building": "1号棟",
+      "roomNo": "923号室",
+      "rent": "71,800円",
+      "commonfee": "4,600円",
+      "type": "1DK",
+      "floor": "9階",
+      "floorspace": "32㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40136/0000001/105f/RA/Image/40_136_0-00-0001_105f_RA_01_00018.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1360_room.html?JKSS=000010923"
+    },
+    {
       "key": "40_186_003030306",
       "danchiId": "40_186_0",
       "area": "横浜市金沢区",
@@ -489,6 +507,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1180_room.html?JKSS=008120202"
     },
     {
+      "key": "40_132_002003303",
+      "danchiId": "40_132_0",
+      "area": "横浜市旭区",
+      "pref": "神奈川県",
+      "danchiNm": "西ひかりが丘",
+      "place": "横浜市旭区上白根町891",
+      "traffic": "<li>相鉄本線「鶴ヶ峰」駅バス10分 徒歩2～8分</li><li>JR横浜線「中山」駅バス17分 徒歩2～8分</li><li>JR横浜線「中山」駅 徒歩25～32分</li>",
+      "building": "20-3号棟",
+      "roomNo": "303号室",
+      "rent": "70,800円",
+      "commonfee": "3,200円",
+      "type": "3DK",
+      "floor": "3階",
+      "floorspace": "53㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40132/0200003/E4c/RA/Image/40_132_0-20-0003_E4c_RA_01_00013.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1320_room.html?JKSS=002003303"
+    },
+    {
       "key": "40_301_000000501",
       "danchiId": "40_301_0",
       "area": "横浜市旭区",
@@ -507,6 +543,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3010_room.html?JKSS=000000501"
     },
     {
+      "key": "40_203_024070503",
+      "danchiId": "40_203_0",
+      "area": "横浜市緑区",
+      "pref": "神奈川県",
+      "danchiNm": "霧が丘グリーンタウン",
+      "place": "横浜市緑区霧が丘3-22-5ほか",
+      "traffic": "<li>JR横浜線「十日市場」駅バス7分 徒歩2～6分</li><li>東急田園都市線「青葉台」駅バス19分 徒歩2～6分</li><li>JR横浜線「長津田」駅バス11分 徒歩6～13分</li>",
+      "building": "24-7号棟",
+      "roomNo": "503号室",
+      "rent": "107,300円",
+      "commonfee": "5,000円",
+      "type": "3LDK",
+      "floor": "5階",
+      "floorspace": "84㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40203/0240007/IKJE/RA/Image/40_203_0-24-0007_IKJE_RA_01_00015.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2030_room.html?JKSS=024070503"
+    },
+    {
       "key": "40_393_006010305",
       "danchiId": "40_393_0",
       "area": "横浜市緑区",
@@ -523,6 +577,24 @@
       "floorspace": "52㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_393/40_393_0-06-0001_A_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3930_room.html?JKSS=006010305"
+    },
+    {
+      "key": "40_393_006020301",
+      "danchiId": "40_393_0",
+      "area": "横浜市緑区",
+      "pref": "神奈川県",
+      "danchiNm": "十日市場ヒルタウン　コンフォール十日市場六番街",
+      "place": "横浜市緑区十日市場町1358-48",
+      "traffic": "<li>JR横浜線「十日市場」駅 徒歩7～8分</li><li>東急田園都市線「青葉台」駅バス12分 徒歩7～8分</li><li>JR横浜線「中山」駅バス10分 徒歩3～4分</li>",
+      "building": "6-2号棟",
+      "roomNo": "301号室",
+      "rent": "166,700円",
+      "commonfee": "8,500円",
+      "type": "4LDK",
+      "floor": "3階",
+      "floorspace": "86㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_393/40_393_0-06-0002_Gf_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3930_room.html?JKSS=006020301"
     },
     {
       "key": "40_408_014070701",
@@ -793,6 +865,24 @@
       "floorspace": "76㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_341/40_341_0-00-0001_Nr_RA_01_00010_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3410_room.html?JKSS=000010413"
+    },
+    {
+      "key": "40_241_000060505",
+      "danchiId": "40_241_0",
+      "area": "川崎市多摩区",
+      "pref": "神奈川県",
+      "danchiNm": "星が丘パークランド　ひよどり台",
+      "place": "川崎市多摩区菅北浦5-7",
+      "traffic": "<li>京王相模原線「京王稲田堤」駅 徒歩13～15分</li><li>JR南武線「稲田堤」駅 徒歩12～13分</li><li>小田急小田原線「読売ランド前」駅バス5分 徒歩4～7分</li>",
+      "building": "6号棟",
+      "roomNo": "505号室",
+      "rent": "104,000円",
+      "commonfee": "2,500円",
+      "type": "3LDK",
+      "floor": "5階",
+      "floorspace": "65㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_241/40_241_0-00-0006_Er_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2410_room.html?JKSS=000060505"
     },
     {
       "key": "40_241_000040505",
@@ -1729,24 +1819,6 @@
       "floorspace": "48㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_181/30_181_0-11-0026_3C_RA_01_00007_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=011026302"
-    },
-    {
-      "key": "30_239_202110305",
-      "danchiId": "30_239_0",
-      "area": "千葉市美浜区",
-      "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-2-11号棟",
-      "roomNo": "305号室",
-      "rent": "61,700円",
-      "commonfee": "2,900円",
-      "type": "3K",
-      "floor": "3階",
-      "floorspace": "50㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2020011/3Cs/RA/Image/30_239_2-02-0011_3Cs_RA_01_00011.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=202110305"
     },
     {
       "key": "30_239_204090101",
