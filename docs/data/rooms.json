@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-04T05:42:47.962Z",
-  "total": 271,
+  "lastUpdated": "2026-11-04T14:07:13.542Z",
+  "total": 273,
   "rooms": [
     {
       "key": "20_653_000001911",
@@ -2073,6 +2073,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5951_room.html?JKSS=000040603"
     },
     {
+      "key": "30_588_000090205",
+      "danchiId": "30_588_0",
+      "area": "船橋市",
+      "pref": "千葉県",
+      "danchiNm": "アルビス前原",
+      "place": "船橋市前原西6-1",
+      "traffic": "<li>京成松戸線「前原」駅 徒歩5～14分</li><li>JR総武線「津田沼」駅バス8～10分 徒歩1～4分</li><li>京成松戸線「新津田沼」駅 徒歩20～25分</li>",
+      "building": "9号棟",
+      "roomNo": "205号室",
+      "rent": "114,500円",
+      "commonfee": "6,300円",
+      "type": "2LDK",
+      "floor": "2階",
+      "floorspace": "59㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_588/30_588_0-00-0009_NS_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5880_room.html?JKSS=000090205"
+    },
+    {
       "key": "30_060_000225106",
       "danchiId": "30_060_0",
       "area": "松戸市",
@@ -2125,6 +2143,24 @@
       "floorspace": "66㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_328/30_328_2-05-0004_3C_RA_01_00008_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3280_room.html?JKSS=205040501"
+    },
+    {
+      "key": "30_430_301500404",
+      "danchiId": "30_430_2",
+      "area": "習志野市",
+      "pref": "千葉県",
+      "danchiNm": "谷津パークタウン参番街",
+      "place": "習志野市谷津3-1",
+      "traffic": "<li>京成本線「谷津」駅 徒歩8～13分</li><li>JR総武線「津田沼」駅バス5分 徒歩1～6分</li><li>JR京葉線「新習志野」駅 徒歩23～24分</li><li>JR京葉線「南船橋」駅 徒歩21～26分</li>",
+      "building": "3-1-50号棟",
+      "roomNo": "404号室",
+      "rent": "110,900円",
+      "commonfee": "3,900円",
+      "type": "3LDK",
+      "floor": "4階",
+      "floorspace": "74㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30430/3010050/Ar/RA/Image/30_430_3-01-0050_Ar_RA_01_00010.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_4302_room.html?JKSS=301500404"
     },
     {
       "key": "30_298_405070504",
@@ -3495,24 +3531,6 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2530_room.html?JKSS=000020405"
     },
     {
-      "key": "50_242_000050304",
-      "danchiId": "50_242_0",
-      "area": "さいたま市南区",
-      "pref": "埼玉県",
-      "danchiNm": "浦和別所ハイツ",
-      "place": "さいたま市南区別所2-38",
-      "traffic": "<li>JR埼京線「武蔵浦和」駅 徒歩11～12分</li><li>JR埼京線「中浦和」駅 徒歩9～11分</li><li>JR東北本線「浦和」駅バス6分 徒歩6～8分</li>",
-      "building": "5号棟",
-      "roomNo": "304号室",
-      "rent": "139,000円",
-      "commonfee": "2,500円",
-      "type": "3LDK",
-      "floor": "3階",
-      "floorspace": "74㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_242/50_242_0-00-0005_N_RA_01_00009_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2420_room.html?JKSS=000050304"
-    },
-    {
       "key": "50_273_000050102",
       "danchiId": "50_273_0",
       "area": "さいたま市緑区",
@@ -3601,6 +3619,24 @@
       "floorspace": "79㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_222/50_222_0-00-0000_F_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_2220_room.html?JKSS=000000304"
+    },
+    {
+      "key": "50_402_000010606",
+      "danchiId": "50_402_0",
+      "area": "川口市",
+      "pref": "埼玉県",
+      "danchiNm": "コンフォール東鳩ヶ谷",
+      "place": "川口市桜町4-4",
+      "traffic": "<li>埼玉高速鉄道「新井宿」駅 徒歩12分</li><li>JR京浜東北・根岸線「西川口」駅バス25分 徒歩1～3分</li><li>JR京浜東北・根岸線「赤羽」駅バス27分 徒歩1～3分</li>",
+      "building": "1号棟",
+      "roomNo": "606号室",
+      "rent": "124,700円",
+      "commonfee": "4,400円",
+      "type": "2LDK",
+      "floor": "6階",
+      "floorspace": "64㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_402/50_402_0-00-0001_Mf_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_4020_room.html?JKSS=000010606"
     },
     {
       "key": "50_198_000020811",
