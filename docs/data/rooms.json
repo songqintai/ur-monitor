@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-05T10:38:00.890Z",
-  "total": 260,
+  "lastUpdated": "2026-11-05T18:38:52.693Z",
+  "total": 262,
   "rooms": [
     {
       "key": "20_569_000020317",
@@ -813,6 +813,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2410_room.html?JKSS=000040505"
     },
     {
+      "key": "40_241_000040102",
+      "danchiId": "40_241_0",
+      "area": "川崎市多摩区",
+      "pref": "神奈川県",
+      "danchiNm": "星が丘パークランド　ひよどり台",
+      "place": "川崎市多摩区菅北浦5-7",
+      "traffic": "<li>京王相模原線「京王稲田堤」駅 徒歩13～15分</li><li>JR南武線「稲田堤」駅 徒歩12～13分</li><li>小田急小田原線「読売ランド前」駅バス5分 徒歩4～7分</li>",
+      "building": "4号棟",
+      "roomNo": "102号室",
+      "rent": "111,900円",
+      "commonfee": "2,500円",
+      "type": "3LDK",
+      "floor": "1階",
+      "floorspace": "67㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_241/40_241_0-00-0004_Ff_RA_01_00006_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2410_room.html?JKSS=000040102"
+    },
+    {
       "key": "40_226_000070302",
       "danchiId": "40_226_0",
       "area": "川崎市多摩区",
@@ -1533,6 +1551,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2190_room.html?JKSS=000001517"
     },
     {
+      "key": "30_168_000811104",
+      "danchiId": "30_168_1",
+      "area": "千葉市花見川区",
+      "pref": "千葉県",
+      "danchiNm": "花見川（第１次～第４次）",
+      "place": "千葉市花見川区花見川1ほか",
+      "traffic": "<li>京成本線「八千代台」駅バス3～10分 徒歩1～8分</li><li>京成本線「実籾」駅 徒歩30～45分</li><li>京成本線「京成大和田」駅 徒歩31～49分</li>",
+      "building": "8-11号棟",
+      "roomNo": "104号室",
+      "rent": "47,900円～52,800円",
+      "commonfee": "2,750円",
+      "type": "3DK",
+      "floor": "1階",
+      "floorspace": "53㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30168/0080011/ECf/RA/Image/30_168_0-08-0011_ECf_RA_01_00007.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1681_room.html?JKSS=000811104"
+    },
+    {
       "key": "30_349_001011115",
       "danchiId": "30_349_0",
       "area": "千葉市花見川区",
@@ -1565,7 +1601,7 @@
       "type": "3DK",
       "floor": "5階",
       "floorspace": "52㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/30/30_349/30_349_0-01-0003_Cf_RA_01_00005_s.gif",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30349/0010003/C2f/RA/Image/30_349_0-01-0003_C2f_RA_01_00012.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3490_room.html?JKSS=001030501"
     },
     {
