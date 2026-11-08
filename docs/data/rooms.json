@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T10:02:43.852Z",
-  "total": 254,
+  "lastUpdated": "2026-11-08T16:40:04.968Z",
+  "total": 259,
   "rooms": [
     {
       "key": "20_582_000070813",
@@ -19,6 +19,24 @@
       "floorspace": "54㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20582/0000007/E/RA/Image/20_582_0-00-0007_E_RA_01_00006.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5820_room.html?JKSS=000070813"
+    },
+    {
+      "key": "20_554_000010404",
+      "danchiId": "20_554_0",
+      "area": "大田区",
+      "pref": "東京都",
+      "danchiNm": "アミティ大森東",
+      "place": "大田区大森東1-24ほか",
+      "traffic": "<li>京急本線「平和島」駅 徒歩7～8分</li><li>東京モノレ－ル「流通センター」駅 徒歩19～20分</li>",
+      "building": "1号棟",
+      "roomNo": "404号室",
+      "rent": "180,900円",
+      "commonfee": "11,400円",
+      "type": "2LDK",
+      "floor": "4階",
+      "floorspace": "67㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20554/0000001/K1/RA/Image/20_554_0-00-0001_K1_RA_01_00006.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5540_room.html?JKSS=000010404"
     },
     {
       "key": "20_234_708010929",
@@ -91,6 +109,24 @@
       "floorspace": "62㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/20525/0000001/Dr/RA/Image/20_525_0-00-0001_Dr_RA_01_00004.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5250_room.html?JKSS=000010205"
+    },
+    {
+      "key": "40_145_000506502",
+      "danchiId": "40_145_0",
+      "area": "横浜市神奈川区",
+      "pref": "神奈川県",
+      "danchiNm": "西菅田",
+      "place": "横浜市神奈川区菅田町488ほか",
+      "traffic": "<li>JR横浜線「鴨居」駅バス7～9分 徒歩1～7分</li><li>横浜市営地下鉄ブルーライン「片倉町」駅バス20～22分 徒歩1～7分</li><li>JR東海道本線「横浜」駅バス23分 徒歩2～14分</li>",
+      "building": "5-6号棟",
+      "roomNo": "502号室",
+      "rent": "",
+      "commonfee": "5,200円",
+      "type": "3DK",
+      "floor": "5階",
+      "floorspace": "53㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40145/0050006/E3af/RA/Image/40_145_0-05-0006_E3af_RA_01_00008.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1450_room.html?JKSS=000506502"
     },
     {
       "key": "40_145_000302103",
@@ -525,6 +561,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3930_room.html?JKSS=006010305"
     },
     {
+      "key": "40_408_014070701",
+      "danchiId": "40_408_0",
+      "area": "横浜市緑区",
+      "pref": "神奈川県",
+      "danchiNm": "十日市場ヒルタウン　コンフォール十日市場十四番街",
+      "place": "横浜市緑区十日市場町1258",
+      "traffic": "<li>JR横浜線「十日市場」駅 徒歩11～12分</li><li>東急田園都市線「青葉台」駅バス12分 徒歩11～12分</li><li>JR横浜線「中山」駅バス7分 徒歩8分</li>",
+      "building": "14-7号棟",
+      "roomNo": "701号室",
+      "rent": "173,100円",
+      "commonfee": "5,000円",
+      "type": "4LDK",
+      "floor": "7階",
+      "floorspace": "86㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_408/40_408_0-14-0007_G_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_4080_room.html?JKSS=014070701"
+    },
+    {
       "key": "40_385_000140403",
       "danchiId": "40_385_0",
       "area": "横浜市瀬谷区",
@@ -543,6 +597,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3850_room.html?JKSS=000140403"
     },
     {
+      "key": "40_165_006230203",
+      "danchiId": "40_165_0",
+      "area": "横浜市青葉区",
+      "pref": "神奈川県",
+      "danchiNm": "すすき野",
+      "place": "横浜市青葉区すすき野3-6-1",
+      "traffic": "<li>東急田園都市線「たまプラーザ」駅バス10分 徒歩4～6分</li><li>東急田園都市線「あざみ野」駅バス9分 徒歩4～8分</li><li>小田急小田原線「新百合ヶ丘」駅バス16分 徒歩8～11分</li>",
+      "building": "6-23号棟",
+      "roomNo": "203号室",
+      "rent": "80,500円",
+      "commonfee": "3,300円",
+      "type": "2DK",
+      "floor": "2階",
+      "floorspace": "43㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_165/40_165_0-06-0023_103r_RA_01_00008_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1650_room.html?JKSS=006230203"
+    },
+    {
       "key": "40_141_000060608",
       "danchiId": "40_141_0",
       "area": "横浜市青葉区",
@@ -559,6 +631,24 @@
       "floorspace": "54㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/40141/0000006/103x/RA/Image/40_141_0-00-0006_103x_RA_01_00002.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1410_room.html?JKSS=000060608"
+    },
+    {
+      "key": "40_288_000020507",
+      "danchiId": "40_288_0",
+      "area": "横浜市青葉区",
+      "pref": "神奈川県",
+      "danchiNm": "グリーンヒル鴨志田中央",
+      "place": "横浜市青葉区鴨志田町539-3",
+      "traffic": "<li>東急田園都市線「青葉台」駅バス8分 徒歩2～3分</li><li>小田急小田原線「柿生」駅バス13分 徒歩2～3分</li><li>東急こどもの国線「こどもの国」駅 徒歩36分</li>",
+      "building": "2号棟",
+      "roomNo": "507号室",
+      "rent": "99,500円",
+      "commonfee": "5,100円",
+      "type": "2DK",
+      "floor": "5階",
+      "floorspace": "58㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_288/40_288_0-00-0002_B_RA_01_00005_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2880_room.html?JKSS=000020507"
     },
     {
       "key": "40_288_000030502",
@@ -1587,22 +1677,22 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=013021401"
     },
     {
-      "key": "30_239_204140506",
-      "danchiId": "30_239_0",
+      "key": "30_258_404131411",
+      "danchiId": "30_258_0",
       "area": "千葉市美浜区",
       "pref": "千葉県",
-      "danchiNm": "高洲第一",
-      "place": "千葉市美浜区高洲2ほか",
-      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
-      "building": "2-4-14号棟",
-      "roomNo": "506号室",
-      "rent": "55,200円",
-      "commonfee": "2,900円",
-      "type": "2DK",
-      "floor": "5階",
-      "floorspace": "45㎡",
-      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040014/2Af/RA/Image/30_239_2-04-0014_2Af_RA_01_00009.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204140506"
+      "danchiNm": "真砂第一",
+      "place": "千葉市美浜区真砂4ほか",
+      "traffic": "<li>JR京葉線「検見川浜」駅 徒歩5～12分</li><li>JR総武線「新検見川」駅バス6分 徒歩2～7分</li><li>京成千葉線「検見川」駅 徒歩20～28分</li>",
+      "building": "4-4-13号棟",
+      "roomNo": "1411号室",
+      "rent": "63,100円",
+      "commonfee": "2,850円",
+      "type": "1DK",
+      "floor": "14階",
+      "floorspace": "33㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30258/4040013/A2cf/RA/Image/30_258_4-04-0013_A2cf_RA_01_00012.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2580_room.html?JKSS=404131411"
     },
     {
       "key": "30_541_000000108",
