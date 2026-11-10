@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T09:39:10.408Z",
-  "total": 256,
+  "lastUpdated": "2026-11-10T17:38:50.613Z",
+  "total": 257,
   "rooms": [
     {
       "key": "20_386_000300607",
@@ -669,6 +669,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1650_room.html?JKSS=006230203"
     },
     {
+      "key": "40_165_006210302",
+      "danchiId": "40_165_0",
+      "area": "横浜市青葉区",
+      "pref": "神奈川県",
+      "danchiNm": "すすき野",
+      "place": "横浜市青葉区すすき野3-6-1",
+      "traffic": "<li>東急田園都市線「たまプラーザ」駅バス10分 徒歩4～6分</li><li>東急田園都市線「あざみ野」駅バス9分 徒歩4～8分</li><li>小田急小田原線「新百合ヶ丘」駅バス16分 徒歩8～11分</li>",
+      "building": "6-21号棟",
+      "roomNo": "302号室",
+      "rent": "85,400円",
+      "commonfee": "3,300円",
+      "type": "3K",
+      "floor": "3階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_165/40_165_0-06-0021_105m_RA_01_00007_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1650_room.html?JKSS=006210302"
+    },
+    {
       "key": "40_141_000060608",
       "danchiId": "40_141_0",
       "area": "横浜市青葉区",
@@ -739,24 +757,6 @@
       "floorspace": "65㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_288/40_288_0-00-0003_Dv_RA_01_00005_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_2880_room.html?JKSS=000030301"
-    },
-    {
-      "key": "40_376_000050304",
-      "danchiId": "40_376_0",
-      "area": "横浜市都筑区",
-      "pref": "神奈川県",
-      "danchiNm": "港北ニュータウン　コンフォールセンター南",
-      "place": "横浜市都筑区茅ヶ崎東3-5",
-      "traffic": "<li>横浜市営地下鉄ブルーライン「センター南」駅 徒歩11～13分</li><li>横浜市営地下鉄グリーンライン「センター北」駅 徒歩22～25分</li>",
-      "building": "5号棟",
-      "roomNo": "304号室",
-      "rent": "128,200円",
-      "commonfee": "5,100円",
-      "type": "1LDK",
-      "floor": "3階",
-      "floorspace": "55㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_376/40_376_0-00-0005_Ax_RA_01_00007_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3760_room.html?JKSS=000050304"
     },
     {
       "key": "40_334_000040801",
@@ -1729,6 +1729,24 @@
       "floorspace": "67㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30590/0000000/ee/RA/Image/30_590_0-00-0000_ee_RA_01_00014.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_5900_room.html?JKSS=000000421"
+    },
+    {
+      "key": "30_336_000031408",
+      "danchiId": "30_336_0",
+      "area": "市川市",
+      "pref": "千葉県",
+      "danchiNm": "ハイタウン塩浜",
+      "place": "市川市塩浜4-2ほか",
+      "traffic": "<li>東京メトロ東西線「南行徳」駅バス5分 徒歩1～6分</li><li>東京メトロ東西線「浦安」駅 徒歩28～33分</li><li>JR京葉線「新浦安」駅バス8分 徒歩1～6分</li>",
+      "building": "3号棟",
+      "roomNo": "1408号室",
+      "rent": "93,100円",
+      "commonfee": "3,200円",
+      "type": "2DK",
+      "floor": "14階",
+      "floorspace": "53㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30336/0000003/D1r/RA/Image/30_336_0-00-0003_D1r_RA_01_00017.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_3360_room.html?JKSS=000031408"
     },
     {
       "key": "30_151_000809307",
