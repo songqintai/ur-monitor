@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17T12:59:09.677Z",
-  "total": 271,
+  "lastUpdated": "2026-11-17T21:42:11.447Z",
+  "total": 272,
   "rooms": [
     {
       "key": "20_710_000001914",
@@ -1873,6 +1873,24 @@
       "floorspace": "48㎡",
       "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30181/0130021/3Cp/RA/Image/30_181_0-13-0021_3Cp_RA_01_00008.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_1810_room.html?JKSS=013021401"
+    },
+    {
+      "key": "30_239_204150402",
+      "danchiId": "30_239_0",
+      "area": "千葉市美浜区",
+      "pref": "千葉県",
+      "danchiNm": "高洲第一",
+      "place": "千葉市美浜区高洲2ほか",
+      "traffic": "<li>JR京葉線「稲毛海岸」駅 徒歩6～20分</li><li>JR総武線「稲毛」駅バス5分 徒歩7分</li><li>京成千葉線「みどり台」駅 徒歩22～33分</li><li>京成千葉線「京成稲毛」駅 徒歩20～28分</li>",
+      "building": "2-4-15号棟",
+      "roomNo": "402号室",
+      "rent": "56,500円",
+      "commonfee": "2,900円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "45㎡",
+      "madoriImg": "https://sumai.r6.ur-net.go.jp//chintai/recruit/ArrNormal/10/30239/2040015/2Af/RA/Image/30_239_2-04-0015_2Af_RA_01_00008.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/chiba/30_2390_room.html?JKSS=204150402"
     },
     {
       "key": "30_585_000000327",
@@ -4125,6 +4143,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1310_room.html?JKSS=000504506"
     },
     {
+      "key": "50_143_000235402",
+      "danchiId": "50_143_0",
+      "area": "久喜市",
+      "pref": "埼玉県",
+      "danchiNm": "わし宮",
+      "place": "久喜市上内478",
+      "traffic": "<li>東武伊勢崎線「鷲宮」駅 徒歩14～20分</li><li>JR東北本線「東鷲宮」駅 徒歩22～33分</li><li>JR東北本線「久喜」駅 徒歩41～47分</li>",
+      "building": "2-35号棟",
+      "roomNo": "402号室",
+      "rent": "36,100円",
+      "commonfee": "3,900円",
+      "type": "2DK",
+      "floor": "4階",
+      "floorspace": "41㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_143/50_143_0-02-0035_2A_RA_01_00004_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1430_room.html?JKSS=000235402"
+    },
+    {
       "key": "50_143_000203503",
       "danchiId": "50_143_0",
       "area": "久喜市",
@@ -4195,24 +4231,6 @@
       "floorspace": "52㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_143/50_143_0-03-0001_3Dx_RA_01_00004_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1430_room.html?JKSS=000301202"
-    },
-    {
-      "key": "50_143_000310304",
-      "danchiId": "50_143_0",
-      "area": "久喜市",
-      "pref": "埼玉県",
-      "danchiNm": "わし宮",
-      "place": "久喜市上内478",
-      "traffic": "<li>東武伊勢崎線「鷲宮」駅 徒歩14～20分</li><li>JR東北本線「東鷲宮」駅 徒歩22～33分</li><li>JR東北本線「久喜」駅 徒歩41～47分</li>",
-      "building": "3-10号棟",
-      "roomNo": "304号室",
-      "rent": "41,400円",
-      "commonfee": "3,900円",
-      "type": "3DK",
-      "floor": "3階",
-      "floorspace": "52㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/50/50_143/50_143_0-03-0010_3Df_RA_01_00004_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/saitama/50_1430_room.html?JKSS=000310304"
     },
     {
       "key": "50_164_001120505",
