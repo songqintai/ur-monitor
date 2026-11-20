@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T11:11:11.477Z",
+  "lastUpdated": "2026-11-20T19:52:30.159Z",
   "total": 294,
   "rooms": [
     {
@@ -849,6 +849,24 @@
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_3700_room.html?JKSS=000030302"
     },
     {
+      "key": "40_171_002090108",
+      "danchiId": "40_171_0",
+      "area": "川崎市麻生区",
+      "pref": "神奈川県",
+      "danchiNm": "虹ヶ丘",
+      "place": "川崎市麻生区虹ケ丘2-2ほか",
+      "traffic": "<li>東急田園都市線「あざみ野」駅バス10分　徒歩2～7分</li><li>東急田園都市線「たまプラーザ」駅バス12分　徒歩2～7分</li><li>小田急小田原線「新百合ヶ丘」駅バス16分　徒歩3～8分</li>",
+      "building": "2-9号棟",
+      "roomNo": "108号室",
+      "rent": "65,800円",
+      "commonfee": "3,800円",
+      "type": "1K",
+      "floor": "1階",
+      "floorspace": "35㎡",
+      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_171/40_171_0-02-0009_A1id_RA_01_00011_s.gif",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1710_room.html?JKSS=002090108"
+    },
+    {
       "key": "40_171_003140402",
       "danchiId": "40_171_0",
       "area": "川崎市麻生区",
@@ -919,24 +937,6 @@
       "floorspace": "43㎡",
       "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_171/40_171_0-03-0003_105v_RA_01_00013_s.gif",
       "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1710_room.html?JKSS=003030805"
-    },
-    {
-      "key": "40_171_003110502",
-      "danchiId": "40_171_0",
-      "area": "川崎市麻生区",
-      "pref": "神奈川県",
-      "danchiNm": "虹ヶ丘",
-      "place": "川崎市麻生区虹ケ丘2-2ほか",
-      "traffic": "<li>東急田園都市線「あざみ野」駅バス10分　徒歩2～7分</li><li>東急田園都市線「たまプラーザ」駅バス12分　徒歩2～7分</li><li>小田急小田原線「新百合ヶ丘」駅バス16分　徒歩3～8分</li>",
-      "building": "3-11号棟",
-      "roomNo": "502号室",
-      "rent": "78,000円",
-      "commonfee": "3,800円",
-      "type": "1LDK",
-      "floor": "5階",
-      "floorspace": "43㎡",
-      "madoriImg": "https://chintai.r6.ur-net.go.jp/chintai/img_madori/40/40_171/40_171_0-03-0011_105f_RA_01_00014_s.gif",
-      "url": "https://www.ur-net.go.jp/chintai/kanto/kanagawa/40_1710_room.html?JKSS=003110502"
     },
     {
       "key": "40_350_000150302",
